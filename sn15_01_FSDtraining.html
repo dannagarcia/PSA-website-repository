@@ -12,7 +12,7 @@
     <script src="js/metro.js"></script>
     <script src="js/ga.js"></script>
 </head>
-<body class="text-secondary">
+<body class="text-secondary fg-gray">
 
 	<div class="margin10 no-margin-top grid condensed">
 
@@ -26,7 +26,7 @@
 
 		<div class="row cells12 align-justify">
 			<div class="cell padding10 no-padding-top colspan8">
-				<div class="bg-darkTeal fg-white"><h3 class="uppercase">stat news</h3></div>
+				<div class="bg-teal fg-white"><h3 class="uppercase">stat news</h3></div>
 				<p><h4>PSA conducts training on 2015 Survey of Food Demand for Agricultural Commodities</h4></p>
 				<p>The Philippine Statistics Authority Regional Statistical Services Office CAR (PSA RSSO-CAR) successfully conducted a 2nd Level Training on the 2015 Survey of Food Demand for Agricultural Commodities (SFD) last May 27-28, 2015 at Albergo Hotel, Baguio City. Participants were led by Ms. Olivia G. Gulla, Interim Regional Director, heads and staff from all six Provincial Statistics Offices (PSOs): Apayao, Abra, Benguet, Ifugao, Kalinga and Mt. Province. </p>
 
@@ -42,21 +42,21 @@
 
 				<p>Page uploaded: May 29, 2015</p>
 			</div>
-			<div class="cell padding10 no-padding-top colspan4">
-				<div class="bg-darkTeal fg-white"><h3 class="uppercase">publications</h3></div>
-				<ol class="numeric-list square-marker blue-bullet">
-					<li><a href="">Fact Sheet</a></li>
-					<li><a href="">Press Release</a></li>
-					<li><a href="">Stat News</a></li>
-					<li><a href="">Stat Trivia</a></li>
-					<li><a href="">Stat View</a></li>
-					<li><a href="">Stat Watch</a></li>
-				</ol>
+			<div class="cell padding10 no-padding-top colspan4" id="publications">
+				<script> 
+					$(function(){
+					  $("#publications").load("/includes/publications.html"); 
+					});
+				</script> 
 			</div>
 		</div>
 
-		<div class="row">
-			<script src="include/footer.js"></script>
+		<div class="row" id="footer">
+			<script> 
+				$(function(){
+				  $("#footer").load("/includes/footer.html"); 
+				});
+			</script> 
 		</div>
 	</div>
 

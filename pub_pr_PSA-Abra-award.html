@@ -12,7 +12,7 @@
     <script src="js/metro.js"></script>
     <script src="js/ga.js"></script>
 </head>
-<body class="text-secondary">
+<body class="text-secondary fg-gray">
 
 	<div class="margin10 no-margin-top grid condensed">
 		
@@ -26,20 +26,20 @@
 
 		<div class="row cells12 align-justify">
 			<div class="cell padding10 no-padding-top colspan8">
-				<div class="bg-darkTeal fg-white"><h3 class="uppercase">press release</h3></div>
+				<div class="bg-teal fg-white"><h3 class="uppercase">press release</h3></div>
 				<p>PR-2015-01 PSACAR-ABRA<br>19 MAY 2015</p>
 				<p><h4>CSC cites PSA Abra with 2014 Seal of Excellence Award</h4></p>
 				<p>CSC cites PSA Abra with 2014 Seal of Excellence Award garnering a rating of 91.88%, Philippine Statistics Authority (PSA) – Abra Provincial Statistical Office was recognized by the Civil Service Commission with the 2014 Citizen’s Satisfaction Center-Seal of Excellence Award (CSC-SEA) in a ceremony held at Venus Park View Hotel, Kisad Road, Baguio City on May 18, 2014.</p>
 
-				<img src="images/PSA-Abra-CSC-Award.jpg">
+				<img src="/images/PSA-Abra-CSC-Award.jpg">
 
 				<p>“The award is not only another milestone and honor for the provincial office, a showcase of teamwork but a challenge as well to continue providing quality service to the people”, declared Interim Provincial Statistics Officer Felixberto B. Perdido.</p>
 
-				<img src="images/PSA-Abra-CSC-Award-2.jpg">
+				<img src="/images/PSA-Abra-CSC-Award-2.jpg">
 
 				<p>Symbolized by a wall-mountable glass seal that bears the CSC Seal of Excellence and a cash reward of Php 100,000.00, the award is conferred by the CSC to government agencies with excellent performance based on the result of the Anti-Red Tape Act-Report Card Survey (ARTA-RCS) and validated results.</p>
 
-				<img src="images/PSA-Abra-CSC-Award-3.jpg">
+				<img src="/images/PSA-Abra-CSC-Award-3.jpg">
 
 				<p>Other CSC-SEA awardees in the Cordillera Administrative Region which were given recognition during the Awarding Ceremony with Acting CSC Chairman Robert S. Martinez as Guest of Honor are GSIS-Baguio City Branch, Philhealth-Apayao Business Center, Philhealth-LHIO Abra, Philhealth-LHIO Baguio, and Philhealth-LHIO Mt. Province.</p>
 
@@ -48,28 +48,42 @@
 				<p><strong>FELIXBERTO B. PERDIDO</strong><br>
 				
 				(Statistician V)<br>
-				Interim Provincial Statistics Officer<br><br>
+				Interim Provincial Statistics Officer<br>
 				PSO - Abra
 				</p>
-				
 
+				<div class="tile-container">
+					<a href="/pdf/pr/PR-2015-CSC-SEA.pdf">
+				        <div class="bg-emerald tile tile-small" data-role="tile">
+				            <div class="tile-content iconic">
+								<span class="icon mif-file-pdf fg-white mif-4x" data-role="hint"
+								data-hint-background="bg-white"
+							    data-hint-color="fg-black"
+							    data-hint-mode="4"
+							    data-hint="Download PDF|"
+								></span>
+							</div>
+				        </div>
+			         </a>
+				</div>
+				
 				<p>Page uploaded: May 22, 2015</p>
 			</div>
-			<div class="cell padding10 no-padding-top colspan4">
-				<div class="bg-darkTeal fg-white"><h3 class="uppercase">publications</h3></div>
-				<ol class="numeric-list square-marker blue-bullet">
-					<li><a href="">Fact Sheet</a></li>
-					<li><a href="">Press Release</a></li>
-					<li><a href="">Stat News</a></li>
-					<li><a href="">Stat Trivia</a></li>
-					<li><a href="">Stat View</a></li>
-					<li><a href="">Stat Watch</a></li>
-				</ol>
+			<div id="publications" class="cell padding10 no-padding-top colspan4">
+				<script> 
+				$(function(){
+				  $("#publications").load("/includes/publications.html"); 
+				});
+			</script> 
 			</div>
 		</div>
 
-		<div class="row">
-			<script src="include/footer.js"></script>
+		<div class="row" id="footer">
+			 <script> 
+				$(function(){
+				  $("#footer").load("/includes/footer.html"); 
+				});
+			</script> 
 		</div>
 	</div>
 
