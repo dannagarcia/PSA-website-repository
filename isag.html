@@ -12,9 +12,15 @@
 	    <script src="/js/ga.js"></script>
 	</head>
 	<body>
-		<div class="grid">
-			<script src="header.js"></script>
 
+		<div class="grid">
+			<div id="header">
+				 <script> 
+					$(function(){
+					  $("#header").load("/includes/header.html"); 
+					});
+				</script>
+			</div>
 			<div class="row cells12">
 				<!-- place content here -->
 				<div class="cell colspan9 padding20">
@@ -53,7 +59,13 @@
 				</div>
 			</div>
 
-			<script src="/includes/footer.js"></script>
+			<div id="footer">
+				 <script> 
+					$(function(){
+					  $("#footer").load("/includes/footer.html"); 
+					});
+				</script>
+			</div>
 		</div>
 	</body>
 </html>

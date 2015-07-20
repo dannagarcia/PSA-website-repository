@@ -5749,6 +5749,7 @@ a.tag {
   padding: 1.125rem 1.625rem;
   border: none;
 }
+
 .h-menu > li > a:hover {
   background-color: #59cde2;
   color: #ffffff;
@@ -5768,7 +5769,7 @@ a.tag {
 .f-menu {
   text-align: left;
   display: block;
-  height: auto;
+  height: 50px; /*custom (orig: auto)*/
   list-style: none inside none;
   margin: 0;
   padding: 0;
@@ -5777,6 +5778,10 @@ a.tag {
   display: -webkit-flex;
   display: flex;
 }
+.f-menu > li .d-menu {
+  width: 125%;/*custom size (orig 100%)*/
+  max-width: none;
+  }
 .f-menu li:hover > .dropdown-toggle:before {
   border-color: #ffffff;
 }
@@ -5816,7 +5821,7 @@ a.tag {
   font-size: .875rem;
   outline: none;
   text-decoration: none;
-  padding: 1.125rem 1.625rem;
+  padding: .800rem 1.625rem; /*custom (orig: 1.125rem 1.625rem)*/
   border: none;
 }
 .f-menu > li > a:hover {
@@ -5838,11 +5843,32 @@ a.tag {
 .f-menu > li > .d-menu {
   left: auto;
 }
+/*custom*/
+@media only screen and (max-width: 948px) {
+  .f-menu {
+    height: 60px;
+  }
+  .f-menu > li > a {
+    padding: .625rem 1.625rem;
+  }
+  .f-menu > li .d-menu {
+    width: 200%;
+    max-width: none;
+  }
+}
+/* end */
 @media only screen and (max-width: 640px) {
   .f-menu {
+    height: 250px; /*custom*/
     -webkit-flex-direction: column;
             flex-direction: column;
   }
+  /*custom*/
+  .f-menu > li .d-menu {
+    width: 100%;
+    max-width: none;
+  }
+  /*end custom*/
 }
 .f-menu > li {
   text-align: center;
@@ -5853,10 +5879,7 @@ a.tag {
   text-align: center;
   width: 100%;
 }
-.f-menu > li .d-menu {
-  width: 100%;
-  max-width: none;
-}
+
 .f-menu > li .d-menu li {
   width: 100%;
 }
@@ -5870,8 +5893,7 @@ a.tag {
     position: relative;
     box-shadow: none;
     left: 0;
-  }
-}
+  }}
 .v-menu {
   text-align: left;
   background: #ffffff;

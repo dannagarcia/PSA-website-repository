@@ -16,7 +16,13 @@
 	<div class="margin10 no-margin-top grid condensed">
 	<!-- PSA LOGO -->
 			 <!-- end of navigation div -->
-			 <script src="/includes/header.js"></script>
+			 <div id="header">
+				 <script> 
+					$(function(){
+					  $("#header").load("/includes/header.html"); 
+					});
+				</script>
+			</div>
 			<!--.........content here ........-->
 			<div class="row cells12 align-justify">
 				<!-- place content here -->
@@ -170,7 +176,13 @@ Laoagan Inn and Resort, Bulanao, Tabuk, Kalinga<br>
 			<!-- end of content -->
 
 			<!-- footer -->
-			<script src="/includes/footer.js"></script>
+			<div id="footer">
+				 <script> 
+					$(function(){
+					  $("#footer").load("/includes/footer.html"); 
+					});
+				</script>
+			</div>
 	</div> <!-- end of grid div -->	
 </body>
 </html>
