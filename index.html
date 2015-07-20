@@ -16,7 +16,13 @@
 	<div class="margin10 no-margin-top grid condensed">
 	<!-- PSA LOGO -->
 			 <!-- end of navigation div -->
-			 <script src="/includes/header.js"></script>
+			 <div id="header">
+			 <script> 
+				$(function(){
+				  $("#header").load("/includes/header.html"); 
+				});
+			</script> 
+			</div>
 			<!--.........content here ........-->
 			<div class="row cells12 align-justify">
 				<!-- place content here -->
