@@ -5782,6 +5782,9 @@ a.tag {
   width: 100%;/*custom size (orig 100%)*/
   max-width: none;
   }
+.f-menu > li #nav4 {
+width: 300px;
+  }
 .f-menu li:hover > .dropdown-toggle:before {
   border-color: #ffffff;
 }
@@ -5852,19 +5855,14 @@ a.tag {
     padding: .625rem 1.625rem;
   }
   .f-menu > li .d-menu {
-    width: 100%;
-    max-width: none;
-  }
-  .f-menu > li .d-menu > li {
-    width: 150%;
-    max-width: none;
     max-width: 200px;
     min-width: 150px;
     width: auto;
   }
-  .f-menu > li .dmenu li > a{
-    padding-left: 30px;
-    padding-right: 30px;
+  .f-menu > li #nav4 {
+    max-width: 300px;
+    min-width: 150px;
+    width: 300px;
   }
 
 }
@@ -5877,6 +5875,10 @@ a.tag {
   }
   /*custom*/
   .f-menu > li .d-menu {
+    width: 100%;
+    max-width: none;
+  }
+    .f-menu > li #nav4 {
     width: 100%;
     max-width: none;
   }
@@ -5900,9 +5902,9 @@ a.tag {
   min-width: 0;
   padding: 5px 0;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 646px) {
   .f-menu > li .d-menu {
-    position: relative;
+    position: absolute;
     box-shadow: none;
     left: 0;
   }}
