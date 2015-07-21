@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="/css/metro.css" rel="stylesheet">
+	<link href="/css/metro-icons.css" rel="stylesheet">
+	<link href="/css/custom.css" rel="stylesheet">
+	<script src="/js/jquery-2.1.3.min.js"></script>
+	<script src="/js/metro.js"></script>
+	<script src="/js/ga.js"></script>
+</head>
+<body class="text-secondary fg-gray">
+
+	<div class="margin10 no-margin-top grid condensed">  <!-- grid -->
+		<div id="header">
+			<script> 
+				$(function(){
+					$("#header").load("/includes/header.html"); 
+				});
+			</script> 
+		</div>
+
+		<div class="row cells12">  <!-- row  -->
+			<div class="cell colspan8 padding10 no-padding-top"> <!-- cell colspan8 -->
+				<div class="bg-teal fg-white"><h3 class="uppercase">statrivia</h3></div>
+				<p>CY 2006 ISSUES:</p>
+				<ol class="numeric-list square-marker large-bullet green-bullet" >
+					<li><button class="button" onclick="showDialog('#february')">February 2006 Issue</button></li>
+					<li><button class="button" onclick="showDialog('#march')">March 2006 Issue</button>	</li>
+					<li><button class="button" onclick="showDialog('#may')">May 2006 Issue</button>	</li>
+					<li><button class="button" onclick="showDialog('#september')">September 2006 Issue</button>	</li>
+					<li><button class="button" onclick="showDialog('#november')">November 2006 Issue</button>	</li>
+				</ol>
+
+				<p>The NSCB-CAR Stat Trivia is also published in the regional newspaper, "ZIGZAG WEEKLY."</p>
+			</div><!-- cell colspan8 -->
+
+
+			<div class="cell colspan4 padding10 no-padding-top" id="publications"> <!-- cell colspan4 -->
+				<script> 
+					$(function(){
+						$("#publications").load("/includes/publications.html"); 
+					});
+				</script> 
+			</div> <!-- cell colspan4 -->
+		</div><!-- row  -->
+		<div class="row" id="footer"><!-- footer -->
+			<script> 
+				$(function(){
+					$("#footer").load("/includes/footer.html"); 
+				});
+			</script>
+		</div><!-- footer -->
+	</div><!-- grid -->
+
+</body>
+</html>
+
+<script>
+	function showDialog(id){
+		var dialog = $(id).data('dialog');
+		dialog.open();
+	}
+</script>
+
+<!-- february issues -->
+<div data-role="dialog" id="february" 
+data-close-button="true" class="padding20" 
+data-height="auto" data-width="auto">
+<h1>February 2006</h1>
+<p>
+	Did you know that...<br>
+	<strong>One peso in 2005 is now worth only 73 centavos in the Cordillera?</strong></p>
+	<hr class="thin bg-grayLight">
+	<p>The purchasing power of the peso in the Cordillera was pegged at 73 centavos as of December 2005. On the average, the same basket of goods and services worth P73 in 2000 could be bought for P100 last month.</p>
+
+	<table class="table align-center border bordered">
+		<tr>
+			<th colspan="3">CONSUMER PRICE INDEX (CPI) AND PURCHASING PRICE OF THE PESO (PPP) 
+				as of December 2005 
+				(2000=100)</th>
+			</tr>
+			<tr>
+				<th>YEAR</th>
+				<th>CPI</th>
+				<th>PPP</th>
+			</tr>
+			<tr>
+				<td>Philippines</td>
+				<td>133.7</td>
+				<td>0.75</td>
+			</tr>
+			<tr>
+				<td>CAR</td>
+				<td>137.3</td>
+				<td>0.73</td>
+			</tr>
+			<tr>
+				<td colspan="3">Source of Basic Data: National Statistics Office</td>
+			</tr>
+		</table>
+	</div><!-- february issues -->
+
+	<!-- March 2006 Issue -->
+	<div data-role="dialog" id="march" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="auto">
+	<h1>March 2006</h1>
+	<p>
+		Did you know that... <br>
+		<strong>there were more women Overseas Filipino Workers (OFW) than men in CAR? </strong></p>
+		<hr class="thin bg-grayLight">
+		<p>In 2001, an estimated 15,000 or more than two-thirds (68.2%) of the total OFWs from CAR were women. In 2002, although the number of women OFWs from the region declined, their share to the total expanded to more than three-fourths (77.8%).</p>
+		<p>Figure 1 NUMBER OF OFWs IN CAR: 2001 and 2002 (In Thousand Pesos)</p>
+		<img src="/images/ofws.jpg">
+		<p>Source of Basic Data: Survey of Overseas Filipinos, National Statistics Office</p>
+
+	</div>
+	<!-- March 2006 Issue -->
+
+
+	<!-- May 2006 Issue -->
+	<div data-role="dialog" id="may" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="auto">
+	<h1>May 2006</h1>
+	<p>
+		Did you know that... <br>
+		<strong>Revenue collections in CAR reached P3.6 billion in 2005?</strong></p>
+		<hr class="thin bg-grayLight">
+
+		<p>In 2004, taxpayers in the Cordillera Administrative Region (CAR) paid more than P2 billion to the Bureau of Internal Revenue. In 2005, revenue collections expanded by 78.0 percent to reach P3.6 billion. Baguio City taxpayers paid the lion's share at P2.9 billion or 80 percent of total regional collection.</p>
+
+		<p>Figure 1 NUMBER OF OFWs IN CAR: 2001 and 2002 (In Thousand Pesos)</p>
+		<img src="/images/st_tax.jpg">
+		<p>Source of Basic Data: Bureau of Internal Revenue</p>
+
+	</div>
+	<!-- May 2006 Issue -->
+
+	<!-- September 2006 Issue -->
+	<div data-role="dialog" id="september" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="auto">
+	<h1>September 2006</h1>
+	<p>
+		Did you know that...<br>
+		<strong>Only 6 out of every 10 babies born in CAR are protected against neonatal tetanus?</strong></p>
+		<hr class="thin bg-grayLight">
+		<p>The 2005 Family Planning and Maternal and Child Health Survey of the National Statistics Office reveals that 61.5 percent of children below 5 years in Cordillera were protected at birth against neonatal tetanus. CARAGA has the least percent of children provided with the tetanus toxoid vaccine among all regions of the country.</p>
+		<table class="table align-center border bordered">
+			<tr>
+				<th>Area</th>
+				<th>Percent</th>
+			</tr>
+			<tr>
+				<td>Philippines</td>
+				<td>66.8</td>
+			</tr>
+			<tr>
+				<td>CAR</td>
+				<td>61.5</td>
+			</tr>
+			<tr>
+				<td>CARAGA</td>
+				<td>48.5</td>
+			</tr>
+			<tr>
+				<td colspan="2">Source of Basic Data: National Statistics Office</td>
+			</tr>
+		</table>
+	</div>
+<!-- September 2006 Issue -->
+
+<!-- November 2006 Issue -->
+	<div data-role="dialog" id="november" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="auto">
+	<h1>November 2006</h1>
+	<p>
+		Did you know that...<br>
+		<strong>9 out of every 10 tourists in the Cordilleras are domestic travelers?</strong></p>
+		<hr class="thin bg-grayLight">
+		<p>As per the Department of Tourism (DOT), majority or 91.1 percent of tourists who visited the Cordillera region in year 2005 were domestic or local travelers. Foreign visitors accounted for 8.2 percent while visiting overseas Filipinos or “balikbayans” were the minority at 0.7 percent.</p>
+		<table class="table align-center border bordered">
+			<tr>
+				<th>Origin</th>
+				<th>Number</th>
+			</tr>
+			<tr>
+				<td>Domestic</td>
+				<td>789,268</td>
+			</tr>
+			<tr>
+				<td>Balikbayan</td>
+				<td>61.5</td>
+			</tr>
+			<tr>
+				<td>Balikbayan</td>
+				<td>70,626</td>
+			</tr>
+			<tr>
+				<td>TOTAL</td>
+				<td>866,242</td>
+			</tr>
+			<tr>
+				<td colspan="2">Source of Basic Data: Department of Tourism-CAR</td>
+			</tr>
+		</table>
+	</div>
+<!-- November 2006 Issue -->
