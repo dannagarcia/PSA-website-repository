@@ -12,7 +12,7 @@
     <script src="/js/metro.js"></script>
     <script src="/js/ga.js"></script>
 </head>
-<body>
+<body class="text-secondary fg-gray">
 	<div class="margin10 no-margin-top grid condensed">
 	<!-- PSA LOGO -->
 			 <!-- end of navigation div -->
@@ -27,7 +27,7 @@
 			<div class="row cells12 align-justify">
 				<!-- place content here -->
 				<div class="cell colspan9 padding10">
-				<h2 class="bg-cyan fg-white">Satellite Accounts</h2>
+				<h2 class="bg-teal fg-white">Satellite Accounts</h2>
 				<b>The Environment and Natural Resources Accounting Project:<br> 
 The Philippine Economic-Environmental and Natural Resources Accounting 
 (PEENRA) System </b>
@@ -40,8 +40,13 @@ The Philippine Economic-Environmental and Natural Resources Accounting
 					<p class="align-justify">This water account is just part of the total accounting of natural resources in a watershed. However, said account can serve as a valuable input in the development of a comprehensive and sustainable resource and management plan in a given watershed or ecosystem.</p>
 				</div>
 				<div class="cell colspan3 padding10">
-					<script src="/includes/features.js"></script>
-					<script src="/includes/enra.js"></script>
+					<div id="enra">
+				 <script> 
+					$(document).ready(function(){
+					  $("#enra").load("/includes/enra.html"); 
+					});
+				</script>
+			</div>
 				</div>
 			</div>
 			<!-- end of content -->

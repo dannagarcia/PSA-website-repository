@@ -12,7 +12,7 @@
     <script src="/js/metro.js"></script>
     <script src="/js/ga.js"></script>
 </head>
-<body>
+<body class="text-secondary fg-gray">
 	<div class="margin10 no-margin-top grid condensed">
 	<!-- PSA LOGO -->
 			 <!-- end of navigation div -->
@@ -27,7 +27,7 @@
 			<div class="row cells12 align-justify">
 				<!-- place content here -->
 				<div class="cell colspan9 padding10">
-				<h2 class="bg-cyan fg-white">Satellite Accounts</h2>
+				<h2 class="bg-tealfg-white">Satellite Accounts</h2>
 				<b>The Environment and Natural Resources Accounting Project:<br> 
 The Philippine Economic-Environmental and Natural Resources Accounting 
 (PEENRA) System </b>
@@ -39,8 +39,13 @@ The Philippine Economic-Environmental and Natural Resources Accounting
 					<p class="align-justify">Taking into consideration that the annual decrease in areas devoted to agricultural uses is 3.4%, concerned government agencies should look into this and come up with strategic interventions regarding land use conversion.  Furthermore, the enactment of the Agriculture and Fisheries Modernization Act (AFMA) and the identification of Strategic Agricultural and Fisheries Modernization Zones (SAFDZs) will hopefully maintain and develop agricultural lands.</p>
 				</div>
 				<div class="cell colspan3 padding10">
-					<script src="/includes/features.js"></script>
-					<script src="/includes/enra.js"></script>
+					<div id="enra">
+				 <script> 
+					$(document).ready(function(){
+					  $("#enra").load("/includes/enra.html"); 
+					});
+				</script>
+			</div>
 				</div>
 			</div>
 			<!-- end of content -->

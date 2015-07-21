@@ -12,7 +12,7 @@
     <script src="/js/metro.js"></script>
     <script src="/js/ga.js"></script>
 </head>
-<body>
+<body class="text-secondary fg-gray">
 	<div class="margin10 no-margin-top grid condensed">
 	<!-- PSA LOGO -->
 			 <!-- end of navigation div -->
@@ -27,7 +27,7 @@
 			<div class="row cells12 align-justify">
 				<!-- place content here -->
 				<div class="cell colspan9 padding10">
-				<h2 class="bg-cyan fg-white">Satellite Accounts</h2>
+				<h2 class="bg-teal fg-white">Satellite Accounts</h2>
 				<b>The Environment and Natural Resources Accounting Project:<br> 
 The Philippine Economic-Environmental and Natural Resources Accounting 
 (PEENRA) System </b>
@@ -40,8 +40,13 @@ The Philippine Economic-Environmental and Natural Resources Accounting
 					<p class="align-justify">Cordillera has a significant area devoted to forestry. With its forest land constituting about 85 percent, the region exceeds the 60-40 ideal forest-to-non-forest ratio.  The minimal volume reduction in dipterocarp forests was due to the implementation of the log ban in the region.  Volume reductions have significant impact on existing stand volume thus the need for an even more effective implementation of forest protection programs in these types of forests.  Considering the high rate of natural stand growth in second dipterocarp forests, the present policy of selective logging is  a sustainable management option.</p>
 				</div>
 				<div class="cell colspan3 padding10">
-					<script src="/includes/features.js"></script>
-					<script src="/includes/enra.js"></script>
+					<div id="enra">
+				 <script> 
+					$(document).ready(function(){
+					  $("#enra").load("/includes/enra.html"); 
+					});
+				</script>
+			</div>
 				</div>
 			</div>
 			<!-- end of content -->
