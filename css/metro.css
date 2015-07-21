@@ -5858,7 +5858,17 @@ a.tag {
   .f-menu > li .d-menu > li {
     width: 150%;
     max-width: none;
+    max-width: 200px;
+    min-width: 150px;
+    width: auto;
   }
+  .f-menu > li .dmenu li > a{
+    
+    
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
 }
 /* end */
 @media only screen and (max-width: 640px) {
