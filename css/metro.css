@@ -5852,7 +5852,11 @@ a.tag {
     padding: .625rem 1.625rem;
   }
   .f-menu > li .d-menu {
-    width: 200%;
+    width: 100%;
+    max-width: none;
+  }
+  .f-menu > li .d-menu > li {
+    width: 150%;
     max-width: none;
   }
 }
