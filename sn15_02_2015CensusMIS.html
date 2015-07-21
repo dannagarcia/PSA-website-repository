@@ -12,7 +12,7 @@
     <script src="js/metro.js"></script>
     <script src="js/ga.js"></script>
 </head>
-<body class="text-secondary">
+<body class="text-secondary fg-gray">
 
 	<div class="margin10 no-margin-top grid condensed">
 		 <div id="header">
@@ -25,7 +25,7 @@
 
 		<div class="row cells12 align-justify">
 			<div class="cell padding10 no-padding-top colspan8">
-				<div class="bg-darkTeal fg-white"><h3 class="uppercase">stat news</h3></div>
+				<div class="bg-teal fg-white"><h3 class="uppercase">stat news</h3></div>
 				<p><h4>PSA launches Management Info System, revs for mid-decade census</h4></p>
 				<p>The Philippine Statistics Authority (PSA) has developed a Management Information System (MIS) and was launched with the training of Regional Statistical Services Office (RSSO) and Central office personnel at Century Park Hotel, Manila on May 25-28, 2015.</p>
 
@@ -38,21 +38,21 @@
 
 				<p>Page uploaded: June 29, 2015</p>
 			</div>
-			<div class="cell padding10 no-padding-top colspan4">
-				<div class="bg-darkTeal fg-white"><h3 class="uppercase">publications</h3></div>
-				<ol class="numeric-list square-marker blue-bullet">
-					<li><a href="">Fact Sheet</a></li>
-					<li><a href="">Press Release</a></li>
-					<li><a href="">Stat News</a></li>
-					<li><a href="">Stat Trivia</a></li>
-					<li><a href="">Stat View</a></li>
-					<li><a href="">Stat Watch</a></li>
-				</ol>
+			<div class="cell padding10 no-padding-top colspan4" id="publications">
+				<script> 
+					$(function(){
+					  $("#publications").load("/includes/publications.html"); 
+					});
+				</script> 
 			</div>
 		</div>
 
-		<div class="row">
-			<script src="include/footer.js"></script>
+		<div class="row" id="footer">
+			<script> 
+				$(function(){
+				  $("#footer").load("/includes/footer.html"); 
+				});
+			</script> 
 		</div>
 	</div>
 
