@@ -12,7 +12,7 @@
     <script src="/js/metro.js"></script>
     <script src="/js/ga.js"></script>
 </head>
-<body>
+<body class="text-secondary fg-gray">
 	<div class="margin10 no-margin-top grid condensed">
 	<!-- PSA LOGO -->
 			 <!-- end of navigation div -->
@@ -27,7 +27,7 @@
 			<div class="row cells12 align-justify">
 				<!-- place content here -->
 				<div class="cell colspan9 padding10">
-				<h2 class="bg-cyan fg-white">Satellite Accounts</h2>
+				<h2 class="bg-teal fg-white">Satellite Accounts</h2>
 				<b>The Environment and Natural Resources Accounting Project:<br> 
 The Philippine Economic-Environmental and Natural Resources Accounting 
 (PEENRA) System </b>
@@ -40,8 +40,13 @@ The Philippine Economic-Environmental and Natural Resources Accounting
 					<p class="align-justify">During the period under study, gold and copper mining operations went through a volatile movement in operations with operating surpluses diving down in 1991 to 1994 and 1996 and recovering in 1995, 1997 and 1998. In 1990, mining suffered a setback in the aftermath of the July killer earthquake, which seriously disrupted mining operations. Cost control characterized the industry in 1993 as companies drastically reduced extraction activities with a number of companies reducing production if not suspending operations. Year 1995 was eventful as this saw the first year's effect of the reduction of the excise taxes on gold and copper. By 1997 and 1998, operating surpluses improved substantially especially in the former as output levels shot up in the face of the continuing increase in production costs.</p>
 				</div>
 				<div class="cell colspan3 padding10">
-					<script src="/includes/features.js"></script>
-					<script src="/includes/enra.js"></script>
+					<div id="enra">
+				 <script> 
+					$(document).ready(function(){
+					  $("#enra").load("/includes/enra.html"); 
+					});
+				</script>
+			</div>
 				</div>
 			</div>
 			<!-- end of content -->
