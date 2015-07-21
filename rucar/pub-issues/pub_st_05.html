@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="/css/metro.css" rel="stylesheet">
+	<link href="/css/metro-icons.css" rel="stylesheet">
+	<link href="/css/custom.css" rel="stylesheet">
+	<script src="/js/jquery-2.1.3.min.js"></script>
+	<script src="/js/metro.js"></script>
+	<script src="/js/ga.js"></script>
+</head>
+<body class="text-secondary fg-gray">
+
+	<div class="margin10 no-margin-top grid condensed">  <!-- grid -->
+		<div id="header">
+			<script> 
+				$(function(){
+					$("#header").load("/includes/header.html"); 
+				});
+			</script> 
+		</div>
+
+		<div class="row cells12">  <!-- row  -->
+			<div class="cell colspan8 padding10 no-padding-top"> <!-- cell colspan8 -->
+				<div class="bg-teal fg-white"><h3 class="uppercase">statrivia</h3></div>
+				<p>CY 2005 ISSUES:</p>
+				<ol class="numeric-list square-marker large-bullet green-bullet" >
+					<li><button class="button" onclick="showDialog('#march')">March 2005 Issue</button></li>
+					<li><button class="button" onclick="showDialog('#may')">May 2005 Issue</button>	</li>
+					<li><button class="button" onclick="showDialog('#july')">July 2005 Issue</button>	</li>
+					<li><button class="button" onclick="showDialog('#september')">September 2005 Issue</button>	</li>
+					<li><button class="button" onclick="showDialog('#december')">December 2005 Issue</button>	</li>
+				</ol>
+
+				<p>The NSCB-CAR Stat Trivia is also published in the regional newspaper, "ZIGZAG WEEKLY."</p>
+
+
+
+				<p>Page last updated: January 13, 2010</p>
+			</div><!-- cell colspan8 -->
+
+
+			<div class="cell colspan4 padding10 no-padding-top" id="publications"> <!-- cell colspan4 -->
+				<script> 
+					$(function(){
+						$("#publications").load("/includes/publications.html"); 
+					});
+				</script> 
+			</div> <!-- cell colspan4 -->
+		</div><!-- row  -->
+		<div class="row" id="footer"><!-- footer -->
+			<script> 
+				$(function(){
+					$("#footer").load("/includes/footer.html"); 
+				});
+			</script>
+		</div><!-- footer -->
+	</div><!-- grid -->
+
+</body>
+</html>
+
+<script>
+	function showDialog(id){
+		var dialog = $(id).data('dialog');
+		dialog.open();
+	}
+</script>
+
+<!-- March issues -->
+<div data-role="dialog" id="march" 
+data-close-button="true" class="padding20" 
+data-height="auto" data-width="50%">
+<div class="bg-cyan padding10 fg-white"><h1>March 2005</h1></div>
+<p>
+	Did you know that...<br>
+	<strong>only 14 out of every 100 elected official in CAR is a woman?</strong></p>
+	<hr class="thin bg-grayLight">
+	<p>In the Cordilleras, women occupy only 120 or 14.4 percent of all elective seats for the 2004-2007 term of office. There is no woman Representative, Governor or Vice Governor in the region.</p>
+
+	<table class="table align-center border bordered">
+		<tr>
+			<th rowspan="2">Government Position</th>
+			<th colspan="2">Women</th>
+			<th colspan="2">Men</th>
+			</tr>
+			<tr>
+			<th>No.</th>
+			<th>%</th>
+			<th>No.</th>
+			<th>%</th>
+			</tr>
+			<tr>
+				<td>Provincial Board Members</td>
+				<td>7</td>
+				<td>4.0</td>
+				<td>48</td>
+				<td>96.0</td>
+			</tr>
+			<tr>
+				<td>Mayor</td>
+				<td>8</td>
+				<td>13.0</td>
+				<td>67</td>
+				<td>87.0</td>
+			</tr>
+
+			<tr>
+				<td>Vice Mayor</td>
+				<td>8</td>
+				<td>13.0</td>
+				<td>67</td>
+				<td>87.0</td>
+			</tr>
+			<tr>
+				<td>City Board Member</td>
+				<td>48</td>
+				<td>8.3</td>
+				<td>11</td>
+				<td>91.7</td>
+			</tr>
+			<tr>
+				<td>Municipal Board Member</td>
+				<td>67</td>
+				<td>16.0</td>
+				<td>511</td>
+				<td>84.0</td>
+			</tr>
+			<tr>
+				<td colspan="5">Source: DILG-CAR</td>
+			</tr>
+		</table>
+	</div><!-- march issues -->
+
+	<!-- May 2005 Issue -->
+	<div data-role="dialog" id="may" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-lightGreen padding10 fg-white"><h1>May 2005</h1></div>
+	<p>
+		Did you know that... <br>
+		<strong>revenue collections in CAR reached P3.6 billion in 2005?</strong></p>
+		<hr class="thin bg-grayLight">
+		<p>IIn 2004, taxpayers in the Cordillera Administrative Region (CAR) paid more than P2 billion to the Bureau of Internal Revenue. In 2005, revenue collections expanded by 78.0 percent to reach P3.6 billion. Baguio City taxpayers paid the lion's share at P2.9 billion or 80 percent of total regional collection.</p>
+		<p>Figure 1 NUMBER OF OFWs IN CAR: 2001 & 2002 (In Thousand Pesos)</p>
+		<img src="/images/st_tax1.jpg">
+		<p>Source of Basic Data: Bureau of Internal Revenue</p>
+
+	</div>
+	<!-- May 2005 Issue -->
+
+
+	<!-- May 2006 Issue -->
+	<div data-role="dialog" id="may" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-lightRed padding10 fg-white"><h1>May 2006</h1></div>
+	<p>
+		Did you know that... <br>
+		<strong>Revenue collections in CAR reached P3.6 billion in 2005?</strong></p>
+		<hr class="thin bg-grayLight">
+
+		<p>In 2004, taxpayers in the Cordillera Administrative Region (CAR) paid more than P2 billion to the Bureau of Internal Revenue. In 2005, revenue collections expanded by 78.0 percent to reach P3.6 billion. Baguio City taxpayers paid the lion's share at P2.9 billion or 80 percent of total regional collection.</p>
+
+		<p>Figure 1 NUMBER OF OFWs IN CAR: 2001 and 2002 (In Thousand Pesos)</p>
+		<img src="/images/st_tax.jpg">
+		<p>Source of Basic Data: Bureau of Internal Revenue</p>
+
+	</div>
+	<!-- May 2006 Issue -->
+
+	<!-- July 2005 Issue -->
+	<div data-role="dialog" id="july" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-magenta padding10 fg-white"><h1>July 2005</h1></div>
+	<p>
+		Did you know that...<br>
+		<strong>One peso in 2000 is now worth only 76 centavos in the Cordillera?</strong></p>
+		<hr class="thin bg-grayLight">
+		<p>The purchasing power of the peso in the Cordillera was pegged at 76 centavos as of June 2005. On the average, the same basket of goods and services worth P76 in 2000 could be bought for P100 last month .</p>
+		<table class="table align-center border bordered">
+			<tr>
+				<th colspan="3">CONSUMER PRICE INDEX (CPI) AND PURCHASING PRICE OF THE PESO (PPP) as of June 2005</th>
+			</tr>
+			<tr>
+				<td colspan="3">(2000=100)</td>
+			</tr>
+			<tr>
+				<td>Year</td>
+				<td>CPI</td>
+				<td>PPP</td>
+			</tr>
+			<tr>
+				<td>PHILIPPINES</td>
+				<td>129.4</td>
+				<td>0.77</td>
+			</tr>
+			<tr>
+				<td>CAR</td>
+				<td>131.8</td>
+				<td>0.76</td>
+			</tr>
+		</table>
+	</div>
+<!-- July 2005 Issue -->
+
+<!-- September 2005 Issue -->
+	<div data-role="dialog" id="september" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-steel padding10 fg-white"><h1>September 2005</h1></div>
+	<p>
+		Did you know that...<br>
+		<strong>9 out of every 10 tourists in the Cordilleras are domestic travelers?</strong></p>
+		<hr class="thin bg-grayLight">
+		<p>More than two-thirds (69.2 %) of all the cases of violence against women and girls in CAR were done by those they know?</p>
+		<table class="table align-center border bordered">
+			<tr>
+				<th>In 2004, PRO-COR data further revealed that among the perpetrators the victims knew, their husbands/ fathers were behind most of the acts of violence.</th>
+			</tr>
+			<tr>
+				<td><img src="/images/st_vaw05.gif"></td>
+			</tr>
+		</table>
+	</div>
+<!-- September 2005 Issue -->
+
+
+<!-- December 2005 Issue -->
+	<div data-role="dialog" id="december" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-steel padding10 fg-white"><h1>September 2005</h1></div>
+	<p>
+		Did you know that...<br>
+		<strong>Women dominate men in functional literacy in the Cordilleras ?</strong></p>
+		<hr class="thin bg-grayLight">
+		<p>The 2003 Functional Literacy, Education and Mass Media Survey (FLEMMS) of the National Statistics Office reveals that the female functional literacy rate in CAR (87.0 percent) was 3.1 percentage points higher than males (83.9 percent). Functional literacy involves basic reading, writing and computing skills.</p>
+		<table class="table align-center border bordered">
+			<tr>
+				<th>Area/Sex.</th>
+				<th>Percent</th>
+			</tr>
+			<tr>
+				<td><strong>Philippines</strong></td>
+				<td><strong>84.1</strong></td>
+			</tr>
+			<tr>
+				<td>Female</td>
+				<td>86.3</td>
+			</tr>
+			<tr>
+				<td>Male</td>
+				<td>81.9</td>
+			</tr>
+			<tr>
+				<td><strong>CAR</strong></td>
+				<td><strong>85.4</strong></td>
+			</tr>
+			<tr>
+				<td>Female</td>
+				<td>87.0</td>
+			</tr>
+			<tr>
+				<td>Male</td>
+				<td>83.9</td>
+			</tr>
+		</table>
+	</div>
+<!-- December 2005 Issue -->
