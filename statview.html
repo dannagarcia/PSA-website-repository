@@ -3,116 +3,192 @@
 <head>
 	<title></title>
 	<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link href="css/metro.css" rel="stylesheet">
-    <link href="css/metro-icons.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/metro.js"></script>
-    <script src="js/ga.js"></script>
-   </head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="/css/metro.css" rel="stylesheet">
+	<link href="/css/metro-icons.css" rel="stylesheet">
+	<link href="/css/custom.css" rel="stylesheet">
+	<script src="/js/jquery-2.1.3.min.js"></script>
+	<script src="/js/metro.js"></script>
+	<script src="/js/ga.js"></script>
+</head>
 <body class="text-secondary fg-gray">
 
-	<div class="margin10 no-margin-top grid condensed">
+	<div class="margin10 no-margin-top grid condensed">  <!-- grid -->
 		<div id="header">
-			 <script> 
-				$(function(){
-				  $("#header").load("/includes/header.html"); 
-				});
-			</script> 
-		</div>
-
-		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div class="bg-teal fg-white"><h3 class="uppercase">statview</h3></div>
-				
-				<p>The StatWatch is an info sheet presenting the major and most common social and economic indicators for the region useful to the government and business planners and decision makers and the general public. The StatWatch is updated and released periodically or as soon as the latest data releases become available. This type of publication provides timely trends of developments.</p>
-
-				<div class="row cells12 align-left">
-					<div class="cell colspan4 padding10">
-							<div class="accordion" data-role="accordion">
-							    <div class="frame">
-							        <div class="heading bg-crimson fg-white">Stat Watch Regional</div>
-							        <div class="content bg-grayLighter">
-							        	<ol class="numeric-list square-marker green-bullet" id="statwatch-regional">
-							        			<script> 
-													$(function(){
-													  $("#statwatch-regional").load("/includes/statwatchregional.html"); 
-													});
-												</script> 
-							        	</ol>
-							        	<a href="statwatch.html">
-											<div class="bg-orange fg-white padding10">
-												<span>Back to top</span>
-											</div>
-										</a>
-							        </div>
-							    </div>
-							</div>
-					</div>
-					<div class="cell colspan4 padding10">
-							<div class="accordion" data-role="accordion">
-							    <div class="frame">
-							        <div class="heading bg-darkBlue fg-white">Stat Watch Provincial</div>
-							        <div class="content bg-grayLighter">
-							        <ol class="numeric-list square-marker green-bullet" id="statwatch-provincial">
-							        			<script> 
-													$(function(){
-													  $("#statwatch-provincial").load("/includes/statwatchprovincial.html"); 
-													});
-												</script> 
-							        	</ol>
-							        	<a href="statwatch.html">
-											<div class="bg-orange fg-white padding10">
-												<span>Back to top</span>
-											</div>
-										</a>
-							        </div>
-							    </div>
-							</div>
-					</div>
-					<div class="cell colspan4 padding10">
-							<div class="accordion" data-role="accordion">
-							    <div class="frame">
-							        <div class="heading bg-darkViolet fg-white">Stat Watch Baguio</div>
-							        <div class="content bg-grayLighter">
-							        <ol class="numeric-list square-marker green-bullet" id="statwatch-baguio">
-							        			<script> 
-													$(function(){
-													  $("#statwatch-baguio").load("/includes/statwatchbaguio.html"); 
-													});
-												</script> 
-							        	</ol>
-							        	<a href="statwatch.html">
-											<div class="bg-orange fg-white padding10">
-												<span>Back to top</span>
-											</div>
-										</a>
-							        </div>
-							    </div>
-							</div>
-					</div>
-
-					<p><strong>Note: All publications are in Acrobat PDF Files. Please read Terms of Use of NSCB publications.</strong></p>
-				</div>
-			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
-				<script> 
-					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
-					});
-				</script> 
-			</div>
-		</div>
-
-		<div class="row" id="footer">
 			<script> 
 				$(function(){
-				  $("#footer").load("/includes/footer.html"); 
+					$("#header").load("/includes/header.html"); 
 				});
 			</script> 
 		</div>
-	</div>
+
+		<div class="row cells12">  <!-- row  -->
+			<div class="cell colspan8 padding10 no-padding-top"> <!-- cell colspan8 -->
+				<div class="fg-white" style="background-color:teal;"><h3 class="uppercase">statview</h3></div>
+				<ol class="numeric-list square-marker large-bullet green-bullet" >
+					<li><button class="button" onclick="showDialog('#fire')">Fire Statistics, CAR: 2010-2013</button></li>
+					<li><button class="button" onclick="showDialog('#fireworks')">Fireworks-related Injuries by Province, CAR: 2010-2012 </button>	</li>
+					<li><button class="button" onclick="showDialog('#metal')">Metallic Mineral Production, 2009-2012, Cordillera Administrative Region </button>	</li>
+					<li><button class="button" onclick="showDialog('#small')">Small Area Estimates of Poverty by Municipality, CAR: 2000, 2003 and 2009 </button>	</li>
+					<li><button class="button" onclick="showDialog('#inflation')">Inflation Rate 2007-March 2012 (2006=100), Cordillera Administrative Region </button>	</li>
+					<li><button class="button" onclick="showDialog('#PaP')">Programs and Projects in the Indigenous Peoples Communities, Cordillera Administrative Region, 2006-2010 </button>	</li>
+					<li><button class="button" onclick="showDialog('#DoP')">Distribution of Perpetrators of Violence Against Women and Girls by Relationship, CAR: 2010 Status of Cases Against Women and Girls Handled by the PNP Women and Children Desk, CAR: 2010 </button>	</li>
+				</ol>
+				<p>Page last updated: May 14, 2014</p>
+
+
+			</div><!-- cell colspan8 -->
+
+
+			<div class="cell colspan4 padding10 no-padding-top" id="publications"> <!-- cell colspan4 -->
+				<script> 
+					$(function(){
+						$("#publications").load("/includes/publications.html"); 
+					});
+				</script> 
+			</div> <!-- cell colspan4 -->
+		</div><!-- row  -->
+		<div class="row" id="footer"><!-- footer -->
+			<script> 
+				$(function(){
+					$("#footer").load("/includes/footer.html"); 
+				});
+			</script>
+		</div><!-- footer -->
+	</div><!-- grid -->
+
 </body>
 </html>
+
+<script>
+	function showDialog(id){
+		var dialog = $(id).data('dialog');
+		dialog.open();
+	}
+</script>
+
+<!-- Fire Statistics -->
+<div data-role="dialog" id="fire" 
+data-close-button="true" class="padding20" 
+data-height="auto" data-width="50%">
+<div class="bg-cyan padding10 fg-white"><h2>Fire Statistics</h2> <h4>CAR: 2010-2013</h4></div>
+	<p class="align-center"><img width="50%"  src="images/fireStat.png"></p>
+		<hr class="thin bg-grayLighter">
+			<a href="/pdf/sv/Statview-CAR_may2014.pdf"><p class="align-center">Download PDF</p></a>
+			<p class="align-center">Page uploaded: May 14, 2014</p>
+</div>
+	
+<!-- Fire Statistics -->
+
+	<!-- Fireworks-related Injuries -->
+	<div data-role="dialog" id="fireworks" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-lightGreen padding10 fg-white"><h2 class="sub-leader">Fireworks-related Injuries by Province</h2><h4> CAR: 2010-2012 </h4></div>
+	<p class="align-center">
+		<img width="75%" src="/images/firworks.jpg">
+	</p>
+			<hr class="thin bg-grayLighter">
+				<p><a href="/pdf/sv/Statview-CAR_dec2013.pdf"><p class="align-center">Download PDF</p></a>
+					<p class="align-center">Page uploaded: December 6, 2013</p>
+
+	</div>
+	<!-- Fireworks-related Injuries -->
+
+
+	<!-- Metallic Mineral Production  -->
+	<div data-role="dialog" id="metal" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+		<p  class="align-center">
+			<img width="70%" src="/images/mineral.jpg">
+		</p>
+			<hr class="thin bg-grayLighter">
+				<p><a href="/pdf/sv/Statview-CAR_may2013.pdf"><p class="align-center">Download PDF</p></a>
+				<p class="align-center">Page uploaded: May 16, 2013</p>
+
+	</div>
+	<!-- Metallic Mineral Production -->
+
+	<!-- Small Area Estimates of Poverty by Municipality -->
+	<div data-role="dialog" id="small" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-lightGreen padding10 fg-white"><h3>Small Area Estimates of Poverty by Municipality</h3> 
+													<h4>CAR: 2000, 2003 and 2009</h4></div>
+
+		<p  class="align-center">
+			<img width="40%" src="/images/sae_maps.png">
+			<img width="40%" src="/images/sae_range.png">
+		</p>
+				<p>
+					Small area poverty statistics as generated by the NSCB are estimates of poverty incidence at the municipal and city levels, Poverty incidence refers to the proportion of population with per capita income less than the per capita poverty threshold to the total population per municipality or city.
+				</p>
+				<p class="align-center">
+					Source of basic data: National Statistical Coordination Board
+				</p>
+				<hr class="thin bg-grayLighter">
+				<p><a href="/pdf/sv/Statview-CAR_may2013.pdf"><p class="align-center">Download PDF</p></a>
+				<p class="align-center">Page uploaded: December 21, 2012</p>
+
+	</div>
+<!-- Small Area Estimates of Poverty by Municipality -->
+
+<!-- Inflation Rate -->
+	<div data-role="dialog" id="inflation" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-steel padding10 fg-white"><h3>Inflation Rate 2007-March 2012 (2006=100)</h3> 
+												<h5>Cordillera Administrative Region </h5></div><p  class="align-center">
+			<img width="70%" src="/images/sv_2012_01.jpg">
+		</p>
+				<p class="align-center">
+					Source of basic data: National Statistics Office
+				</p>
+				<hr class="thin bg-grayLighter">
+				<p><a href="/pdf/sv/Statview-CAR_may2012.pdf"><p class="align-center">Download PDF</p></a>
+				<p class="align-center">Page uploaded: May 11, 2012</p>
+	</div>
+<!-- Inflation Rate -->
+
+
+<!-- Programs and Projects in the Indigenous Peoples Communities -->
+	<div data-role="dialog" id="PaP" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-steel padding10 fg-white"><h4>Programs and Projects in the Indigenous Peoples Communities</h4>
+												<h5> Cordillera Administrative Region, 2006-2010 </h5></div>
+		<p class="align-center">
+			<img width="70%" src="/images/sv_2011_02.jpg">
+		</p>
+		</p>
+				<p class="align-center">
+					Source of basic data: National Commission on Indigenous Peoples
+				</p>
+				<hr class="thin bg-grayLighter">
+				<p><a href="/pdf/sv/Statview-CAR_may2012.pdf"><p class="align-center">Download PDF</p></a>
+				<p class="align-center">Page uploaded: October 11, 2011</p>
+	</div>
+<!-- Programs and Projects in the Indigenous Peoples Communities -->
+
+
+<!-- Distribution of Perpetrators of Violence Against Women and Girls by Relationship -->
+	<div data-role="dialog" id="DoP" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-steel padding10 fg-white"><h5>Distribution of Perpetrators of Violence Against Women and Girls by Relationship</h5> <h6>CAR: 2010 
+	Status of Cases Against Women and Girls Handled by the PNP Women and Children Desk, CAR: 2010</h6></div>
+
+                    <div class="cell">
+                        <div class="carousel" data-role="carousel" data-height="400" data-control-next="<span class='mif-chevron-right'></span>" data-control-prev="<span class='mif-chevron-left'></span>">
+                            <div class="slide margin80 no-margin-top no-margin-bottom"><img width="60%" src="images/sv_2011_01.gif" data-format="fill"></div>
+                            <div class="slide margin80 no-margin-top no-margin-bottom"><img width="70%" src="images/sv_2011_01-2.png" data-format="fill">
+                            </div>
+                        </div>
+                    </div>
+				<hr class="thin bg-grayLighter">
+				<p><a href="/pdf/sv/Statview-CAR_april2011.pdf"><p class="align-center">Download PDF</p></a>
+				<p class="align-center">Page last updated: April 15, 2011</p>
+	</div>
+<!-- Distribution of Perpetrators of Violence Against Women and Girls by Relationship -->
