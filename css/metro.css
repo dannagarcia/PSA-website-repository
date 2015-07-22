@@ -5769,7 +5769,7 @@ a.tag {
 .f-menu {
   text-align: left;
   display: block;
-  height: 50px; /*custom (orig: auto)*/
+  height: 40px; /*custom (orig: auto)*/
   list-style: none inside none;
   margin: 0;
   padding: 0;
@@ -5823,16 +5823,15 @@ width: 300px;
   margin-left: 0;
 }
 .f-menu > li > a {
-
   display: block;
   float: left;
   position: relative;
   font-weight: normal;
   color: #727272;
-  font-size: .875rem;
+  font-size: .800rem;
   outline: none;
   text-decoration: none;
-  padding: .800rem 1.625rem; /*custom (orig: 1.125rem 1.625rem)*/
+  padding: .500rem 1.625rem; /*custom (orig: 1.125rem 1.625rem)*/
   border: none;
 }
 .f-menu > li > a:hover {
