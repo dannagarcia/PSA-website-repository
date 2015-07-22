@@ -5757,6 +5757,8 @@ a.tag {
 .h-menu > li .input-control,
 .h-menu > li .button {
   margin-top: 10px;
+
+  width: 100%;
 }
 .h-menu > li.active a {
   background-color: #59cde2;
@@ -5840,7 +5842,8 @@ width: 300px;
 }
 .f-menu > li .input-control,
 .f-menu > li .button {
-  margin-top: 10px;
+  margin-top: 8px;
+
 }
 .f-menu > li.active a {
   background-color: #59cde2;
@@ -5887,9 +5890,19 @@ width: 300px;
 
 }
 /* end */
+@media only screen and (max-width: 948px) {
+  .f-menu {
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 739px) {
+  .f-menu {
+    height: 55px;
+  }
+}
 @media only screen and (max-width: 650px) {
   .f-menu {
-    height: 250px; /*custom*/
+    height: 200px; /*custom*/
     -webkit-flex-direction: column;
             flex-direction: column;
   }
@@ -5941,6 +5954,7 @@ width: 300px;
   min-width: 0;
   padding: 5px 0;
 }
+
 @media only screen and (max-width: 650px) {
   .f-menu > li .d-menu {
     position: absolute;
@@ -8807,6 +8821,7 @@ div.square-button.big-button {
   vertical-align: middle;
   margin: .325rem 0;
   line-height: 1;
+  width: 100%;
 }
 .input-control[data-role=select] {
   height: auto;
@@ -8818,7 +8833,9 @@ div.square-button.big-button {
 .input-control.number,
 .input-control.email,
 .input-control.tel {
-  width: 10.875rem;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .input-control.text .button,
 .input-control.select .button,
