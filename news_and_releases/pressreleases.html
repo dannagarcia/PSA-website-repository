@@ -27,14 +27,18 @@
 		<div class="row cells12 align-justify">
 			<div class="cell padding10 no-padding-top colspan8">
 				
-				<div style="background-color:teal" class="fg-white"><h3 class="uppercase">press releases</h3></div>
+				<div id="pr-heading">
+					<script> 
+						$(function(){
+							$("#pr-heading").load("/includes/pr-heading.html"); 
+						});
+					</script> 
+				</div>
 
-				<ul class="breadcrumbs">
+				<p class="align-left" ><ul class="breadcrumbs">
 				    <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-				    <li><a href="/index.html">News and Releases</a></li>
 				    <li><a href="#">Press Releases</a></li>
-				</ul>
-
+				</ul></p>
 				<hr class="thin bg-grayLighter">
 				
 				<p>Please select an issue from the archive below.</p>
@@ -63,8 +67,8 @@
 										<div class="heading">CY 2013</div>
 										<div class="content bg-grayLighter">
 											<ol class="numeric-list square-marker green-bullet large-bullet" id="statwatch-regional">
-												<li><a href="/news_and_releases/press releases archive/pub_pr_PSA-Abra-award.html">BSP recognizes NSCB-CAR as outstanding information partner <br>10 October 2013</a></li>
-												<li><a href="/news_and_releases/press releases archive/pub_pr_2013grdp.html">Cordillera economy grows by 1 percent in 2012 <br>26 July 2013</a></li>
+												<li><a href="/news_and_releases/press releases archive/pub_pr_2013grdp.html">BSP recognizes NSCB-CAR as outstanding information partner <br>10 October 2013</a></li>
+												<li><a href="/news_and_releases/press releases archive/pub_pr_2014grdp.html">Cordillera economy grows by 1 percent in 2012 <br>26 July 2013</a></li>
 												<li><a href="/news_and_releases/press releases archive/pub_pr_2013arc.html">2013 Agency Release Calendar for CAR is now online <br>21 March 2013</a></li>
 												<li><a href="/news_and_releases/press releases archive/pub_pr_2012_genderwatch.html">NSCB-CAR Releases 2013 Gender Watch <br>11 March 2013</a></li>
 											</ol>
@@ -111,7 +115,7 @@
 												<li><a href="/news_and_releases/press releases archive/pub_pr_newsections07.html">Four (4) new sections in NSCB-CAR website<br>18 December 2007</a></li>
 												<li><a href="/news_and_releases/press releases archive/pub_pr_povmapdec07.html">NSCB-CAR uploads 105 poverty maps online<br>13 December 2007</a></li>
 												<li><a href="/news_and_releases/press releases archive/pub_pr_grdpjul07.html">Cordillera grows by 3.5% in 2006<br>13 July 2007</a></li>
-												<li><a href="/pdf/prRSCCapr2007.pdf">RSCC-CAR passes five (5) resolutions in its 1st Quarter 2007 meeting <br>30 April 2007</a></li>
+												<li><a href="/pdf/pr/RSCCapr2007.pdf">RSCC-CAR passes five (5) resolutions in its 1st Quarter 2007 meeting <br>30 April 2007</a></li>
 											</ol>
 										</div>
 									</div>
@@ -192,31 +196,14 @@
 											<div class="heading">CY 2005</div>
 											<div class="content bg-grayLighter">
 												<ol class="numeric-list square-marker green-bullet large-bullet" id="statwatch-regional">
-													<li><a href="pdf/pr/CARGRDPjul05.pdf">Economy of Cordillera Grows by 4.1% in 2004 <br>14 July 2005</a></li>
+													<li><a href="/pdf/pr/CARGRDPjul05.pdf">Economy of Cordillera Grows by 4.1% in 2004 <br>14 July 2005</a></li>
 												</ol>
 											</div>
 										</div>
 									</div><!-- CY 2005 -->
-
 								</div>
-					<!-- <div class="cell colspan4 padding10">
-							<div class="accordion" data-role="accordion">
-							    <div class="frame">
-							        <div class="heading">Stat Watch Baguio</div>
-							        <div class="content bg-grayLighter">
-							        <ol class="numeric-list square-marker green-bullet" id="statwatch-baguio">
-							        		
-							        	</ol>
-							        	<a href="statwatch.html">
-											<div class="bg-orange fg-white padding10">
-												<span>Back to top</span>
-											</div>
-										</a>
-							        </div>
-							    </div>
-							</div>
-						</div> -->
 					</div>
+					<hr class="thin bg-grayLighter">
 				</div>
 				<div class="cell padding10 no-padding-top colspan4" id="publications">
 					<script> 

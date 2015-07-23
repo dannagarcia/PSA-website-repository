@@ -25,11 +25,16 @@
 
 		<div class="row cells12 align-justify">
 			<div class="cell padding10 no-padding-top colspan8">
-				<a href="/news_and_releases/pressreleases.html"><div style="background-color:teal" class="fg-white"><h3 class="uppercase">PRESS RELEASE</h3></div></a>
+				<div id="pr-heading">
+					<script> 
+						$(function(){
+							$("#pr-heading").load("/includes/pr-heading.html"); 
+						});
+					</script> 
+				</div>
 
 				<ul class="breadcrumbs">
 				    <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-				    <li><a href="/index.html">News and Releases</a></li>
 				    <li><a href="/news_and_releases/pressreleases.html">Press Releases</a></li>
 				    <li><a href="#">Cordillera economy grows by 1 percent in 2012</a></li>
 				</ul>
