@@ -8645,6 +8645,7 @@ div.square-button.big-button {
   background-color: #ffffff;
   color: #999;
   padding: 1rem;
+  font-size:80%;
 }
 .breadcrumbs > li {
   display: inline-block;
