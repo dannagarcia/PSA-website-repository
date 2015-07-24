@@ -17314,3 +17314,21 @@ p [data-hint] {
 a:hover{
   text-decoration: underline;
 }
+
+#arcMonthTable tr td:nth-child(2),
+#arcMonthTable tr td:nth-child(3),
+#arcMonthTable tr td:nth-child(4),
+#arcMonthTable tr td:nth-child(5)
+{
+  text-align: center;
+}
+#arcAgencyTable tr td:nth-child(2),
+#arcAgencyTable tr td:nth-child(3),
+#arcAgencyTable tr td:nth-child(4)
+{
+  text-align: center;
+}
+#arcAgencyTable2 tr td
+{
+  text-align: center;
+}
