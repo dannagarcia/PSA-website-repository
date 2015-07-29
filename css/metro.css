@@ -17311,9 +17311,6 @@ p [data-hint] {
 }
 
 /* Custom CSS*/
-a:hover{
-  text-decoration: underline;
-}
 
 #arcMonthTable tr td:nth-child(2),
 #arcMonthTable tr td:nth-child(3),
