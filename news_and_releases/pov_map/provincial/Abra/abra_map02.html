@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poverty Mapping</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="/css/metro.css" rel="stylesheet">
+    <link href="/css/metro-icons.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
+    <script src="/js/jquery-2.1.3.min.js"></script>
+    <script src="/js/metro.js"></script>
+    <script src="/js/ga.js"></script>
+    <script src="/js/select2.min.js"></script>
+</head>
+<body class="text-secondary fg-gray">
+	<div class="margin10 no-margin-top grid condensed">
+	<!-- PSA LOGO -->
+			 <!-- end of navigation div -->
+			 <div id="header">
+				 <script> 
+					$(document).ready(function(){
+					  $("#header").load("/includes/header.html"); 
+					});
+				</script>
+			</div>
+			<!--.........content here ........-->
+			<div class="row cells12">
+				<!-- place content here -->
+				<div class="cell colspan9 padding10">
+					<div style="color:teal">
+						<h3 class="uppercase">Poverty Mapping</h3>
+						<h4 style="color:red;">Abra Province</h4>
+					</div>
+
+					<form>
+						<select id="survival" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+							<option disabled selected>Survival Indicators</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map01.html">Newborn w/ Birthweight < 2.5kgs</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map02.html">Malnourished Children 0-6 YO</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map03.htm">NUTRITION INDEX</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map04.htm">Infant Deaths</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map05.htm">Child Deaths</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map06.htm">Popn. to Health Workers Ratio</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map07.htm">HEALTH INDEX</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map08.htm">HH w/ No Access to Safe Water</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map14.htm">SURVIVAL INDEX</option>
+
+						</select>
+						<select id="enable" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+			                <option disabled selected>Enabling Indicators</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map09.htm">Family Violence Reported</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map10.htm">ENABLING INDEX</option>
+						</select>
+						<select id="security" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+			                <option disabled selected>Security Indicators</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map11.htm">Crime Against Person</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map12.htm">Crime Against Property</option>
+			                <option value="/news_and_releases/pov_map/provincial/Abra/abra_map13.htm">SECURITY INDEX</option>
+						</select>
+					</form>
+
+					<h3 class="align-center">Map 2. Malnourished Children 0-6 Years Old, Province of Abra: 2009 & 2011</h3>
+
+					<table class="table align-center">
+						<tr>
+							<td>CY 2009</td>
+							<td></td>
+							<td>CY 2011</td>
+						</tr>
+						<tr>
+							<td rowspan="2"><img src="\images\pov_map\provincial\Abra\02_malnourished_2009.png"></td>
+							<td><img src="\images\pov_map\provincial\Abra\direction.png"></td>
+							<td rowspan="2"><img src="\images\pov_map\provincial\Abra\02_malnourished_2011.png"></td>
+						</tr>
+						<tr>
+							<td><img src="\images\pov_map\provincial\Abra\legend.png"></td>
+						</tr>
+						<tr>
+							<td colspan="3">Note: Boundaries are not considered authoritative</td>
+						</tr>
+					</table>
+
+
+				</div>
+
+
+				<div class="cell colspan3 padding10">
+			      <div class="cell padding10 no-padding-top colspan4" id="stat-navigation">
+			        <script> 
+			          $(function(){
+			            $("#stat-navigation").load("/includes/PM/navigation.html"); 
+			          });
+			        </script> 
+			      </div>
+			    </div>
+					
+				</div>
+			</div>
+			<!-- end of content -->
+
+			<!-- footer -->
+			<div id="footer">
+				 <script> 
+					$(function(){
+					  $("#footer").load("/includes/footer.html"); 
+					});
+				</script>
+			</div>
+	</div> <!-- end of grid div -->	
+</body>
+</html>
