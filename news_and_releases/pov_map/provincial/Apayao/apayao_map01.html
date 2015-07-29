@@ -33,34 +33,15 @@
 						<h4 style="color:red;">Apayao Province</h4>
 					</div>
 
-					<form>
-						<select id="survival" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
-							<option disabled selected>Survival Indicators</option>
-			                <option value="/news_and_releases/pov_map/provincial/apayao/apayao_map01.html">Newborn w/ Birthweight < 2.5kgs</option>
-			                <option value="/news_and_releases/pov_map/provincial/apayao/apayao_map02.html">Malnourished Children 0-6 YO</option>
-			                <option value="/news_and_releases/pov_map/provincial/apayao/apayao_map03.html">NUTRITION INDEX</option>
-			                <option value="/news_and_releases/pov_map/provincial/apayao/apayao_map04.html">Infant Deaths</option>
-			                <option value="/news_and_releases/pov_map/provincial/apayao/apayao_map05.html">Child Deaths</option>
-			                <option value="/news_and_releases/pov_map/provincial/apayao/apayao_map06.html">Popn. to Health Workers Ratio</option>
-			                <option value="/news_and_releases/pov_map/provincial/apayao/apayao_map07.html">HEALTH INDEX</option>
-			                <option value="/news_and_releases/pov_map/provincial/apayao/apayao_map08.html">HH w/ No Access to Safe Water</option>
-			                <option value="/news_and_releases/pov_map/provincial/apayao/apayao_map09.html">SURVIVAL INDEX</option>
-
-						</select>
-						<select id="enable" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
-			                <option selected>Enabling Indicators</option>
-			                <option value="/news_and_releases/pov_map/provincial/apayao/apayao_map10.html">Family Violence Reported</option>
-			                <option value="/news_and_releases/pov_map/provincial/apayao/apayao_map11.html">ENABLING INDEX</option>
-						</select>
-						<select id="security" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
-			                <option selected>Security Indicators</option>
-			                <option value="/news_and_releases/pov_map/provincial/apayao/apayao_map12.html">Crime Against Person</option>
-			                <option value="/news_and_releases/pov_map/provincial/apayao/apayao_map13.html">SECURITY INDEX</option>
-						</select>
-					</form>
+					<div id="apayao">
+						 <script> 
+							$(document).ready(function(){
+							  $("#apayao").load("/includes/PM/apayao_drop.html"); 
+							});
+						</script>
+					</div>
 					
 					<div>
-						<p class="align-center"><a href="/news_and_releases/pov_map/provincial/apayao/apayao_map14.html">POVERTY INDEX MAP</a></p>
 
 						<h3 class="align-center">Map 1. Newborn with Birthweight Less Than 2.5 Kgs, Province of Apayao: 2007 & 2009</h3>
 
@@ -69,11 +50,11 @@
 								<h4>CY 2007</h4>
 								<img src="/images/pov_map/provincial/Apayao/01_newborn_2007.png">
 							</div>
-							<div class="cell colspan1" style="height: 100%">
-								<div>
+							<div class="cell colspan1">
+								<div id="direction">
 									<img src="/images/pov_map/provincial/Apayao/direction.png">
 								</div>
-								<div>
+								<div id="legend">
 									<img src="/images/pov_map/provincial/Apayao/legend.png">
 								</div>
 							</div>
