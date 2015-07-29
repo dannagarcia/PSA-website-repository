@@ -853,9 +853,6 @@ span {
 .bd-orange {
   border-color: #fa6800 !important;
 }
-.bd-bebe{
-  border-color: #BEBEBE !important;
-}
 .bd-amber {
   border-color: #f0a30a !important;
 }
@@ -4269,6 +4266,7 @@ a.tag {
     margin: .3125rem 0;
   }
 }
+
 .grid.condensed {
   display: block;
   position: relative;
@@ -4798,6 +4796,16 @@ a.tag {
     width: 100%;
   }
 }
+@media only screen and (max-width: 768px) {
+  .grid.condensed:not(.no-responsive-future) .row {
+    margin: 0;
+  }
+  .grid.condensed:not(.no-responsive-future) .row > .cell,
+  .grid.condensed:not(.no-responsive-future) .row > .cell[class*=colspan] {
+    width: 100%;
+    margin: .3125rem 0;
+  }
+}
 @media only screen and (max-width: 650px) {
   .grid.condensed:not(.no-responsive-future) .row {
     margin: 0;
@@ -4808,6 +4816,7 @@ a.tag {
     margin: .3125rem 0;
   }
 }
+
 .flex-grid {
   display: block;
   width: 100%;
