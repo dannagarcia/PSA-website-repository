@@ -2901,7 +2901,7 @@ span {
 .transparent-border {
   border-color: transparent !important;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   .no-phone {
     display: none !important;
   }
@@ -3333,7 +3333,7 @@ html {
     font-size: 100%;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   html {
     font-size: 90%;
   }
@@ -3688,7 +3688,7 @@ a.tag {
     padding: 10px;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   .container:not(.no-responsive-future) {
     width: 100%;
     padding: 10px;
@@ -4256,7 +4256,7 @@ a.tag {
     width: 100%;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 650px) {
   .grid:not(.no-responsive-future) .row {
     margin: 0;
   }
@@ -4266,6 +4266,7 @@ a.tag {
     margin: .3125rem 0;
   }
 }
+
 .grid.condensed {
   display: block;
   position: relative;
@@ -4795,7 +4796,7 @@ a.tag {
     width: 100%;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   .grid.condensed:not(.no-responsive-future) .row {
     margin: 0;
   }
@@ -4805,6 +4806,17 @@ a.tag {
     margin: .3125rem 0;
   }
 }
+@media only screen and (max-width: 650px) {
+  .grid.condensed:not(.no-responsive-future) .row {
+    margin: 0;
+  }
+  .grid.condensed:not(.no-responsive-future) .row > .cell,
+  .grid.condensed:not(.no-responsive-future) .row > .cell[class*=colspan] {
+    width: 100%;
+    margin: .3125rem 0;
+  }
+}
+
 .flex-grid {
   display: block;
   width: 100%;
@@ -5023,7 +5035,7 @@ a.tag {
             flex-basis: 100%;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 650px) {
   .flex-grid:not(.no-responsive-future) .row {
     -webkit-flex-direction: column;
             flex-direction: column;
@@ -12535,7 +12547,7 @@ input[type="submit"].link:active {
   margin: 0;
   padding: 0;
   list-style: none inside;
-  border-bottom: 2px #1ba1e2 solid;
+  border-bottom: 2px teal solid;
   white-space: nowrap;
   overflow: visible;
 }
@@ -12568,7 +12580,7 @@ input[type="submit"].link:active {
   background-color: #eeeeee;
 }
 .tabcontrol .tabs li.active a {
-  background-color: #1ba1e2;
+  background-color: teal;
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
@@ -14975,7 +14987,7 @@ input[type="submit"].link:active {
 .tile-area-scheme-grayed [class*=tile] {
   outline-color: #727272;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   .tile-area:not(.no-responsive-future) {
     width: 100% ;
     padding: 0;
@@ -14992,7 +15004,7 @@ input[type="submit"].link:active {
     display: none;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   .tile-container:not(.no-responsive-future) {
     width: 100% ;
   }
@@ -17335,5 +17347,19 @@ p [data-hint] {
 @media only screen and (max-width: 650px) {
   #icons{
    text-align: center;
+  }
+}
+#direction {
+  margin-top:100px;
+  height: 150px;
+  display: block
+}
+
+@media only screen and (max-width: 768px) {
+  #legend,
+  #direction {
+     height: 100%;
+     padding: 20px;
+     display: inline-block;
   }
 }

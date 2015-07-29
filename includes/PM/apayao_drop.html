@@ -1,0 +1,45 @@
+<div class="align-center">
+					<form>
+						<select id="survival" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+							<option disabled selected>Survival Indicators</option>
+			                <option value="/news_and_releases/pov_map/provincial/Apayao/apayao_map01.html">Newborn w/ Birthweight < 2.5kgs</option>
+			                <option value="/news_and_releases/pov_map/provincial/Apayao/apayao_map02.html">Malnourished Children 0-6 YO</option>
+			                <option value="/news_and_releases/pov_map/provincial/Apayao/apayao_map03.html">NUTRITION INDEX</option>
+			                <option value="/news_and_releases/pov_map/provincial/Apayao/apayao_map04.html">Infant Deaths</option>
+			                <option value="/news_and_releases/pov_map/provincial/Apayao/apayao_map05.html">Child Deaths</option>
+			                <option value="/news_and_releases/pov_map/provincial/Apayao/apayao_map06.html">Popn. to Health Workers Ratio</option>
+			                <option value="/news_and_releases/pov_map/provincial/Apayao/apayao_map07.html">HEALTH INDEX</option>
+			                <option value="/news_and_releases/pov_map/provincial/Apayao/apayao_map08.html">HH w/ No Access to Safe Water</option>
+			                <option value="/news_and_releases/pov_map/provincial/Apayao/apayao_map14.html">SURVIVAL INDEX</option>
+
+						</select>
+						<select id="enable" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+			                <option disabled selected>Enabling Indicators</option>
+			                <option value="/news_and_releases/pov_map/provincial/Apayao/apayao_map09.html">Family Violence Reported</option>
+			                <option value="/news_and_releases/pov_map/provincial/Apayao/apayao_map10.html">ENABLING INDEX</option>
+						</select>
+						<select id="security" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+			                <option disabled selected>Security Indicators</option>
+			                <option value="/news_and_releases/pov_map/provincial/Apayao/apayao_map11.html">Crime Against Person</option>
+			                <option value="/news_and_releases/pov_map/provincial/Apayao/apayao_map13.html">SECURITY INDEX</option>
+						</select>
+					</form>
+
+					<p class="align-center"><a href="/news_and_releases/pov_map/provincial/Apayao/apayao_map14.htm">POVERTY INDEX MAP</a></p>
+</div>
+
+				<script>
+					    $(function(){
+					       $("#survival").select2();
+					    });
+				</script>
+				<script>
+					    $(function(){
+					       $("#enable").select2();
+					    });
+				</script>
+				<script>  
+					    $(function(){
+					       $("#security").select2();
+					    });
+				</script>
