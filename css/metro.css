@@ -17352,3 +17352,17 @@ a:hover{
    text-align: center;
   }
 }
+#direction {
+  margin-top:100px;
+  height: 150px;
+  display: block
+}
+
+@media only screen and (max-width: 768px) {
+  #legend,
+  #direction {
+     height: 100%;
+     padding: 20px;
+     display: inline-block;
+  }
+}
