@@ -1,277 +1,277 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link href="/css/metro.css" rel="stylesheet">
-	<link href="/css/metro-icons.css" rel="stylesheet">
-	<link href="/css/custom.css" rel="stylesheet">
-	<script src="/js/jquery-2.1.3.min.js"></script>
-	<script src="/js/metro.js"></script>
-	<script src="/js/ga.js"></script>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="/css/metro.css" rel="stylesheet">
+  <link href="/css/metro-icons.css" rel="stylesheet">
+  <link href="/css/custom.css" rel="stylesheet">
+  <script src="/js/jquery-2.1.3.min.js"></script>
+  <script src="/js/metro.js"></script>
+  <script src="/js/ga.js"></script>
 </head>
 <body class="text-secondary fg-gray">
 
-	<div class="margin10 no-margin-top grid condensed">  <!-- grid -->
-		<div id="header">
-			<script> 
-				$(function(){
-					$("#header").load("/includes/header.html"); 
-				});
-			</script> 
-		</div>
+  <div class="margin10 no-margin-top grid condensed">  <!-- grid -->
+    <div id="header">
+      <script> 
+        $(function(){
+          $("#header").load("/includes/header.html"); 
+        });
+      </script> 
+    </div>
 
-		<div class="row cells12"> <!-- row -->
-			<div class="cell colspan8 padding10 no-padding-top">  <!-- cell number 1  -->
-				<div class="bg-teal fg-white"><h3 class="uppercase">statrivia</h3></div>
-				<p>CY 2007 ISSUES:</p>
+    <div class="row cells12"> <!-- row -->
+      <div class="cell colspan8 padding10 no-padding-top">  <!-- cell number 1  -->
+        <div class="bg-teal fg-white"><h3 class="uppercase">statrivia</h3></div>
+        <p>CY 2007 ISSUES:</p>
 
-				<ol class="numeric-list square-marker large-bullet green-bullet" >
-					<li><button class="button" onclick="showDialog('#january')">Pupils in Cordillera</button></li>
-					<li><button class="button" onclick="showDialog('#march')">Domestic Travelers</button>	</li>
-					<li><button class="button" onclick="showDialog('#may')">Passenger Traffic at Loakan Airport</button>	</li>
-					<li><button class="button" onclick="showDialog('#july')">Prices increase in CAR</button>	</li>
-					<li><button class="button" onclick="showDialog('#september')">Domestic Visitors</button>	</li>
-					<li><button class="button" onclick="showDialog('#november')">Teenage Mom</button>	</li>
-				</ol>
-				<p>Page last updated: March 31, 2008</p>
-			</div> <!-- cell number 1  -->
-			<div class="cell colspan4 padding10 no-padding-top" id="publications">
-				<script> 
-					$(function(){
-						$("#publications").load("/includes/publications.html"); 
-					});
-				</script> 
-			</div>
+        <ol class="numeric-list square-marker large-bullet green-bullet" >
+          <li><button class="button" onclick="showDialog('#january')">Pupils in Cordillera</button></li>
+          <li><button class="button" onclick="showDialog('#march')">Domestic Travelers</button> </li>
+          <li><button class="button" onclick="showDialog('#may')">Passenger Traffic at Loakan Airport</button>  </li>
+          <li><button class="button" onclick="showDialog('#july')">Prices increase in CAR</button>  </li>
+          <li><button class="button" onclick="showDialog('#september')">Domestic Visitors</button>  </li>
+          <li><button class="button" onclick="showDialog('#november')">Teenage Mom</button> </li>
+        </ol>
+        <p>Page last updated: March 31, 2008</p>
+      </div> <!-- cell number 1  -->
+      <div class="cell colspan4 padding10 no-padding-top" id="publications">
+        <script> 
+          $(function(){
+            $("#publications").load("/includes/publications.html"); 
+          });
+        </script> 
+      </div>
 
-		</div> <!-- row -->
-		<div class="row" id="footer">
-			<script> 
-				$(function(){
-					$("#footer").load("/includes/footer.html"); 
-				});
-			</script>  <!-- footer -->
-		</div><!-- footer -->
-	</div> <!-- grid -->
+    </div> <!-- row -->
+    <div class="row" id="footer">
+      <script> 
+        $(function(){
+          $("#footer").load("/includes/footer.html"); 
+        });
+      </script>  <!-- footer -->
+    </div><!-- footer -->
+  </div> <!-- grid -->
 </body>
 </html>
 
 
 <script>
-	function showDialog(id){
-		var dialog = $(id).data('dialog');
-		dialog.open();
-	}
+  function showDialog(id){
+    var dialog = $(id).data('dialog');
+    dialog.open();
+  }
 </script>
 
 <!-- //////////////////////////////////////////////////////////////////////////// -->
 
 <!-- 1. divs to be called using the above script (showDialog)
-	2. divs can be located anywhere -->
+  2. divs can be located anywhere -->
 
-	<!-- november issues -->
-	<div data-role="dialog" id="november" data-close-button="true" class="padding20" data-height="auto" data-width="50%">
-		<div class="bg-lighterBlue padding10 fg-white"><h3>3.8% of Cordilleran women from ages 15-19 years old have already given birth</h3></div>
-		<p>
-			<strong>November 2007 Issue</strong>
-		</p>	
-			<hr class="thin bg-grayLight">
-			<p>The 2006 Family Planning and Maternal and Child Health Survey of the National Statistics Office reveals that 3.8 percent or nearly 4 out of every 100 women in the Cordillera as young as 15-19 years old are teenage mothers. At the national level, an estimated 6.8 percent of women below 20 years old have already begun childbearing.</p>
+  <!-- november issues -->
+  <div data-role="dialog" id="november" data-close-button="true" class="padding20" data-height="auto" data-width="50%">
+    <div class="bg-lighterBlue padding10 fg-white"><h3>3.8% of Cordilleran women from ages 15-19 years old have already given birth</h3></div>
+    <p>
+      <strong>November 2007 Issue</strong>
+    </p>  
+      <hr class="thin bg-grayLight">
+      <p>The 2006 Family Planning and Maternal and Child Health Survey of the National Statistics Office reveals that 3.8 percent or nearly 4 out of every 100 women in the Cordillera as young as 15-19 years old are teenage mothers. At the national level, an estimated 6.8 percent of women below 20 years old have already begun childbearing.</p>
 
-			<table class="table align-center border bordered">
-				<tr>
-					<th>Area</th>
-					<th>Percent</th>
-				</tr>
-				<tr>
-					<td>Philippines</td>
-					<td>6.8</td>
-				</tr>
-				<tr>
-					<td>Cordillera</td>
-					<td>3.8</td>
-				</tr>						
-			</table>
-			<p>Source: National Statistics Office</p>
-		</div> <!-- november issues -->
+      <table class="table align-center border bordered">
+        <tr>
+          <th>Area</th>
+          <th>Percent</th>
+        </tr>
+        <tr>
+          <td>Philippines</td>
+          <td>6.8</td>
+        </tr>
+        <tr>
+          <td>Cordillera</td>
+          <td>3.8</td>
+        </tr>           
+      </table>
+      <p>Source: National Statistics Office</p>
+    </div> <!-- november issues -->
 
-		<!-- september issues -->
-		<div data-role="dialog" id="september" 
-		data-close-button="true" class="padding20" 
-		data-height="auto" data-width="50%">
-		<div class="bg-yellow padding10 fg-white"><h3>9 out of 10 tourists in CAR are domestic visitors</h3></div>
-		<p>
-			<strong>September 2007 Issue</strong></p>
-			<hr class="thin bg-grayLight">
-			<p>The Cordillera Administrative Region (CAR) welcomed 992,918 visitors in 2006. Most of the tourists or 92.3 percent were local and balikbayan (overseas) visitors. Foreign visitors from Asia, America and Europe  comprised only 7.7 percent of the total. </p>
+    <!-- september issues -->
+    <div data-role="dialog" id="september" 
+    data-close-button="true" class="padding20" 
+    data-height="auto" data-width="50%">
+    <div class="bg-yellow padding10 fg-white"><h3>9 out of 10 tourists in CAR are domestic visitors</h3></div>
+    <p>
+      <strong>September 2007 Issue</strong></p>
+      <hr class="thin bg-grayLight">
+      <p>The Cordillera Administrative Region (CAR) welcomed 992,918 visitors in 2006. Most of the tourists or 92.3 percent were local and balikbayan (overseas) visitors. Foreign visitors from Asia, America and Europe  comprised only 7.7 percent of the total. </p>
 
-			<table class="table align-center border bordered">
-				<tr>
-					<th>Type of Visitor</th>
-					<th>Level</th>
-					<th>Percent</th>
-				</tr>
-				<tr>
-					<td>Domestic</td>
-					<td>902,917</td>
-					<td>90.9</td>
-				</tr>
-				<tr>
-					<td>Foreign</td>
-					<td>76,810</td>
-					<td>7.7</td>
-				</tr>
-				<tr>
-					<td>Overseas</td>
-					<td>13,191</td>
-					<td>1.3</td>
-				</tr>
+      <table class="table align-center border bordered">
+        <tr>
+          <th>Type of Visitor</th>
+          <th>Level</th>
+          <th>Percent</th>
+        </tr>
+        <tr>
+          <td>Domestic</td>
+          <td>902,917</td>
+          <td>90.9</td>
+        </tr>
+        <tr>
+          <td>Foreign</td>
+          <td>76,810</td>
+          <td>7.7</td>
+        </tr>
+        <tr>
+          <td>Overseas</td>
+          <td>13,191</td>
+          <td>1.3</td>
+        </tr>
 
-				<tr>
-					<td>TOTAL</td>
-					<td>992,918</td>
-					<td>100.0</td>
-				</tr>
-				<tr>
-					<td colspan="3">Source: DOT-CAR</td>
-				</tr>								
+        <tr>
+          <td>TOTAL</td>
+          <td>992,918</td>
+          <td>100.0</td>
+        </tr>
+        <tr>
+          <td colspan="3">Source: DOT-CAR</td>
+        </tr>               
 
-			</table>
-		</div><!-- september issues -->
+      </table>
+    </div><!-- september issues -->
 
-		<!-- july issues -->
-		<div data-role="dialog" id="july" 
-		data-close-button="true" class="padding20" 
-		data-height="auto" data-width="50%">
-		<div class="bg-crimson padding10 fg-white"><h3>Prices in CAR have increased more than four times since 1985</h3></div>
-		<p>
-			<strong>July 2007 Issue</strong></p>
-			<hr class="thin bg-grayLight">
-			<p>The Cordillera Administrative Region (CAR) posted an Implicit Price Index (IPIN) of 454.9 in 2006. This implies that the prices of goods and services produced in CAR in 2006 were more than five times the prices in 1985.</p>
+    <!-- july issues -->
+    <div data-role="dialog" id="july" 
+    data-close-button="true" class="padding20" 
+    data-height="auto" data-width="50%">
+    <div class="bg-crimson padding10 fg-white"><h3>Prices in CAR have increased more than four times since 1985</h3></div>
+    <p>
+      <strong>July 2007 Issue</strong></p>
+      <hr class="thin bg-grayLight">
+      <p>The Cordillera Administrative Region (CAR) posted an Implicit Price Index (IPIN) of 454.9 in 2006. This implies that the prices of goods and services produced in CAR in 2006 were more than five times the prices in 1985.</p>
 
-			<table class="table align-center border bordered">
-				<tr>
-					<th>Sector</th>
-					<th>Level</th>
-				</tr>
-				<tr>
-					<td>AFF</td>
-					<td>338.5</td>
-				</tr>
-				<tr>
-					<td>Industry</td>
-					<td>431.4</td>
-				</tr>
-				<tr>
-					<td>Services</td>
-					<td>575.8</td>
-				</tr>
+      <table class="table align-center border bordered">
+        <tr>
+          <th>Sector</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>AFF</td>
+          <td>338.5</td>
+        </tr>
+        <tr>
+          <td>Industry</td>
+          <td>431.4</td>
+        </tr>
+        <tr>
+          <td>Services</td>
+          <td>575.8</td>
+        </tr>
 
-				<tr>
-					<td>TOTAL</td>
-					<td>454.9</td>
-				</tr>
-				<tr>
-					<td colspan="2">Source: NSCB</td>
-				</tr>								
+        <tr>
+          <td>TOTAL</td>
+          <td>454.9</td>
+        </tr>
+        <tr>
+          <td colspan="2">Source: NSCB</td>
+        </tr>               
 
-			</table>
-		</div><!-- july issues -->
-
-
-		<!-- may issues  -->
-		<div data-role="dialog" id="may" 
-		data-close-button="true" class="padding20" 
-		data-height="auto" data-width="50%">
-		<div class="bg-darkViolet padding10 fg-white"><h3>Passenger traffic at Loakan Airport dropped by 60% in the last decade</h3></div>
-		<p>
-			<strong>May 2007 Issue</strong>
-		</p>
-			<hr class="thin bg-grayLight">
-			<img src="/images/pub_st_passtraffic.gif">
-
-			<p>Source: Air Transportation Office</p>
-
-			<p>Data from the Air Transportation Office reveal that passenger traffic at the Loakan Airport, Baguio City has been on the decline for the past 10 years. Total passenger traffic of 47,325 in 1997 dropped to 18,433 in 2006 or a decline of 61 percent.</p>
-		</div>
-		<!-- may issues  -->
-
-		<!-- march issues -->
-		<div data-role="dialog" id="march" 
-		data-close-button="true" class="padding20" 
-		data-height="auto" data-width="50%">
-		<div class="bg-cobalt padding10 fg-white"><h3>9 out every 10 visitors in CAR were domestic travelers</h3></div>
-		<p>
-			<strong>March 2007 issue</strong>
-		</p>
-			<hr class="thin bg-grayLight">
-			<table class="table align-center border bordered">
-				<tr>
-					<th>Type of Visitors</th>
-					<th>Number</th>
-				</tr>
-				<tr>
-					<td>Domestic</td>
-					<td>902,917</td>
-				</tr>
-				<tr>
-					<td>Foreign</td>
-					<td>76,810</td>
-				</tr>
-				<tr>
-					<td>Balikbayan</td>
-					<td>13,191</td>
-				</tr>
-				<tr>
-					<td>TOTAL</td>
-					<td>992,918</td>
-				</tr>
-				<tr>
-					<td colspan="2">Source: Department of Tourism</td>
-				</tr>
-			</table>
-			<p>A total of 992,918 visitors arrived in the Cordillera Administrative Region (CAR) in 2006. Ninety one percent or 902,917 visitors were domestic travelers. Foreigners and balikbayan comprised only 7.7 and 1.3 percent, respectively.</p>
-		</div><!-- march issues -->
+      </table>
+    </div><!-- july issues -->
 
 
+    <!-- may issues  -->
+    <div data-role="dialog" id="may" 
+    data-close-button="true" class="padding20" 
+    data-height="auto" data-width="50%">
+    <div class="bg-darkViolet padding10 fg-white"><h3>Passenger traffic at Loakan Airport dropped by 60% in the last decade</h3></div>
+    <p>
+      <strong>May 2007 Issue</strong>
+    </p>
+      <hr class="thin bg-grayLight">
+      <img src="/images/pub_st_passtraffic.gif">
 
-		<!-- january issues  -->
-		<div data-role="dialog" id="january" 
-		data-close-button="true" class="padding10" 
-		data-height="auto" data-width="50%">
-		<div class="bg-orange padding10 fg-white"><h3>4 out of every 10 pupils in the Cordilleras are from the Baguio-Benguet area</h3></div>
-		<p>
-			<strong>January 2007 Issue</strong>
-		</p>
-		<hr class="thin bg-grayLight">
-		<table class="table align-center border bordered">
-			<tr>
-				<th>AREA</th> 
-				<th>TOTAL</th>
-			</tr>
-			<tr>
-				<td>CAR</td>
-				<td>210,520</td>
-			</tr>
-			<tr>
-				<td>Apayao</td>
-				<td>17,762</td>
-			</tr>
-			<tr>
-				<td>Benguet</td>
-				<td>48,917</td>
-			</tr>
-			<tr>
-				<td>Baguio</td>
-				<td>29,708</td>
-			</tr>
-			<tr>
-				<td colspan="2"> Department of Education</td>
-			</tr>
-		</table>
-		<p>Source of Basic Data: Department of Education - CAR</p>
+      <p>Source: Air Transportation Office</p>
 
-					</div> 
-	<!-- january issues -->
+      <p>Data from the Air Transportation Office reveal that passenger traffic at the Loakan Airport, Baguio City has been on the decline for the past 10 years. Total passenger traffic of 47,325 in 1997 dropped to 18,433 in 2006 or a decline of 61 percent.</p>
+    </div>
+    <!-- may issues  -->
+
+    <!-- march issues -->
+    <div data-role="dialog" id="march" 
+    data-close-button="true" class="padding20" 
+    data-height="auto" data-width="50%">
+    <div class="bg-cobalt padding10 fg-white"><h3>9 out every 10 visitors in CAR were domestic travelers</h3></div>
+    <p>
+      <strong>March 2007 issue</strong>
+    </p>
+      <hr class="thin bg-grayLight">
+      <table class="table align-center border bordered">
+        <tr>
+          <th>Type of Visitors</th>
+          <th>Number</th>
+        </tr>
+        <tr>
+          <td>Domestic</td>
+          <td>902,917</td>
+        </tr>
+        <tr>
+          <td>Foreign</td>
+          <td>76,810</td>
+        </tr>
+        <tr>
+          <td>Balikbayan</td>
+          <td>13,191</td>
+        </tr>
+        <tr>
+          <td>TOTAL</td>
+          <td>992,918</td>
+        </tr>
+        <tr>
+          <td colspan="2">Source: Department of Tourism</td>
+        </tr>
+      </table>
+      <p>A total of 992,918 visitors arrived in the Cordillera Administrative Region (CAR) in 2006. Ninety one percent or 902,917 visitors were domestic travelers. Foreigners and balikbayan comprised only 7.7 and 1.3 percent, respectively.</p>
+    </div><!-- march issues -->
+
+
+
+    <!-- january issues  -->
+    <div data-role="dialog" id="january" 
+    data-close-button="true" class="padding10" 
+    data-height="auto" data-width="50%">
+    <div class="bg-orange padding10 fg-white"><h3>4 out of every 10 pupils in the Cordilleras are from the Baguio-Benguet area</h3></div>
+    <p>
+      <strong>January 2007 Issue</strong>
+    </p>
+    <hr class="thin bg-grayLight">
+    <table class="table align-center border bordered">
+      <tr>
+        <th>AREA</th> 
+        <th>TOTAL</th>
+      </tr>
+      <tr>
+        <td>CAR</td>
+        <td>210,520</td>
+      </tr>
+      <tr>
+        <td>Apayao</td>
+        <td>17,762</td>
+      </tr>
+      <tr>
+        <td>Benguet</td>
+        <td>48,917</td>
+      </tr>
+      <tr>
+        <td>Baguio</td>
+        <td>29,708</td>
+      </tr>
+      <tr>
+        <td colspan="2"> Department of Education</td>
+      </tr>
+    </table>
+    <p>Source of Basic Data: Department of Education - CAR</p>
+
+          </div> 
+  <!-- january issues -->
