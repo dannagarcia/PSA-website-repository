@@ -853,6 +853,9 @@ span {
 .bd-orange {
   border-color: #fa6800 !important;
 }
+.bd-bebe{
+  border-color: #BEBEBE !important;
+}
 .bd-amber {
   border-color: #f0a30a !important;
 }
@@ -2901,7 +2904,7 @@ span {
 .transparent-border {
   border-color: transparent !important;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   .no-phone {
     display: none !important;
   }
@@ -3333,7 +3336,7 @@ html {
     font-size: 100%;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   html {
     font-size: 90%;
   }
@@ -3688,7 +3691,7 @@ a.tag {
     padding: 10px;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   .container:not(.no-responsive-future) {
     width: 100%;
     padding: 10px;
@@ -4256,7 +4259,7 @@ a.tag {
     width: 100%;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 650px) {
   .grid:not(.no-responsive-future) .row {
     margin: 0;
   }
@@ -4795,7 +4798,7 @@ a.tag {
     width: 100%;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 650px) {
   .grid.condensed:not(.no-responsive-future) .row {
     margin: 0;
   }
@@ -5023,7 +5026,7 @@ a.tag {
             flex-basis: 100%;
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 650px) {
   .flex-grid:not(.no-responsive-future) .row {
     -webkit-flex-direction: column;
             flex-direction: column;
@@ -14975,7 +14978,7 @@ input[type="submit"].link:active {
 .tile-area-scheme-grayed [class*=tile] {
   outline-color: #727272;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   .tile-area:not(.no-responsive-future) {
     width: 100% ;
     padding: 0;
@@ -14992,7 +14995,7 @@ input[type="submit"].link:active {
     display: none;
   }
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   .tile-container:not(.no-responsive-future) {
     width: 100% ;
   }
