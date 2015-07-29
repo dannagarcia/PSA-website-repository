@@ -12547,7 +12547,7 @@ input[type="submit"].link:active {
   margin: 0;
   padding: 0;
   list-style: none inside;
-  border-bottom: 2px #1ba1e2 solid;
+  border-bottom: 2px teal solid;
   white-space: nowrap;
   overflow: visible;
 }
@@ -12580,7 +12580,7 @@ input[type="submit"].link:active {
   background-color: #eeeeee;
 }
 .tabcontrol .tabs li.active a {
-  background-color: #1ba1e2;
+  background-color: teal;
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
