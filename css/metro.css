@@ -5035,12 +5035,7 @@ a.tag {
             flex-basis: 100%;
   }
 }
-@media only screen and (max-width: 650px) {
-  .flex-grid:not(.no-responsive-future) .row {
-    -webkit-flex-direction: column;
-            flex-direction: column;
-  }
-}
+
 .table {
   width: 100%;
   margin: .625rem 0;
@@ -5847,6 +5842,7 @@ a.tag {
   text-decoration: none;
   padding: .500rem 1.625rem; /*custom (orig: 1.125rem 1.625rem)*/
   border: none;
+  text-align: center;
 }
 .f-menu > li > a:hover {
   background-color: #59cde2;
@@ -5876,12 +5872,12 @@ a.tag {
   .f-menu > li > a {
     text-align: center;
     padding: .625rem 1.625rem;
-    font-size: 1.1vw;
+    font-size: 100%;
+    
   }
   .f-menu > li .d-menu {
-    max-width: 200px;
-    min-width: 150px;
-    width: auto;
+
+    width: 100%;
   }
   .f-menu > li #nav1 {
     max-width: 500px;
@@ -5907,12 +5903,7 @@ a.tag {
     height: 40px;
   }
 }
-@media only screen and (max-width: 739px) {
-  .f-menu {
-    height: 55px;
-  }
-}
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 0px) {
   .f-menu {
     height: 200px; /*custom*/
     -webkit-flex-direction: column;
@@ -6315,7 +6306,7 @@ a.tag {
   border-collapse: separate;
   text-align: left;
   display: block;
-  height: auto ;
+  height: 40px;
   position: relative;
   background-color: #ffffff;
   color: #1d1d1d;
@@ -6365,7 +6356,7 @@ a.tag {
   font-size: .875rem;
   outline: none;
   text-decoration: none;
-  padding: 1rem 1.625rem;
+  padding: .610rem 1.625rem;
   border: none;
 }
 .m-menu > li > a:hover,
@@ -17344,8 +17335,9 @@ p [data-hint] {
 #icons{
   text-align: right;
 }
-@media only screen and (max-width: 650px) {
-  #icons{
+@media only screen and (max-width: 768px) {
+  #icons,
+  #banner{
    text-align: center;
   }
 }
@@ -17361,5 +17353,45 @@ p [data-hint] {
      height: 100%;
      padding: 20px;
      display: inline-block;
+  }
+}
+
+#navList1{
+  width: 24%;
+}
+#navList2{
+  width: 15%;
+}
+#navList3{
+  width: 26%;
+}
+#navList4{
+  width: 19%;
+}
+#navList5{
+  width: 18%;
+}
+
+@media only screen and (max-width: 650px) {
+  #navList1,
+  #navList2,
+  #navList3,
+  #navList4,
+  #navList5{
+     width:100%;
+  }
+}
+#navigation{
+  display: block;
+}
+#navigation2{
+  display: none;
+}
+@media only screen and (max-width: 1000px){
+  #navigation{
+    display: none;
+  }
+  #navigation2{
+    display: block;
   }
 }
