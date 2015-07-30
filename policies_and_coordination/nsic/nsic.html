@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="/css/metro.css" rel="stylesheet">
+	<link href="/css/metro-icons.css" rel="stylesheet">
+	<link href="/css/custom.css" rel="stylesheet">
+	<script src="/js/jquery-2.1.3.min.js"></script>
+	<script src="/js/metro.js"></script>
+	<script src="/js/ga.js"></script>
+</head>
+<body class="text-secondary fg-gray">
+
+	<div class="margin10 no-margin-top grid condensed">
+		<div id="header">
+			<script> 
+				$(function(){
+					$("#header").load("/includes/header.html"); 
+				});
+			</script> 
+		</div>
+
+		<div class="row cells12 align-justify">
+			<div class="cell colspan8 padding10 no-padding-top">
+				<div style="color:teal"><h3 class="text-light">National Statistical Information Center (NSIC)</h3></div>
+
+				<ul class="breadcrumbs">
+					<li><a href="/index.html"><span class="icon mif-home"></span></a></li>
+					<li><a href="#">NATIONAL STATISTICAL INFORMATION CENTER (NSIC)</a></li>
+				</ul>
+				<hr class="thin bg-grayLighter">
+
+				<p>The <strong>National Statistical Information Center (NSIC)</strong> is your one-stop center of statistical information in the Philippines. The NSIC is a public service of the National Statistical Coordination Board (NSCB) under a collaborative arrangement with the different data-producing agencies in the Philippines. It was first established on October 22, 1993 through a project jointly implemented with Statistics Sweden and the Swedish International Development Agency (SIDA).</p>
+
+				<p>The NSIC aims to provide statistical data and information services to local executives, investors, businessmen, researchers, students, and government planners and decision makers.</p>
+
+				<p>The NSIC is being administered by the NSCB in cooperation with the National Statistics Office, Bureau of Agricultural Statistics, Bureau of Labor and Employment Statistics, National Economic and Development Authority, Bangko Sentral ng Pilipinas, and other government departments/agencies.</p>
+
+				<p><strong>The NSIC in the Cordilleras</strong></p>
+
+				<p>The NSIC in the Cordillera Administrative Region is one of the nine branches of the NSIC nationwide. The NSIC in CAR provides the same facilities and services available in the NSIC main office in Makati and in eight (8) strategic areas in the country, namely, San Fernando City (La Union), Calamba City, Legazpi City, Iloilo City, Tacloban City, Zamboanga City, Davao City and Cotabato City.</p>
+				<p>The establishment of the NSIC in the Cordilleras is aimed at propagating the use of statistics in regional and local development planning and program implementation among the different government agencies, local government units and private business in the region. The NSIC likewise aims to contribute to the sustained development of the region.</p>
+
+				<div class="tile-container align-left margin20">
+					<h5>Services Offered</h5>
+						<a onclick="showDialog('#stat-inquiry')">
+							<div class="bg-darkTeal tile tile-square" data-role="tile">
+								<div class="tile-content iconic">
+									<span class="icon mif-question fg-grayLighter"></span>
+									<span class="tile-label fg-white">Statistics Inquiry Services</span>
+								</div>
+							</div>
+						</a>
+						<a onclick="showDialog('#library-services')">
+							<div class="bg-darkTeal tile tile-square" data-role="tile">
+								<div class="tile-content iconic">
+									<span class="icon mif-library fg-grayLighter"></span>
+									<span class="tile-label fg-white">Library Services</span>
+								</div>
+							</div>
+						</a>
+						<a onclick="showDialog('#bookshoppe')">
+							<div class="bg-darkTeal tile tile-square" data-role="tile">
+								<div class="tile-content iconic">
+									<span class="icon mif-books fg-grayLighter"></span>
+									<span class="tile-label fg-white">Bookshoppe</span>
+								</div>
+							</div>
+						</a>
+						<a onclick="showDialog('#tech-services')">
+							<div class="bg-darkTeal tile tile-square" data-role="tile">
+								<div class="tile-content iconic">
+									<span class="icon mif-cogs fg-grayLighter"></span>
+									<span class="tile-label fg-white">Technical Services</span>
+								</div>
+							</div>
+						</a>
+						<a onclick="showDialog('#stat-database')">
+							<div class="bg-darkTeal tile tile-square" data-role="tile">
+								<div class="tile-content iconic">
+									<span class="icon mif-database fg-grayLighter"></span>
+									<span class="tile-label fg-white">Statistical Database</span>
+								</div>
+							</div>
+						</a>
+					</div>
+
+				<hr class="thin bg-grayLighter">
+				<p>Page last updated: August 3, 2005</p>
+			</div>
+
+			<div class="cell padding10 colspan4"  id="nsic">
+				<script> 
+					$(function(){
+						$("#nsic").load("/includes/nsic-navigation.html"); 
+					});
+				</script> 
+			</div>
+		</div>
+
+		<div class="row" id="footer">
+			<script> 
+				$(function(){
+					$("#footer").load("/includes/footer.html"); 
+				});
+			</script> 
+		</div>
+	</div>
+
+</body>
+</html>
+
+<script>
+	function showDialog(id){
+		var dialog = $(id).data('dialog');
+		dialog.open();
+	}
+</script>
+
+<!-- Statistics Inquiry Services -->
+<div data-role="dialog" data-overlay="true" data-overlay-color="op-dark" id="stat-inquiry" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-darkTeal padding10 fg-white">
+		<h3>Statistics Inquiry Services</h3>
+	</div>
+
+	<img class="place-right margin10" src="/images/nsic_inquiry.gif">
+	<p>The NSIC provides basic information on what, where and when statistical data are available and in what form and how data can be accessed</p>
+
+	<p>If you want us to compile your specific information needs, send us a note with a list of your data requirements 
+	specifying the period covered by the data, the medium preferred (in print or computer readable form), and the mode of delivery (fax, mail or e-mail). An invoice will be 
+	sent to you based on the extent of the service required of us.</p>
+	<hr class="thin bg-grayLighter">
+</div><!-- Statistics Inquiry Services -->
+
+<!-- Library Services -->
+<div data-role="dialog" data-overlay="true" data-overlay-color="op-dark" id="library-services" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-darkTeal padding10 fg-white">
+		<h3>Library Services</h3>
+	</div>
+
+	<img class="place-left margin10" src="/images/nsic_library.gif">
+	<p>The NSIC Library contains a wide collection of local and international statistical publications and reference materials on various concerns; provides updates on major social and economic indicators; and offers a publications exchange program. Walk-in customers are free to use the library from 8:00 a.m. to 5:00 p.m. with no noon break, Mondays to Fridays.</p>
+	<hr class="thin bg-grayLighter">
+</div><!-- Library Services -->
+
+<!-- Bookshoppe -->
+<div data-role="dialog" data-overlay="true" data-overlay-color="op-dark" id="bookshoppe" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-darkTeal padding10 fg-white">
+		<h3>Bookshoppe</h3>
+	</div>
+	<img class="place-right margin10" src="/images/nsic_bookshop.gif">
+	<p>The NSIC serves as the marketing arm of the major statistical agencies in the Philippines for their publications. It also provides a catalogue of statistical publications available in the Philippines for sale.</p>
+	<hr class="thin bg-grayLighter">
+</div><!-- Bookshoppe -->
+
+<!-- Technical Services -->
+<div data-role="dialog" data-overlay="true" data-overlay-color="op-dark" id="tech-services" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-darkTeal padding10 fg-white">
+		<h3>Technical Services</h3>
+	</div>
+	<p>The NSIC also offers assistance and consultancy services on data collection, presentation and analysis. The NSIC likewise conducts briefings on statistics utilization in business planning and other areas of application.</p>
+	<hr class="thin bg-grayLighter">
+</div><!-- Technical Services -->
+
+<!-- Statistical Databases -->
+<div data-role="dialog" data-overlay="true" data-overlay-color="op-dark" id="stat-database" 
+	data-close-button="true" class="padding20" 
+	data-height="auto" data-width="50%">
+	<div class="bg-darkTeal padding10 fg-white">
+		<h3>Statistical Databases</h3>
+	</div>
+	<p>Interested parties can now avail of statistical data from our wide range of databases through electronic media. You may now request data to be delivered in diskette, via e-mail, or downloaded from our website. You can also subscribe to our online interactive statistical database, the NSCB i-Stats.</p>
+	<hr class="thin bg-grayLighter">
+</div><!-- Statistical Databases -->
