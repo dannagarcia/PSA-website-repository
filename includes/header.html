@@ -121,8 +121,18 @@
 </div>
 
 
-
-
+	<div class="row" id="srch2">
+		<ul class="f-menu bg-darkCobalt">
+<li class="place-right no-hovered">
+		        <form>
+		            <div class="input-control text" style="margin-right: 10px;height:20px;">
+		                <input style="height:65%; border-radius: 25px;" type="text" placeholder="Search...">
+		                <button class="button " style="height:65%; border-radius: 25px;"><span class="mif-search mif-1x"></span></button>
+		            </div>
+		        </form>
+			</li>
+			</ul>
+			</div>
 
 
 
@@ -134,11 +144,12 @@
 		<ul class="f-menu bg-darkCobalt">
 			<li id="menu-icon">
 				<a href="#"><span class="mif-menu mif-lg fg-white"></span></a>
-				<ul class="d-menu" data-role="dropdown">
-				    <li id="navList1">
+				<ul class="d-menu" data-role="dropdown" id="menu">
+					<div class="panel">
+				    <li>
 				    	<a href="#" class="dropdown-toggle"><span>News and Releases</span></a>
-				    	<ul class="d-menu" data-role="dropdown">
-				    		<div class="panel">
+				    	<ul class="d-menu" data-role="dropdown" id="nav1b">
+				    		<div class="panel" id="nar1">
 					    		<div class="row cells6">
 					    			<div class="cell colspan2">
 						    			<li><a href="/news_and_releases/factSheet.html">Fact Sheet</a></li>
@@ -148,22 +159,39 @@
 						          		<li><a href="/news_and_releases/statview.html">Stat View</a></li>
 						          		<li><a href="/news_and_releases/statwatch.html">Stat Watch</a></li>
 						    		</div>
+
 						    		<div class="cell colspan2">
 						    			<li><a href="/news_and_releases/statnews.html">Stat News</a></li>
 						    			<li><a href="/news_and_releases/pressreleases.html">Press Releases</a></li>
 					      				<li><a href="#">Agriculture Situationer</a></li>
 						          		<li><a href="/news_and_releases/cpi_sr/cpisr_index.html">CPI Special Release</a></li>
 						    		</div>
-						    		
 						    		<div class="cell colspan2">
 						    			<li><a href="/news_and_releases/sat_acc/sa_index.html">Satellite Accounts</a></li>
 					          			<li><a href="/news_and_releases/pov_map/pm_index.html">Poverty Mapping</a></li>
 						    		</div>
 					    		</div>
 				    		</div>
+				    		<div class="panel" id="nar2">
+						    			<li><a href="/news_and_releases/factSheet.html">Fact Sheet</a></li>
+						          		<li><a href="/news_and_releases/mdg-watch.html">MDG Watch</a></li>
+						          		<li><a href="#">Quick Stat</a></li>
+						          		<li><a href="/news_and_releases/stattrivia.html">Stat Trivia</a></li>
+						          		<li><a href="/news_and_releases/statview.html">Stat View</a></li>
+						          		<li><a href="/news_and_releases/statwatch.html">Stat Watch</a></li>
+						          		<hr class="thin fg-grayLight">
+						    			<li><a href="/news_and_releases/statnews.html">Stat News</a></li>
+						    			<li><a href="/news_and_releases/pressreleases.html">Press Releases</a></li>
+					      				<li><a href="#">Agriculture Situationer</a></li>
+						          		<li><a href="/news_and_releases/cpi_sr/cpisr_index.html">CPI Special Release</a></li>
+						          		<hr class="thin fg-grayLight">
+						    			<li><a href="/news_and_releases/sat_acc/sa_index.html">Satellite Accounts</a></li>
+					          			<li><a href="/news_and_releases/pov_map/pm_index.html">Poverty Mapping</a></li>
+				    		</div>
 				        </ul>
 				    </li>
-				    <li id="navList2">
+
+				    <li>
 				    	<a href="#" class="dropdown-toggle"><span>Statistics</span></a>
 				    	<ul  class="d-menu" data-role="dropdown">
 					    	<div class="panel">
@@ -175,7 +203,7 @@
 				      		</div>
 				        </ul>
 				    </li>
-				    <li id="navList3">
+				    <li>
 				    	<a href="#" class="dropdown-toggle"><span>Policies and Coordination</span></a>
 				    	<ul  class="d-menu" data-role="dropdown">
 				        	<div class="panel">
@@ -203,9 +231,9 @@
 				        </ul>
 
 				    </li>
-				    <li id="navList4">
+				    <li>
 				    	<a href="#" class="dropdown-toggle"><span>Civil Registration</span></a>
-				        	<ul  class="d-menu bg-white" data-role="dropdown">
+				        	<ul  class="d-menu bg-white" data-role="dropdown" id="nav4b">
 					        	<div class="panel">
 					        		<li><a href="https://psa.gov.ph/civilregistration/requesting-civil-registry-document">How to Request Civil Registry Documents</a></li>
 					        		<li><a href="https://psa.gov.ph/civilregistration/facts">Civil Registration Facts</a></li>
@@ -216,7 +244,7 @@
 					        </ul>
 					        
 				    </li>
-				    <li id="navList5">
+				    <li>
 				        <a href="#" class="dropdown-toggle" id="nav5"><span>Provincial Offices</span></a>
 				        <ul  class="d-menu" data-role="dropdown" >
 					        <div class="panel">
@@ -229,17 +257,19 @@
 					            <li><a href="/provinces/mprov/fnf_mprov.htm">Mt. Province</a></li>
 					        </div>
 				        </ul>
+
 				    </li>
-				    
+				    </div>
 				</ul>
+
 			</li>
-				<li class="place-right no-hovered">
-				        <form>
-				            <div class="input-control text" style="margin-right: 10px;height:20px;">
-				                <input style="height:65%; border-radius: 25px;" type="text" placeholder="Search...">
-				                <button class="button " style="height:65%; border-radius: 25px;"><span class="mif-search mif-1x"></span></button>
-				            </div>
-				        </form>
-				   </li>
+			<li class="place-right no-hovered" id="srch">
+		        <form>
+		            <div class="input-control text" style="margin-right: 10px;height:20px;">
+		                <input style="height:65%; border-radius: 25px;" type="text" placeholder="Search...">
+		                <button class="button " style="height:65%; border-radius: 25px;"><span class="mif-search mif-1x"></span></button>
+		            </div>
+		        </form>
+			</li>
 		</ul>
 	</div>

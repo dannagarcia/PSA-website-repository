@@ -5792,7 +5792,7 @@ a.tag {
   max-width: none;
   }
   .f-menu > li #nav1 {
-    width: 265%;
+    width: 200%;
   }
   .f-menu > li #nav2 {
     width: 125%;
@@ -5930,8 +5930,9 @@ a.tag {
   text-align: center;
   width: 100%;
   font-size: .800rem;
-}
-    .f-menu > li #nav4 {
+  }
+
+  .f-menu > li #nav4 {
     width: 100%;
     max-width: none;
   }
@@ -5960,12 +5961,10 @@ a.tag {
 
 @media only screen and (max-width: 650px) {
   .f-menu > li .d-menu {
-    position: absolute;
+    position: relative;
     box-shadow: none;
     left: 0;
   }
-}
-@media only screen and (max-width: 650px) {
   #nav3nav {
     position: relative;
     box-shadow: none;
@@ -17393,5 +17392,81 @@ p [data-hint] {
   }
   #navigation2{
     display: block;
+  }
+}
+
+#srch{
+  width:100%;
+  padding-left: 50%;
+}
+#menu > li{
+  width: 306px;
+}
+@media only screen and (max-width: 1000px){
+  #menu > div{
+    min-width:306px;
+    width: 306px;
+  }
+}
+.f-menu > li {
+  text-align: left;
+  -webkit-flex: 1 auto;
+  flex: 1 auto;
+}
+
+.f-menu > li #nav1b {
+  width: 200%;
+}
+@media only screen and (max-width: 768px){
+  .f-menu > li #nav1b {
+  width: 100%;
+  }
+}
+
+  #nar1{
+    display: block;
+  }
+  #nar2{
+    display: none;
+  }
+@media only screen and (max-width: 768px){
+  #nar1{
+    display: none;
+  }
+  #nar2{
+    display: block;
+  }
+}
+@media only screen and (max-width: 930px){
+  .f-menu > li #nav4b {
+  width: 250px;
+  }
+}
+@media only screen and (max-width: 650px){
+
+}
+#srch2{
+  display: none;
+}
+@media only screen and (max-width: 650px){
+  #srch{
+    display: none;
+  }
+  #srch2{
+    display: block;
+  }
+    #menu > div{
+    min-width:100%;
+    width: 100%;
+  }
+  .f-menu {
+    height: 30px;
+  }
+  .f-menu > li > a {
+
+     padding: .400rem 1.625rem;
+  }
+  .f-menu > li #nav4b {
+  width: 100%;
   }
 }
