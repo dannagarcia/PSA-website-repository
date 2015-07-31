@@ -17356,19 +17356,22 @@ p [data-hint] {
 }
 
 #navList1{
-  width: 24%;
-}
-#navList2{
-  width: 15%;
-}
-#navList3{
-  width: 26%;
-}
-#navList4{
   width: 19%;
 }
+#navList2{
+  width: 10%;
+}
+#navList3{
+  width: 21%;
+}
+#navList4{
+  width: 16%;
+}
 #navList5{
-  width: 18%;
+  width: 16%;
+}
+#srch-main{
+  width: 19%;
 }
 
 @media only screen and (max-width: 650px) {
@@ -17419,7 +17422,7 @@ p [data-hint] {
 }
 @media only screen and (max-width: 768px){
   .f-menu > li #nav1b {
-  width: 100%;
+    width: 100%;
   }
 }
 
