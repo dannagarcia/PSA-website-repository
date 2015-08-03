@@ -17372,3 +17372,12 @@ p [data-hint] {
   padding: .630rem 1.625rem; 
  }
 }
+@media only screen and (max-width: 650px) {
+  .dialog {
+    min-width: 114%; 
+  }
+  .dialog .dialog-close-button {
+
+  right: 3.5rem;
+}
+}
