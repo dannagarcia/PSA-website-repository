@@ -1,0 +1,41 @@
+<div class="align-center">
+					<form>
+						<select id="enable" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+			                <option disabled selected>Survival Indicators</option>
+			                <option value="">Survival Index Map</option>
+			                <option value="">Health Index</option>
+			                <option value="">---Child Mortality Rate</option>
+			                <option value="">---Water & Sanitation</option>
+			                <option value="">Nutrition Index</option>
+						</select>
+						<select id="survival" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+							<option disabled selected>Enabling Indicators</option>
+			                <option value="">Enabling Index Map</option>
+			                <option value="">Education</option>
+			                <option value="">Families w/ Reported Domestic Violence</option>
+						</select>
+						<select id="security" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+			                <option value="">Security Index Map</option>
+			                <option value="">Crime Against Property</option>
+			                <option value="">Crime Against Persons</option>
+						</select>
+					</form>
+
+					<p class="align-center"><a href="/news_and_releases/pov_map/provincial/Benguet/benguet_map15.html">POVERTY INDEX MAP</a></p>
+</div>
+
+				<script>
+					    $(function(){
+					       $("#survival").select2();
+					    });
+				</script>
+				<script>
+					    $(function(){
+					       $("#enable").select2();
+					    });
+				</script>
+				<script>  
+					    $(function(){
+					       $("#security").select2();
+					    });
+				</script>
