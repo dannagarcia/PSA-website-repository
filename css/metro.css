@@ -5781,7 +5781,7 @@ a.tag {
   top: 100%;
 }
 .f-menu {
-  text-align: left;
+  text-align: center;
   display: block;
   height: 40px; /*custom (orig: auto)*/
   list-style: none inside none;
@@ -5910,6 +5910,9 @@ a.tag {
 @media only screen and (max-width: 739px) {
   .f-menu {
     height: 55px;
+  }
+  .f-menu > li > a {
+    padding: .480rem 1.625rem;
   }
 }
 @media only screen and (max-width: 650px) {
@@ -17362,13 +17365,4 @@ p [data-hint] {
      padding: 20px;
      display: inline-block;
   }
-}
-
-@media only screen and (max-width: 739px) and (min-width: 651px) {
-.f-menu {
-  height: 60px;
-}
- .f-menu > li > a {
-  padding: .630rem 1.625rem; 
- }
 }
