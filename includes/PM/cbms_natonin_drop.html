@@ -1,0 +1,45 @@
+<div class="align-center">
+					<form>
+						<select id="survival" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+							<option disabled selected>Survival Indicators</option>
+			                <option value="">Newborn w/ Birthweight < 2.5kgs</option>
+			                <option value="">Malnourished Children 0-6 YO</option>
+			                <option value="">NUTRITION INDEX</option>
+			                <option value="">Infant Deaths</option>
+			                <option value="">Child Deaths</option>
+			                <option value="">Popn. to Health Workers Ratio</option>
+			                <option value="">HEALTH INDEX</option>
+			                <option value="">HH w/ No Access to Safe Water</option>
+			                <option value="">SURVIVAL INDEX</option>
+
+						</select>
+						<select id="enable" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+			                <option disabled selected>Enabling Indicators</option>
+			                <option value="">Family Violence Reported</option>
+			                <option value="">ENABLING INDEX</option>
+						</select>
+						<select id="security" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+			                <option disabled selected>Security Indicators</option>
+			                <option value="">Crime Against Person</option>
+			                <option value="">Crime Against Property</option>
+						</select>
+					</form>
+
+					<p class="align-center"><a href="">POVERTY INDEX MAP</a></p>
+</div>
+
+				<script>
+					    $(function(){
+					       $("#survival").select2();
+					    });
+				</script>
+				<script>
+					    $(function(){
+					       $("#enable").select2();
+					    });
+				</script>
+				<script>  
+					    $(function(){
+					       $("#security").select2();
+					    });
+				</script>
