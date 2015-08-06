@@ -17366,3 +17366,43 @@ p [data-hint] {
      display: inline-block;
   }
 }
+
+#direction2 {
+  margin-top: 120%;
+  height: 100%;
+  padding: 20px;
+  display: inline-block;
+}
+@media only screen and (max-width: 768px) {
+  #legend2,
+  #direction2 {
+    margin-top: 0px;
+     height: 100%;
+     padding: 20px;
+     display: inline-block;
+  }
+}
+#legendirect {
+  display: block;
+}
+#legendirect2 {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #legendirect {
+    display: none;
+  }
+  #legendirect2 {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #legend2b,
+  #direction2b {
+    margin-top: 0px;
+     height: 100%;
+     padding: 20px;
+     display: inline-block;
+  }
+}
