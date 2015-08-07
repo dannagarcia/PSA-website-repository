@@ -5781,7 +5781,7 @@ a.tag {
   top: 100%;
 }
 .f-menu {
-  text-align: left;
+  text-align: center;
   display: block;
   height: 40px; /*custom (orig: auto)*/
   list-style: none inside none;
@@ -5910,6 +5910,9 @@ a.tag {
 @media only screen and (max-width: 739px) {
   .f-menu {
     height: 55px;
+  }
+  .f-menu > li > a {
+    padding: .480rem 1.625rem;
   }
 }
 @media only screen and (max-width: 650px) {
@@ -17364,11 +17367,75 @@ p [data-hint] {
   }
 }
 
-@media only screen and (max-width: 739px) and (min-width: 651px) {
-.f-menu {
-  height: 60px;
+#direction2 {
+  margin-top: 120%;
+  height: 100%;
+  padding: 20px;
+  display: inline-block;
 }
- .f-menu > li > a {
-  padding: .630rem 1.625rem; 
- }
+@media only screen and (max-width: 768px) {
+  #legend2,
+  #direction2 {
+    margin-top: 0px;
+     height: 100%;
+     padding: 20px;
+     display: inline-block;
+  }
 }
+#legendirect {
+  display: block;
+}
+#legendirect2 {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #legendirect {
+    display: none;
+  }
+  #legendirect2 {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #legend2b,
+  #direction2b {
+    margin-top: 0px;
+     height: 100%;
+     padding: 20px;
+     display: inline-block;
+  }
+}
+
+#kdirection,
+#klegend {
+  display:inline-block;
+  width: 50%;
+  height: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  #kgrd{
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #kgrd{
+    width: 100%;
+    height: 100%;
+  }
+  #kdirection{
+    display:inline-block;
+    width: 50%;
+    height: 50%;
+  }
+  #klegend {
+    display:inline-block;
+    width: 40%;
+    height: 25%;
+  }
+}
+
+
