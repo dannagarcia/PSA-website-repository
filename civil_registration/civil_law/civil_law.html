@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="/css/metro.css" rel="stylesheet">
+    <link href="/css/metro-icons.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
+    <script src="/js/jquery-2.1.3.min.js"></script>
+    <script src="/js/metro.js"></script>
+    <script src="/js/ga.js"></script>
+   </head>
+<body class="text-secondary fg-gray">
+
+	<div class="margin10 no-margin-top grid condensed">
+		<div id="header">
+			 <script> 
+				$(function(){
+				  $("#header").load("/includes/header.html"); 
+				});
+			</script> 
+		</div>
+
+		<div class="row cells12 align-justify">
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/civil_registration/civil_law_heading.html"); 
+						});
+					</script> 
+				</div>
+				<ul class="breadcrumbs">
+					<li><a href="/index.html"><span class="icon mif-home"></span></a></li>
+					<li><a href="#">Civil Registration Laws</a></li>
+				</ul>
+				<hr class="thin bg-grayLighter">
+
+				<div class="panel collapsible" data-role="panel">
+                            <div class="heading bg-darkTeal">
+                                <span class="title text-light">Laws</span>
+                            </div>
+                            <div class="content bg-grayLighter" style="display: block;">
+
+                            <ul class="numeric-list square-marker ">
+                            	<li><a href="/civil_registration/civil_law/laws/rep_act_10172.html">Republic Act No. 10172</a></li>
+                            	<ul class="simple-list"> 
+									<li><a href="/civil_registration/civil_law/laws/10172/ps_rep_act_10172.html">Press Statement on Republic Act 10172</a></li>
+									<li><a href="/civil_registration/civil_law/laws/10172/rep_act_10172_rulesreg.html">Republic Act No. 10172 Implementing Rules and Regulations</a></li>
+								</ul>
+                            	<li><a href="/civil_registration/civil_law/laws/rep_act_9858.html">Republic Act No. 9858</a></li>
+                            	<li><a href="/civil_registration/civil_law/laws/rep_act_9255.html">Republic Act No. 9255</a></li>
+                            	<li><a href="/civil_registration/civil_law/laws/rep_act_9048.html">Republic Act No. 9048</a></li>
+                            		<ul class="simple-list">
+									<li><a href="/civil_registration/civil_law/laws/9048/rep_act_9048_faq.html">FAQ's in Republic Act No. 9048</a></li>
+								</ul>
+                            	<li><a href="/civil_registration/civil_law/laws/pd_1083.html">Presidential Decree No. 1083</a></li>
+                            	<li><a href="/civil_registration/civil_law/laws/pd_856.html">Presidential Decree No. 856</a></li>
+                            	<li><a href="/civil_registration/civil_law/laws/cw_act_3753.html">Commonwealth Act No. 3753</a></li>
+                            	<li><a href="/civil_registration/civil_law/laws/act_3613.html">Act No. 3613</a></li>
+
+                            </ul>
+                            </div>
+                        </div>
+
+				<hr class="thin bg-grayLighter">
+			</div>
+			<div class="cell colspan4" id="civil">
+				<script> 
+					$(function(){
+					  $("#civil").load("/includes/civil_registration/civil_law_navigation.html"); 
+					});
+				</script> 
+			</div>
+		</div>
+
+		<div class="row" id="footer">
+			<script> 
+				$(function(){
+				  $("#footer").load("/includes/footer.html"); 
+				});
+			</script> 
+		</div>
+	</div>
+</body>
+</html>
