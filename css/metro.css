@@ -17438,4 +17438,26 @@ p [data-hint] {
   }
 }
 
+#cbms_direction,
+#cbms_legend {
+  height: 50%;
+  width: 50%;
+}
+#cbms_direction{
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  #cbms_direction,
+  #cbms_legend {
+    height: 25%;
+    width: 25%;
+    display: inline-block;
+  }
+  #cbms_direction{
+  margin-top: 0px;
+}
+
+}
+
 
