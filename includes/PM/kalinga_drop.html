@@ -1,0 +1,52 @@
+<div class="align-center">
+					<form>
+						<select id="survival" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+							<option disabled selected>Survival Indicators</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map01.html">Newborn w/ Birthweight < 2.5kgs</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map02.html">Child Mortality Rate</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map09.html">Health Index</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map10.html">Number of Health Workers</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map11.html">Infant Mortality Rate</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map12.html">Malnourished Children 0-6 Years Old</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map13.html">Nutrition Index</option>
+
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map07.html">Pop'n to Health Workers</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map09.html">Households With No Access to Safe Water</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map10.html">Households With No Access to Sanitary Toilet</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map17.html">Survival Index</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map18.html">Households Without Access to Safe Water</option>
+						</select>
+						<select id="enable" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+			                <option disabled selected>Enabling Indicators</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map06.html">Non-cohort survival Rate</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map07.html">Education Index</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map08.html">Enabling Index</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map14.html">Non-participation Rate</option>
+						</select>
+						<select id="security" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+			                <option disabled selected>Security Indicators</option>
+							<option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map03.html">Crime Index</option>
+							<option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map04.html">Crime Against Person</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map05.html">Crime Against Property</option>
+			                <option value="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map16.html">Security Index</option>
+						</select>
+					</form>
+
+					<p class="align-center"><a href="/news_and_releases/pov_map/provincial/Kalinga/kalinga_map15.html">POVERTY INDEX</a></p>
+</div>
+
+				<script>
+					    $(function(){
+					       $("#survival").select2();
+					    });
+				</script>
+				<script>
+					    $(function(){
+					       $("#enable").select2();
+					    });
+				</script>
+				<script>  
+					    $(function(){
+					       $("#security").select2();
+					    });
+				</script>
