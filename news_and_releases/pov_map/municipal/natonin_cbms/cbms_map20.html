@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poverty Mapping - Natonin CBMS: Victims of Crime</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="/css/metro.css" rel="stylesheet">
+    <link href="/css/metro-icons.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
+    <script src="/js/jquery-2.1.3.min.js"></script>
+    <script src="/js/metro.js"></script>
+    <script src="/js/ga.js"></script>
+    <script src="/js/select2.min.js"></script>
+</head>
+<body class="text-secondary fg-gray">
+	<div class="margin10 no-margin-top grid condensed">
+	<!-- PSA LOGO -->
+			 <!-- end of navigation div -->
+			 <div id="header">
+				 <script> 
+					$(document).ready(function(){
+					  $("#header").load("/includes/header.html"); 
+					});
+				</script>
+			</div>
+			<!--.........content here ........-->
+			<div class="row cells12">
+				<!-- place content here -->
+				<div class="cell colspan8 padding10">
+					<div style="color:teal">
+						<h3 class="text-light">Poverty Mapping</h3>
+
+						<ul class="breadcrumbs">
+						    <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
+						    <li><a href="/news_and_releases/pov_map/pm_index.html">Poverty Mapping</a></li>
+						    <li><a href="/news_and_releases/pov_map/municipal/natonin_cbms/cbms_index.html">Natonin CBMS</a></li>
+						    <li>Victims of Crime</li>
+						</ul>
+						<h4 style="color:red;">Municipality of Natonin, Mt. Province, CBMS Data</h4>
+					</div>
+
+					<div id="cbms">
+						 <script> 
+							$(document).ready(function(){
+							  $("#cbms").load("/includes/PM/cbms_natonin_drop.html"); 
+							});
+						</script>
+					</div>
+					
+					<div>
+
+						<h3 class="align-center">Map 20: Victims of Crime*,<br>Municipality of Natonin, Mt. Province,<br>CBMS Data 2007</h3>
+
+						
+						<div class="row cells7 align-center">
+							<div class="cell colspan5" id="cbms_grid">
+								<img src="/images/pov_map/municipal/NatoninCBMS/map20.png">
+							</div>
+							<div class="cell colspan2">
+								<div id="cbms_direction">
+									<img src="/images/pov_map/municipal/NatoninCBMS/direction.png">
+								</div>
+								<div id="cbms_legend">
+									<img src="/images/pov_map/municipal/NatoninCBMS/legend.png">
+								</div>
+							</div>
+						</div>
+						<p class="align-center"><i>Note: Boundaries are not considered authoritative.</i></p>
+
+						<p>Page last updated: </p>
+					</div>
+					
+				</div>
+					<script>
+						    $(function(){
+						       $("#survival").select2();
+						    });
+					</script>
+					<script>
+						    $(function(){
+						       $("#enable").select2();
+						    });
+					</script>
+					<script>
+						    $(function(){
+						       $("#security").select2();
+						    });
+					</script>
+				<div class="cell colspan3 padding10">
+			      <div class="cell padding10 no-padding-top colspan4" id="stat-navigation">
+			        <script> 
+			          $(document).ready(function(){
+			            $("#stat-navigation").load("/includes/PM/navigation.html"); 
+			          });
+			        </script> 
+			      </div>
+				</div>
+				</div>
+			<!-- end of content -->
+
+			<!-- footer -->
+			<div id="footer">
+				 <script> 
+					$(document).ready(function(){
+					  $("#footer").load("/includes/footer.html"); 
+					});
+				</script>
+			</div>
+	</div> <!-- end of grid div -->	
+</body>
+</html>
