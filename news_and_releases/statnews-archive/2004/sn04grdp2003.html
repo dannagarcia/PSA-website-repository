@@ -24,8 +24,14 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
                 <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
@@ -44,11 +50,12 @@
 				<p>The Services sector, which contributed 22.4 percent to the region's economy, slightly decelerated to 5.0 percent in 2003 from 5.3 percent in 2002 but still the strongest performer.  Private Services boosted the growth of the Services sector with its 4.4 percent expansion due to the significant increase in private schools enrolment and upsurge in the number of new hotels in Baguio City.</p>
 
 				<p>Source: National Statistical Coordination Board</p>
+				<br><hr class="thin bg-grayLighter">
 
 				<p>Page last updated: February 23, 2007 </p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4" id="publications">
 				<script> 
 					$(function(){
 					  $("#publications").load("/includes/publications.html"); 

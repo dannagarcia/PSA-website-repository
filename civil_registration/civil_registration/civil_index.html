@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Civil Regitration Facts</title>
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -25,33 +25,45 @@
 
 		<div class="row cells12 align-justify">
 			<div class="cell padding10 colspan8">
-				<div style="color:teal"><h3>Civil Registration Facts</h3></div>
 
-						<div class="accordion" data-role="accordion">
+			<div id="heading">
+				 <script> 
+					$(function(){
+					  $("#heading").load("/includes/civil_registration/civil_facts_headeheading.html"); 
+					});
+				</script> 
+			</div>
+
+			<div class="row cells12">
+			<div style="color:teal"><h3 class="text-light">Civil Regitration Facts</h3></div>
+			<hr class="thin bg-grayLighter">
+				<div class="cell colspan4 padding10">
+					<div class="accordion" data-role="accordion">
 							<div class="frame">
-								<div class="heading" style="font-size:15px;">Laws, Policies and Procedure</div>
+								<div class="heading">Laws, Policies and Procedure</div>
 								<div class="content bg-grayLighter">
-									<p><a href="">Rules and Regulations Governing Registration of Acts and Events Concerning Civil Status of Muslim Filipinos</a></p>
+									<p><strong><a href="/civil_registration/civil_registration/laws_pp/rules_regu.html">Rules and Regulations Governing Registration of Acts and Events Concerning Civil Status of Muslim Filipinos</a></strong></p>
 									<p>Pursuant to Section 2 of Act No. 3753, otherwise known as the Civil Registry Law of the Philippines, which took effect on 27 February 1931, in...</p><br>
-									<p><i><a href="">Read more...</a></i></p>
+									<p><i><a href="/civil_registration/civil_registration/laws_pp/rules_regu.html">Read more...</a></i></p>
 								</div>
 							</div>
 						</div>
-
-
-						<div class="accordion" data-role="accordion">
+				</div>
+				<div class="cell colspan4 padding10">
+					<div class="accordion" data-role="accordion">
 							<div class="frame">
-								<div class="heading" style="font-size:15px;">Delayed Registration: Birth, Death and Marriage</div>
+								<div class="heading">Delayed Registration: Birth, Death and Marriage</div>
 								<div class="content bg-grayLighter">
 									<p>A report of a vital event made beyond the reglamentary period is considered delayed.</p><br>
-									<p><i><a href="\civil_registration\civil_registration\delayedApr17.html">Read more...</a></i></p>
+									<p><i><a href="/civil_registration/civil_registration/delayed/delayedApr17.html">Read more...</a></i></p>
 								</div>
 							</div>
 						</div>
-
-						<div class="accordion" data-role="accordion">
+				</div>
+				<div class="cell colspan4 padding10">
+					<div class="accordion" data-role="accordion">
 							<div class="frame">
-								<div class="heading" style="font-size:15px;">Related Topics</div>
+								<div class="heading">Related Topics</div>
 								<div class="content bg-grayLighter">
 									<p><a href="">Law corrects wrong civil registry entries</a></p>
 									<p>The tedious and costly procedure in...</p><br>
@@ -65,15 +77,15 @@
 									<p><a href="">Clerical error bill signed into law</a></p>
 									<p>Good news for those who want their names...</p><br>
 									<p><a href="">Read more...</a></p>
+									<a href="#"><button class="button fg-white bg-darkTeal padding10">Back to top</button></a>
 								</div>
 							</div>
 						</div>
-
-
-				<div class="row cells12 align-left">
 				</div>
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="procedure">
+			<hr class="thin bg-grayLighter">
+			</div>
+			<div class="cell padding10 colspan4" id="procedure">
 				<script> 
 					$(function(){
 					  $("#procedure").load("/includes/civil_registration/procedure.html"); 

@@ -1,0 +1,48 @@
+<div class="align-center">
+					<form>
+						<select id="enable" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+			                <option disabled selected>Survival Indicators</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map01.html">Survival Index Map</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map02.html">Health Index</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map03.html">---Infant Mortality Rate</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map04.html">---Child Mortality Rate</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map05.html">---Water & Sanitation</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map06.html">Population to Health Workers Ratio</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map07.html">Nutrition</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map08.html">---Underweight Children 7-12 Years Old</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map09.html">---Underweight Children Under 7 Years Old</option>
+						</select>
+						<select id="survival" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+							<option disabled selected>Enabling Indicators</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map10.html">Enabling Index Map</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map11.html">Education</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map12.html">---Elementary Non-Participation Rate</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map13.html">---Elementary Non-Survival Rate</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map14.html">Families w/ Reported Domestic Violence</option>
+						</select>
+						<select id="security" onChange="window.document.location.href=this.options[this.selectedIndex].value;" value="GO" style="width:33%">
+						<option disabled selected>Security Indicators</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map15.html">Security Index Map</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map16.html">Crime Against Property</option>
+			                <option value="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map17.html">Crime Against Persons</option>
+						</select>
+					</form>
+
+					<p class="align-center"><a href="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_map18.html">POVERTY INDEX MAP</a></p>
+</div>
+
+				<script>
+					    $(function(){
+					       $("#survival").select2();
+					    });
+				</script>
+				<script>
+					    $(function(){
+					       $("#enable").select2();
+					    });
+				</script>
+				<script>  
+					    $(function(){
+					       $("#security").select2();
+					    });
+				</script>
