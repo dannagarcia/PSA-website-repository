@@ -24,8 +24,14 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
                 <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
@@ -37,11 +43,12 @@
 				<p>The data sets of the Millennium Development Goals (MDG) of CAR are now online! The compilation of the indicators is a joint effort of the regional line agencies and local government units in the region. The NSCB-CAR will maintain a database and update the regional MDG web pages. Click on the MDG button at the right links panel to access the MDG data sets for CAR.</p>
 
 				<p><a href="/statistics/mdg/mdg-index.html">Click here to go to the CAR MDG Online.</a></p>
-				
+					<br>
+					<hr class="thin bg-grayLighter">
 				<p>Page last updated: November 10, 2006</p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4" id="publications">
 				<script> 
 					$(function(){
 					  $("#publications").load("/includes/publications.html"); 

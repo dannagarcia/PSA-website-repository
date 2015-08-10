@@ -24,8 +24,14 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
                 <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
@@ -67,11 +73,12 @@
 				<h5>Radio Guesting</h5>
 
 				<p>Simultaneously, Aldrin Bahit of NSCB-CAR and Gani Ngolob of BAS-CAR were guests during the NSO-CAR Sa <i>Himpapawid</i> at DZEQ Radyo ng Bayan. Mr. Bahit answered queries on the functions of the NSCB and discussed some of the agency's products and services. He briefly explained the structure of the Philippines Statistical System (PSS) and its coordination mechanisms. Mr. Ngolob responded to questions pertaining to the performance of the agriculture and fishery sectors in CAR. Ms. Villafe Alibuyog, Head of NSO-Benguet, accompanied the two guests and also participated in the lively discussion inside the radio booth anchored by DZEQ's Robert Tabay.</p>
-				
+				<br>
+				<hr class="thin bg-grayLighter">
 				<p>Page last updated: February 23, 2007 </p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4" id="publications">
 				<script> 
 					$(function(){
 					  $("#publications").load("/includes/publications.html"); 

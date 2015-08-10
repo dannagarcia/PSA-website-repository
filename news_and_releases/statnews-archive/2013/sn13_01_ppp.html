@@ -24,8 +24,14 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
                 <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
@@ -52,11 +58,12 @@
 				<p class="align-center">
 					<img src="images/statnews/sn_feb2013_figure1.png">
 				</p>
-					
+					<br>
+					<hr class="thin bg-grayLighter">
 				<p>Page uploaded: February 27, 2013</p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4" id="publications">
 				<script> 
 					$(function(){
 					  $("#publications").load("/includes/publications.html"); 
