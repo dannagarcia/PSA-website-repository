@@ -16352,6 +16352,7 @@ p [data-hint] {
   vertical-align: middle;
   height: auto;
 }
+
 .select2-container .select2-selection--single {
   box-sizing: border-box;
   cursor: pointer;
@@ -17361,8 +17362,117 @@ p [data-hint] {
 @media only screen and (max-width: 768px) {
   #legend,
   #direction {
+     height: 0%;
+     margin-top:0px;
+     padding: 20px;
+     display: inline-block;
+  }
+  #legdir{
+    display: inline-block;
+  }
+}
+
+#direction2 {
+  margin-top: 120%;
+  height: 100%;
+  padding: 20px;
+  display: inline-block;
+}
+@media only screen and (max-width: 768px) {
+  #legend2,
+  #direction2 {
+    margin-top: 0px;
      height: 100%;
      padding: 20px;
      display: inline-block;
   }
+}
+#legendirect {
+  display: block;
+}
+#legendirect2 {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #legendirect {
+    display: none;
+  }
+  #legendirect2 {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #legend2b,
+  #direction2b {
+    margin-top: 0px;
+     height: 100%;
+     padding: 20px;
+     display: inline-block;
+  }
+}
+
+#kdirection,
+#klegend {
+  display:inline-block;
+  width: 50%;
+  height: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  #kgrd{
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #kgrd{
+    width: 100%;
+    height: 100%;
+  }
+  #kdirection{
+    display:inline-block;
+    width: 50%;
+    height: 50%;
+  }
+  #klegend {
+    display:inline-block;
+    width: 40%;
+    height: 25%;
+  }
+}
+
+#cbms_direction,
+#cbms_legend {
+  height: 50%;
+  width: 50%;
+}
+#cbms_direction{
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  #cbms_direction,
+  #cbms_legend {
+    height: 25%;
+    width: 25%;
+    display: inline-block;
+  }
+  #cbms_direction{
+  margin-top: 0px;
+}
+
+}
+
+@media only screen and (max-width: 650px) {
+.select2-container {
+  min-width:98%;
+  display: block;
+}
+}
+
+#webfoot a:hover{
+  color: teal;
+  text-decoration: underline;
 }

@@ -24,25 +24,31 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-                <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
                 <li>CAR inflation further slows down to 1.0% in July 2009 </li>
               </ul>
               <hr class="thin bg-grayLighter">
 				<p><h4>CAR inflation further slows down to 1.0% in July 2009</h4></p>
 
 				<p>The year-on-year headline Inflation rate of the Cordillera Administrative Region (CAR) further decelerated to 1.0 percent in July 2009 from 1.8 percent in June this year. The slowdown was primarily due to the slackening of prices of most commodity groups except for Clothing which managed to maintain its rate at 1.1 percent and Miscellaneous Items which increased slightly by 0.1 percentage point to post 1.8 percent during the period. The Services group slid to 0.6 percent from 3.4 percent in June. Food, Beverages and Tobacco as well as Housing and Repairs each slowed down to 2.7 and 0.4 percent respectively. Fuel, Light and Water improved by two percentage points but was still negative at -6.7 percent. July recorded a Consumer Price Index of 160.9. The National Statistics Office prepares and publishes the Consumer Price Index and the corresponding Inflation Rates monthly.</p>
-
+				<br>
+				<hr class="thin bg-grayLighter">
 				<p>Page last updated: August 11, 2009</p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/statnews-navigation.html"); 
 					});
 				</script> 
 			</div>

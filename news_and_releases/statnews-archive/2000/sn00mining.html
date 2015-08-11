@@ -24,11 +24,16 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-                <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
                 <li>The Cordillera Administrative Region is the Philippines' top mineral producer</li>
               </ul>
               <hr class="thin bg-grayLighter">
@@ -48,12 +53,13 @@
 				<p> The region's non-metallic reserves such as limestone and sand and gravel materials are also found in economic quantities, which means these minerals are economically viable or profitable for mining operations. For instance, Irisan in Baguio City boasts of a reserve of about 1.07 million MT of limestone, which is being quarried by Benguet Management Corporation-Irisan Lime Project.</p>
 
 				<p>Mining, likewise, contributes to the country's foreign-exchange earnings through exports. From the country's total export earnings of P 26 billion pesos (US$636.32 million) of metallic and non-metallic minerals in 1998, CAR contributed about 18% or about P 4.7 billion. The region's major market destinations include England and Japan.</p>
-
+				<br>
+				<hr class="thin bg-grayLighter">
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/statnews-navigation.html"); 
 					});
 				</script> 
 			</div>

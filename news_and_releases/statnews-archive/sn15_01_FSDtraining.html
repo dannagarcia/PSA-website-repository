@@ -25,8 +25,21 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div  style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
+
+				<ul class="breadcrumbs">
+	                <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
+	                <li>PSA conducts training on 2015 Survey of Food Demand for Agricultural Commodities</li>
+	              </ul>
+              
+              <hr class="thin bg-grayLighter">
 				<p><h4>PSA conducts training on 2015 Survey of Food Demand for Agricultural Commodities</h4></p>
 				<p>The Philippine Statistics Authority Regional Statistical Services Office CAR (PSA RSSO-CAR) successfully conducted a 2nd Level Training on the 2015 Survey of Food Demand for Agricultural Commodities (SFD) last May 27-28, 2015 at Albergo Hotel, Baguio City. Participants were led by Ms. Olivia G. Gulla, Interim Regional Director, heads and staff from all six Provincial Statistics Offices (PSOs): Apayao, Abra, Benguet, Ifugao, Kalinga and Mt. Province. </p>
 
@@ -38,14 +51,15 @@
 
 				<p>Ms. Corazon Bagto of PSO-Mt. Province opened the second day with a recap of the previous day’s activities. Ms. De Guzman then gave additional guidelines on the completion of the questionnaire while Ms. Nalugon clarified concerns raised by the participants. The rest of the day was spent in the conduct of mock interviews and a briefing on editing and coding guidelines. The training ended with a discussion on administrative matters. </p>
 				<p>The SFD Training was conducted in preparation for the 3rd level training to be conducted by the PSOs and the actual field operations scheduled in August 2015.</p>
-				
+				<br>
+				<hr class="thin bg-grayLighter">
 
 				<p>Page uploaded: May 29, 2015</p>
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/statnews-navigation.html"); 
 					});
 				</script> 
 			</div>

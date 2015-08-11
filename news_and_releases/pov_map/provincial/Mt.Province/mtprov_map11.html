@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Poverty Mapping - Mountain Province: Education Index</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="/css/metro.css" rel="stylesheet">
+    <link href="/css/metro-icons.css" rel="stylesheet">
+    <link href="/css/custom.css" rel="stylesheet">
+    <script src="/js/jquery-2.1.3.min.js"></script>
+    <script src="/js/metro.js"></script>
+    <script src="/js/ga.js"></script>
+    <script src="/js/select2.min.js"></script>
+</head>
+<body class="text-secondary fg-gray">
+	<div class="margin10 no-margin-top grid condensed">
+	<!-- PSA LOGO -->
+			 <!-- end of navigation div -->
+			 <div id="header">
+				 <script> 
+					$(document).ready(function(){
+					  $("#header").load("/includes/header.html"); 
+					});
+				</script>
+			</div>
+			<!--.........content here ........-->
+			<div class="row cells12">
+				<!-- place content here -->
+				<div class="cell colspan8 padding10">
+					<div style="color:teal">
+						<h3 class="text-light">Poverty Mapping</h3>
+
+						<ul class="breadcrumbs">
+						    <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
+						    <li><a href="/news_and_releases/pov_map/pm_index.html">Poverty Mapping</a></li>
+						    <li><a href="/news_and_releases/pov_map/provincial/Mt.Province/mtprov_index.html">Mt. Province</a></li>
+						    <li>Education Index</li>
+						</ul>
+						<h4 style="color:red;">Mountain Province</h4>
+					</div>
+
+					<div id="mtprov">
+						 <script> 
+							$(document).ready(function(){
+							  $("#mtprov").load("/includes/PM/mtprov_drop.html"); 
+							});
+						</script>
+					</div>
+					
+					<div>
+					<h3 class="align-center">Map 11. Education Index,<br>Mt. Province: 2000 & 2003</h3>
+					<div class="row cells8">
+						<div class="cell colspan2 align-center" id="legendirect">
+							<div class="align-center">
+								<div id="direction2">
+									<img src="/images/pov_map/provincial/Ifugao/direction.png">
+								</div>
+								<div id="legend2">
+									<img src="/images/pov_map/provincial/Ifugao/legend.gif">
+								</div>
+							</div>
+						</div>
+						<div class="cell colspan6 align-center">
+							<div class="">
+								<h4>CY 2000</h4>
+								<img src="/images/pov_map/provincial/mt.prov/mtprov_education_2000.gif">
+							</div>
+							<div class="align-center" id="legendirect2">
+								<div id="direction2b">
+									<img src="/images/pov_map/provincial/mt.prov/direction.png">
+								</div>
+								<div id="legend2b">
+									<img src="/images/pov_map/provincial/mt.prov/legend.gif">
+								</div>
+							</div>
+							<div class="">
+								<h4>CY 2003</h4>
+								<img src="/images/pov_map/provincial/mt.prov/mtprov_education_2003.gif">
+							</div>
+						</div>
+						</div>
+						<p class="align-center"><i>Note: Boundaries are not considered authoritative.</i></p>
+						<p>Page last updated: December 13, 2007</p>
+					</div>
+					
+				</div>
+					<script>
+						    $(function(){
+						       $("#survival").select2();
+						    });
+					</script>
+					<script>
+						    $(function(){
+						       $("#enable").select2();
+						    });
+					</script>
+					<script>
+						    $(function(){
+						       $("#security").select2();
+						    });
+					</script>
+				<div class="cell colspan3 padding10">
+			      <div class="cell padding10 no-padding-top colspan4" id="stat-navigation">
+			        <script> 
+			          $(function(){
+			            $("#stat-navigation").load("/includes/PM/navigation.html"); 
+			          });
+			        </script> 
+			      </div>
+				</div>
+				</div>
+			<!-- end of content -->
+
+			<!-- footer -->
+			<div id="footer">
+				 <script> 
+					$(function(){
+					  $("#footer").load("/includes/footer.html"); 
+					});
+				</script>
+			</div>
+	</div> <!-- end of grid div -->	
+</body>
+</html>

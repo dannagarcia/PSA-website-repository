@@ -24,11 +24,16 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-                <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
                 <li>News Conference on the 2012 Economic Performance of CAR</li>
               </ul>
               <hr class="thin bg-grayLighter">
@@ -39,14 +44,15 @@
 				<p>The news conference will be held on July 25, 2012 (Thursday), 12:30 p.m. at the Marco Polo Function Room, El Cielito Inn, North Drive, Baguio City.</p>
 
 				<p>For more information, please call NSCB-CAR at telephone number 444-9234 and/or email us at nscbcar@yahoo.com.</p>
-				
+				<br>
+				<hr class="thin bg-grayLighter">
 				<p>Page uploaded: July 23, 2013</p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/statnews-navigation.html"); 
 					});
 				</script> 
 			</div>

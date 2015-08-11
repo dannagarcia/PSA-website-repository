@@ -24,11 +24,16 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-                <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
                 <li>A Family of Five in CAR Needs P7,000 Monthly Income</li>
               </ul>
               <hr class="thin bg-grayLighter">
@@ -94,14 +99,15 @@
 			      </table>
 
 			      <p>*Note: This is obtained by multiplying P16,721 by 5 (persons in a family of 5) and dividing the product by 12 (months in a year).</p>
-				
+					<br>
+					<hr class="thin bg-grayLighter">
 				<p>Page last updated: March 19, 2008</p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/statnews-navigation.html"); 
 					});
 				</script> 
 			</div>

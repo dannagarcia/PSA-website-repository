@@ -24,11 +24,16 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-                <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
                 <li>Self-employed and unpaid family workers in CAR still the poorest sector in 2009</li>
               </ul>
               <hr class="thin bg-grayLighter">
@@ -62,14 +67,16 @@
 						<li>Poverty incidence among self-employed and unpaid family workers refers to the proportion of self-employed and unpaid family workers with per capita income less than the per capita poverty threshold to the total number of self-employed and unpaid family workers.</li>
 						<li>Based on the 2009 Official Poverty Statistics of the National Statistical Coordination Board.</li>
 					</ol>
+				<br>
+				<hr class="thin bg-grayLighter">
 				
 				<p>Page uploaded: October 11, 2012</p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/statnews-navigation.html"); 
 					});
 				</script> 
 			</div>
