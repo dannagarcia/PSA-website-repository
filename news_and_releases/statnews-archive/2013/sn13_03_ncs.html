@@ -24,11 +24,16 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-                <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
                 <li>Three papers from CAR featured in 12th NCS</li>
               </ul>
               <hr class="thin bg-grayLighter">
@@ -47,14 +52,16 @@
 				<p>The NCS is conducted every three years by the Philippine Statistical System (PSS), spearheaded by the National Statistical Coordination Board (NSCB), to (1) provide a forum for practitioners and theoreticians in the field of statistics to discuss prevailing issues and emerging developments affecting the PSS; and (2) elicit the cooperation and support of statisticians and professionals in related fields from the government, academe and private sector towards a more responsive statistical system.</p>
 
 				<p>The NSCB is currently accepting registration for the 12th NCS. Interested individuals or groups may contact NSCB-CAR at telephone numbers (074) 444-9234; (074) 244-0755 and (074) 619-1118 or email address nscbcar@yahoo.com for a copy of the registration form and/or inquiries on the NCS. You may also register online at <br> <a href="http://www.nscb.gov.ph/ncs/12thNCS/register/register.asp">http://www.nscb.gov.ph/ncs/12thNCS/register/register.asp.</a></p>
+				<br>
+				<hr class="thin bg-grayLighter">
 				
 				<p>Page uploaded: June 28, 2013</p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/statnews-navigation.html"); 
 					});
 				</script> 
 			</div>

@@ -24,11 +24,16 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-                <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
                 <li>PSDP workshop conducted in CAR</li>
               </ul>
               <hr class="thin bg-grayLighter">
@@ -51,14 +56,15 @@
 				<p>The NSCB-CAR had earlier sent PSDP forms to RLAs and LGUs in order to solicit concerns and proposed programs for the improvement of the regional statistical system. The accomplished forms were then sent back to NSCB for processing and consolidation. The consolidated report was discussed during the workshop. The report presented the (1) major statistical accomplishments of the region; (2) issues and concerns; and (3) proposed major statistical development programs/activities for the subnational statistical system. The consultative workshop solicited further comments and suggestions from the stakeholders of the subnational statistics. Inputs for the subnational chapter will be presented during the national consultation workshop to be held before the end of August 2011.</p>
 
 				<p>As the NSCB want the PSDP to be able to serve the information needs of the greatest number of data users given the limited manpower and financial resources of the government, we invite all concerned sectors in the region to email your data needs and other statistical concerns in the medium term to nscbcar@yahoo.com.</p>
-				
+				<br>
+				<hr class="thin bg-grayLighter">
 				<p>Page uploaded: August 3, 2011</p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/statnews-navigation.html"); 
 					});
 				</script> 
 			</div>

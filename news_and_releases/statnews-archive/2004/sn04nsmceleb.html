@@ -24,11 +24,16 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-                <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
                 <li>CAR Holds 14th Annual Philippine Statistics Quiz (PSQ)</li>
               </ul>
               <hr class="thin bg-grayLighter">
@@ -541,14 +546,14 @@
 		            <td  style="padding:1%" class="bd-grayLighter" align="middle" style="padding:1%" class="bd-grayLighter"></td>
 		          </tr>
 		    </table>
-
+		    <br><hr class="thin bg-grayLighter">
 				<p>Page last updated: February 23, 2007 </p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/statnews-navigation.html"); 
 					});
 				</script> 
 			</div>

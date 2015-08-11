@@ -24,11 +24,16 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-                <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
                 <li>17th NSM Report for CAR now available</li>
               </ul>
               <hr class="thin bg-grayLighter">
@@ -37,14 +42,15 @@
 				<p>The preliminary report of the region's celebration of the 17th National Statistics Month (NSM) is now available online. The report highlights the major activities that were led and participated in by member-agencies of the Regional Statistical Coordination Committee (RSCC).</p>
 
 				<p><a href="/pdf/statNews/NSM 2006 Report-HIGHLIGHTS.pdf">Click here</a> to view the report in PDF format.</p>
-				
+					<br>
+					<hr class="thin bg-grayLighter">
 				<p>Page last updated: November 29, 2006</p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/statnews-navigation.html"); 
 					});
 				</script> 
 			</div>

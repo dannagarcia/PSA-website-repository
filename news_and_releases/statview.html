@@ -26,6 +26,12 @@
 		<div class="row cells12">  <!-- row  -->
 			<div class="cell colspan8 padding10"> <!-- cell colspan8 -->
 				<div style="color:teal"><h3  class="text-light">Stat View</h3></div>
+				<ul class="breadcrumbs">
+				    <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
+				    <li><a href="/index.html">News and Releases</a></li>
+				    <li><a href="#">Stat View</a></li>
+				</ul>
+				<hr class="thin bg-grayLighter">
 				<ol class="numeric-list square-marker large-bullet green-bullet" >
 					<li><button class="button" onclick="showDialog('#fire')">Fire Statistics, CAR: 2010-2013</button></li>
 					<li><button class="button" onclick="showDialog('#fireworks')">Fireworks-related Injuries by Province, CAR: 2010-2012 </button>	</li>
@@ -35,13 +41,15 @@
 					<li><button class="button" onclick="showDialog('#PaP')">Programs and Projects in the Indigenous Peoples Communities, Cordillera Administrative Region, 2006-2010 </button>	</li>
 					<li><button class="button" onclick="showDialog('#DoP')">Distribution of Perpetrators of Violence Against Women and Girls by Relationship, CAR: 2010 Status of Cases Against Women and Girls Handled by the PNP Women and Children Desk, CAR: 2010 </button>	</li>
 				</ol>
+
+				<hr class="thin bg-grayLighter">
 				<p>Page last updated: May 14, 2014</p>
 
 
 			</div><!-- cell colspan8 -->
 
 
-			<div class="cell colspan4 padding10 no-padding-top" id="publications"> <!-- cell colspan4 -->
+			<div class="cell colspan4 padding10" id="publications"> <!-- cell colspan4 -->
 				<script> 
 					$(function(){
 						$("#publications").load("/includes/publications.html"); 

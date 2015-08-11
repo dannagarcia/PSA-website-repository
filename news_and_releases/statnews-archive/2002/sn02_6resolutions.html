@@ -24,11 +24,16 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-                <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
                 <li>Six (6) Resolutions Passed in the 1st Meeting of the RSCC-CAR</li>
               </ul>
               <hr class="thin bg-grayLighter">
@@ -65,13 +70,15 @@
 				<p><a href="/policies_and_coordination/rsc/rscc_res/res_archive/res_02/res02_6.html">RSCC Resolution No. 6 series of 2002:</a> </p>
 				<p>ENDORSING TO THE HONORABLE SECRETARY HEHERSON T. ALVAREZ, THE CORDILLERA REGIONAL STATISTICAL COORDINATION COMMITTEE-RECOMMENDED CY 2003-2005 STATISTICAL BUDGET PROPOSAL OF THE DEPARTMENT OF ENVIRONMENT AND NATURAL RESOURCES IN THE CORDILLERA ADMINISTRATIVE REGION (DENR-CAR) AND REQUESTING THE HONORABLE SECRETARY TO INCLUDE SAID PROPOSAL INTO THE CY 2003-2005 BUDGET OF THE DEPARTMENT OF ENVIRONMENT AND NATURAL RESOURCES</p><br>
 
+				<br>
+				<hr class="thin bg-grayLighter">
 				<p>Page last updated: June 29, 2015</p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/statnews-navigation.html"); 
 					});
 				</script> 
 			</div>

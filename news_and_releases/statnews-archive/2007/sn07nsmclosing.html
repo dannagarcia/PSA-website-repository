@@ -24,11 +24,16 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-                <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
                 <li>RSCC-CAR celebrates 18th NSM closing activity in Baguio City</li>
               </ul>
               <hr class="thin bg-grayLighter">
@@ -39,14 +44,15 @@
 				<p>The opening remarks were given by Mr. Benjamin Y. Navarro, Secretary of the RSCC-CAR and Regional Head of the National Statistical Coordination Board-CAR. Mr. Navarro gave emphasis on the relationship of statistics and the MDGs and also gave thanks to the different agencies and to the 18th NSM-TWG. The closing remarks were given by Dir. Olivia G. Gulla, Co-chair, RSCC-CAR and Regional Director of the National Statistics Office-CAR. She stressed the importance of networking and cooperation among agencies. She congratulated all agencies for conducting commendable activities inspite of the meager resources available. Kayang-kaya kung sama-sama.</p>
 
 				<p>The closing program was sponsored by the NSO-CAR.</p>
-				
+					<br>
+					<hr class="thin bg-grayLighter">
 				<p>Page last updated: October 30, 2007</p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/statnews-navigation.html"); 
 					});
 				</script> 
 			</div>

@@ -24,11 +24,16 @@
 			</div>
 
 		<div class="row cells12 align-justify">
-			<div class="cell padding10 no-padding-top colspan8">
-				<div style="color:teal"><h3  class="text-light">Stat News</h3></div>
+			<div class="cell padding10 colspan8">
+				<div id="heading">
+					 <script> 
+						$(function(){
+						  $("#heading").load("/includes/statnews-heading.html"); 
+						});
+					</script> 
+				</div>
               <ul class="breadcrumbs">
                 <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-                <li><a href="/news_and_releases/statnews.html">Stat News Index</a></li>
                 <li>CAR economy grows by 3.0% in 2003</li>
               </ul>
               <hr class="thin bg-grayLighter">
@@ -47,14 +52,14 @@
 					<td colspan="2">There had been a total of 31 participants from 17 different universities and colleges in the region. The Philippine Statistics Quiz (PSQ) is an annual activity of the Philippine Statistical Association (PSA) conducted by the National Statistics Office (NSO) and is open to all college freshmen students currently enrolled in their second semester or had just completed their first semester in any recognized academic institutions. It aims to instill the value of statistics among students and to win public cooperation in all government statistical activities such as censuses and surveys, and eventually generate quality data for national development planning. It also intends to measure the effectiveness of the current statistics curriculum in high schools and determine possible areas for improvement so that college entrants inclined in Science will develop more interest in statistical courses.</td>
 					</tr>
 				</table>
-
+				<br><hr class="thin bg-grayLighter">
 				<p>Page last updated: February 23, 2007 </p>
 
 			</div>
-			<div class="cell padding10 no-padding-top colspan4" id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-					  $("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/statnews-navigation.html"); 
 					});
 				</script> 
 			</div>

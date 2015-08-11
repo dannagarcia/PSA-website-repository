@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Fact Sheet</title>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -25,7 +25,13 @@
 
 		<div class="row cells12 align-justify">
 			<div class="cell colspan8 padding10 no-padding-top">
-				<div style="color:teal"><h3>Fact Sheet</h3></div>
+				<div id="heading">
+		          <script> 
+		            $(function(){
+		              $("#heading").load("/includes/fs-heading.html"); 
+		            });
+		          </script> 
+		        </div>
 
 				<ul class="breadcrumbs">
 					<li><a href="/index.html"><span class="icon mif-home"></span></a></li>
@@ -33,7 +39,7 @@
 					<li><a href="/news_and_releases/factSheet/2015/july22.html">BLISTT area retains status as the least poor in CAR</a></li>
 				</ul>
 				<hr class="thin bg-grayLighter">
-				<h4 style="color:red;">Abra has the highest crime solution efficiency in CAR</h4>
+				<h4>Abra has the highest crime solution efficiency in CAR</h4>
 				<p>The highest crime solution efficiency with 81.4 percent of total recorded crimes solved as of the 1st Quarter 2015 was posted in Abra. This translates into 428 out of the 526 cases solved in the province.</p>
 				<p>Kalinga came in second with a crime solution efficiency of 71.4 percent followed by Baguio City at 70.1 percent. The lowest crime solution rate was reported by Apayao at 49.1 percent followed closely by Benguet at 49.5 percent.</p>
 <!-- ===========================================================2015===================================================================== -->
@@ -80,7 +86,7 @@
 			</div>
 <!-- ================================================================================================================================ -->
 
-			<div class="cell padding10 no-padding-top colspan4"  id="publications">
+			<div class="cell padding10 colspan4"  id="publications">
 				<script> 
 					$(function(){
 						$("#publications").load("/includes/publications.html"); 
