@@ -27,25 +27,30 @@
 			<div class="cell colspan8 padding10">
 
 				<div style="color:teal"><h3 class="text-light">Stat Trivia</h3></div>
+				<ul class="breadcrumbs">
+				    <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
+				    <li><a href="/index.html">News and Releases</a></li>
+				    <li><a href="#">Stattrivia</a></li>
+				</ul>
 				<hr class="thin bg-grayLighter">
 				<p>The Stat Trivia is an infobit that features interesting statistics. The NSCB-CAR Stat Trivia is featured at least quarterly in the weekly regional newspaper ZIGZAG WEEKLY.</p>
 				<p>Please select an issue from the archive below.</p>
 <!-- ===========================================================2015===================================================================== -->
 				<div class="row cells12 align-left"> 
 					<div class="cell colspan4 padding10">
-						<div class="accordion" data-role="accordion">
-							<div class="frame">
-								<div class="heading">CY 2015</div>
-								<div class="content bg-grayLighter">
-									<ol class="numeric-list square-marker green-bullet" id="statwatch-regional">
-										<li><a onclick="showDialog('#may15')">Americans outnumbered Korean tourists</a></li>	 
-										<li><a onclick="showDialog('#mar15')">The PNP handled 645 cases of violence against women</a></li>	
-										<li><a onclick="showDialog('#feb15')">One peso in 2006 is now worth only 72 centavos</a></li>	
-										<li><a onclick="showDialog('#jan15')">Cordillera contributes bulk of the country’s cabbage production</a></li>	
-									</ol>
-								</div>
+					<div class="accordion" data-role="accordion">
+						<div class="frame">
+							<div class="heading">CY 2015</div>
+							<div class="content bg-grayLighter">
+								<ol class="numeric-list square-marker green-bullet" id="statwatch-regional">
+									<li><a onclick="showDialog('#may15')">Americans outnumbered Korean tourists</a></li>	 
+									<li><a onclick="showDialog('#mar15')">The PNP handled 645 cases of violence against women</a></li>	
+									<li><a onclick="showDialog('#feb15')">One peso in 2006 is now worth only 72 centavos</a></li>	
+									<li><a onclick="showDialog('#jan15')">Cordillera contributes bulk of the country’s cabbage production</a></li>	
+								</ol>
 							</div>
 						</div>
+					</div>
 <!-- ================================================================================================================================ -->
 
 
@@ -215,10 +220,10 @@
 			</div>
 <!-- ================================================================================================================================ -->
 
-			<div class="cell padding10 colspan4"  id="publications">
+			<div class="cell padding10 colspan4"  id="archive">
 				<script> 
 					$(function(){
-						$("#publications").load("/includes/publications.html"); 
+						$("#archive").load("/includes/stattrivia-navigation.html"); 
 					});
 				</script> 
 			</div>
