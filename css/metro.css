@@ -5796,14 +5796,20 @@ a.tag {
   width: 100%;/*custom size (orig 100%)*/
   max-width: none;
   }
-  .f-menu > li #nav1 {
-    width: 265%;
+  .f-menu > li #nav1 > .panel {
+    width: 450px;
+  }
+  .f-menu > li #nav1 > .panel > div > div {
+    width: 140px;
   }
   .f-menu > li #nav2 {
-    width: 125%;
+    width: 225px;
   }
   .f-menu > li #nav4 {
-    width: 300px;
+    width: 265px;
+  }
+  .f-menu > li #nav5 {
+    width: 100%;
   }
 
 .f-menu li:hover > .dropdown-toggle:before {
@@ -5883,21 +5889,14 @@ a.tag {
     min-width: 150px;
     width: auto;
   }
-  .f-menu > li #nav1 {
-    max-width: 500px;
-    min-width: 500px;
-    width: auto;
-    font-size: 12px;
-  }
   .f-menu > li #nav3 {
     max-width: 200px;
     min-width: 200px;
     width: auto;
   }
   .f-menu > li #nav4 {
-    max-width: 300px;
-    min-width: 150px;
-    width: 300px;
+    min-width: 245px;
+
   }
 
 }
@@ -5943,10 +5942,14 @@ a.tag {
   width: 100%;
   font-size: .800rem;
 }
-    .f-menu > li #nav4 {
+  .f-menu > li #nav2 {
+    width: 100%;
+  }
+  .f-menu > li #nav4 {
     width: 100%;
     max-width: none;
   }
+
   /*end custom*/
 }
 .f-menu > li {
@@ -17470,9 +17473,29 @@ p [data-hint] {
   min-width:98%;
   display: block;
 }
+
 }
 
 #webfoot a:hover{
   color: teal;
   text-decoration: underline;
+}
+
+#navi1a {
+  display: block;
+}
+#navi1b {
+  display: none;
+  }
+
+@media only screen and (max-width: 650px) {
+  #navi1a {
+    display: none;
+  }
+  #navi1b {
+   display: block;
+  }
+  #navi1b > li{
+    width: 130%;
+  }
 }
