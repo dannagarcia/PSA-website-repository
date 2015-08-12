@@ -5988,7 +5988,12 @@ a.tag {
     position: absolute;
     box-shadow: none;
     left: 0;
+
   }
+  .f-menu > li .d-menu li a {
+
+  padding: 5px 0px;
+}
 }
 @media only screen and (max-width: 650px) {
   #nav3nav {
@@ -17360,10 +17365,15 @@ p [data-hint] {
 }
 #icons{
   text-align: right;
+  bottom:-50px;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 768px) {
   #icons{
    text-align: center;
+   top:-20px;
+  }
+  #icon_con {
+    height: 20px;
   }
 }
 #direction {
@@ -17507,6 +17517,9 @@ p [data-hint] {
   }
   #navi1b > li{
     width: 130%;
+  }
+  .d-menu {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
   }
 }
 
