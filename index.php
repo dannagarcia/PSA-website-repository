@@ -21,7 +21,7 @@
 			 <div id="header">
 			 <script> 
 				$(document).ready(function(){
-				  $("#header").load("/includes/header.html"); 
+				  $("#header").load("/includes/header.php"); 
 				});
 			</script> 
 			</div>
@@ -359,7 +359,7 @@
 								            <img width="100%" height="100%" src="/images/pcpcOnline.gif">
 								        </div>
 								        <div class="slide-over op-black fg-white padding10">
-								           Philippine Central Product Clwwassification Online
+								           Philippine Central Product Classification Online
 								        </div>
 								    </div>
 				                </div>

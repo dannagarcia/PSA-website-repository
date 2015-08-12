@@ -19,7 +19,7 @@
 	<div class="row" id="navigation">
 		<ul class="f-menu bg-darkCobalt">
 			<li>
-				<a href="#" class="dropdown-toggle" onclick="myFunction()" id="teal"><span class="fg-white">News and Releases</span></a>
+				<a href="#" class="dropdown-toggle" id="teal" onclick="myFunction()"><span class="fg-white">News and Releases</span></a>
 				<ul  class="d-menu" data-role="dropdown" id="nav1">
 					<div class="panel">
 						<div class="row cells12">
@@ -138,8 +138,6 @@
 			</li>
 		</ul>
 	</div>
-
-
 
 <script>
 	var count=1;
