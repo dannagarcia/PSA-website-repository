@@ -5806,7 +5806,10 @@ a.tag {
     width: 450px;
   }
   .f-menu > li #nav2 {
-    width: 225px;
+    width: 222px;
+  }
+  .f-menu > li #nav3 {
+    width: 300px;
   }
   .f-menu > li #nav4 {
     width: 270px;
@@ -5856,6 +5859,7 @@ a.tag {
   text-decoration: none;
   padding: .500rem 1.625rem; /*custom (orig: 1.125rem 1.625rem)*/
   border: none;
+  text-align: center;
 
 }
 .f-menu > li > a:hover {
@@ -5888,6 +5892,9 @@ a.tag {
     padding: .625rem 1.625rem;
     font-size: 1.1vw;
   }
+  .f-menu > li .d-menu{
+    font-size: 1.1vw;
+  }
   .f-menu > li .d-menu {
     max-width: 200px;
     min-width: 150px;
@@ -5899,15 +5906,14 @@ a.tag {
     width: auto;
   }
   .f-menu > li #nav3 {
-    max-width: 200px;
-    min-width: 200px;
-    width: auto;
+    min-width: 275px;
+  }
+  #nav3nav {
+    min-width: 260px;
   }
   .f-menu > li #nav4 {
-    min-width: 245px;
-
+    min-width: 250px;
   }
-
 }
 /* end */
 @media only screen and (max-width: 948px) {
@@ -5938,6 +5944,9 @@ a.tag {
     width: 100%;
     max-width: none;
   }
+  .f-menu > li #nav2 {
+    width: 100%;
+  }
   .f-menu > li #nav3 {
     width: 100%;
     max-width: none;
@@ -5951,9 +5960,6 @@ a.tag {
   width: 100%;
   font-size: .800rem;
 }
-  .f-menu > li #nav2 {
-    width: 100%;
-  }
   .f-menu > li #nav4 {
     width: 100%;
     max-width: none;
@@ -5970,16 +5976,11 @@ a.tag {
   width: 100%;
 }
 
-.f-menu > li .d-menu li {
-
-  text-align: left;
-  width: 100%;
-}
 .f-menu > li .d-menu li a {
   text-align: left;
   width: 100%;
   min-width: 0;
-  padding: 5px 0;
+  padding: 5px 5px;
 }
 
 @media only screen and (max-width: 650px) {
