@@ -4805,6 +4805,11 @@ a.tag {
     width: 100%;
     margin: .3125rem 0;
   }
+  .grid.condensed:not(.no-responsive-future) .row > .cell,
+  .grid.condensed:not(.no-responsive-future) .row > .cell[class*=colspan] {
+    width: 100%;
+    margin: .3125rem 0;
+  }
 }
 @media only screen and (max-width: 650px) {
   .grid.condensed:not(.no-responsive-future) .row {
@@ -5890,9 +5895,6 @@ a.tag {
   .f-menu > li > a {
     text-align: center;
     padding: .625rem 1.625rem;
-    font-size: 1.1vw;
-  }
-  .f-menu > li .d-menu{
     font-size: 1.1vw;
   }
   .f-menu > li .d-menu {
@@ -17375,6 +17377,9 @@ p [data-hint] {
   #icon_con {
     height: 20px;
   }
+  #banner {
+    text-align: center;
+  }
 }
 #direction {
   margin-top:100px;
@@ -17536,3 +17541,11 @@ p [data-hint] {
     left:30px;
 }
 }
+
+#pov_in {
+  z-index: 100;
+}
+/*
+#povin_grid > div > div > div > p {
+  font-size: 10px;
+}*/
