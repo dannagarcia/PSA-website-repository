@@ -21,7 +21,7 @@
 			 <div id="header">
 			 <script> 
 				$(document).ready(function(){
-				  $("#header").load("/includes/header.html"); 
+				  $("#header").load("/includes/header.php"); 
 				});
 			</script> 
 			</div>
@@ -154,7 +154,7 @@
 						<img width="49%" src="/images/PSA-Abra-CSC-Award2-small.jpg">
 						<img width="49%" src="/images/PSA-Abra-CSC-Award-small.jpg">
 						<p>
-							CSC cites PSA Abra with 2014 Seal of Excellence Award garnering a rating of 91.88%, Philippine Statistics Authority (PSA) – Abra Provincial Statistical Office was recognized by the Civil Service Commission with the 2014 Citizen’sSatisfaction Center-Seal of Excellence Award (CSC-SEA) in a ceremony held at Venus Park View Hotel, Kisad Road, Baguio City on May 18, 2014. <a href="\news_and_releases\press releases archive\2015\pub_pr_PSA-Abra-award.html">(Read more)</a> <br> 
+							CSC cites PSA Abra with 2014 Seal of Excellence Award garnering a rating of 91.88%, Philippine Statistics Authority (PSA) – Abra Provincial Statistical Office was recognized by the Civil Service Commission with the 2014 Citizen’sSatisfaction Center-Seal of Excellence Award (CSC-SEA) in a ceremony held at Venus Park View Hotel, Kisad Road, Baguio City on May 18, 2014. <a href="/news_and_releases/press releases archive/pub_pr_PSA-Abra-award.html">(Read more)</a> <br> 
 							<span class="text-small">[POSTED 17 MAR 2015]</span>
 						</p>
 					</div>
@@ -178,7 +178,7 @@
 					<div>
 						<br>
 						<a href="/news_and_releases/pressreleases.html"><h5  class="fg-red uppercase">Press Release</h5></a>
-						<a href="\news_and_releases\press releases archive\2015\pub_pr_PSA-Abra-award.html"><h5>2015 Agency Release Calendar for CAR is now available</h5></a>
+						<a href="\news_and_releases\press releases archive\2015\pub_pr_PSA-Abra-award.html\pub_pr_2015arc.html"><h5>2015 Agency Release Calendar for CAR is now available</h5></a>
 						<p>
 							The consolidated 2015 Agency Release Calendar (ARC) for the Cordillera Administrative Region (CAR) can now be accessed online. The ARC is the schedule of release of statistical outputs of selected government agencies within the region. For each source agency, the ARC contains infosrmation on what statistical data are available, period covered, level of disaggregation, schedule of data release, form of output (e.g. print, e-copy and/or web download), as well as the focal person and telephone number and/or email address. For this year, a total of 24 government agencies submitted their respective ARC.<a href="/news_and_releases/press release archive/pub_pr_2015arc.html">(Read more)</a> <br> 
 							<span class="text-small">[POSTED 17 MAR 2015]</span>
@@ -359,7 +359,7 @@
 								            <img width="100%" height="100%" src="/images/pcpcOnline.gif">
 								        </div>
 								        <div class="slide-over op-black fg-white padding10">
-								           Philippine Central Product Clwwassification Online
+								           Philippine Central Product Classification Online
 								        </div>
 								    </div>
 				                </div>
@@ -409,7 +409,7 @@
 				<div class="cell colspan2 padding10">
 					<div>
 					<h4 style="color:teal" class="text-light">Advisory</h4>
-					<p>The National Statistical Coordination Board (NSCB), along with three other agencies namely, the National Statistics Office (NSO), the Bureau of Labor and Employment Statistics (BLES), and the Bureau of Agricultural Statistics (BAS) shall be known as the PHILIPPINE STATISTICS AUTHORITY (PSA) starting December 29, 2013 as per Republic Act 10625 otherwise known as the <a href="http://www.psa.gov.ph">Philippine Statistical Act of 2013</a>. </p>
+					<p>The National Statistical Coordination Board (NSCB), along with three other agencies namely, the National Statistics Office (NSO), the Bureau of Labor and Employment Statistics (BLES), and the Bureau of Agricultural Statistics (BAS) shall be known as the PHILIPPINE STATISTICS AUTHORITY (PSA) starting December 29, 2013 as per Republic Act 10625 otherwise known as the <a href="www.psa.gov.ph">Philippine Statistical Act of 2013</a>. </p>
 					</div>
 					<hr class="thin bg-grayLighter">
 					<br>
