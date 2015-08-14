@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stat View</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="/css/metro.css" rel="stylesheet">
+	<link href="/css/metro-icons.css" rel="stylesheet">
+	<link href="/css/custom.css" rel="stylesheet">
+	<script src="/js/jquery-2.1.3.min.js"></script>
+	<script src="/js/metro.js"></script>
+	<script src="/js/ga.js"></script>
+</head>
+<body class="text-secondary fg-gray">
+
+	<div class="margin10 no-margin-top grid condensed">  <!-- grid -->
+		<div id="header">
+			<script> 
+				$(function(){
+					$("#header").load("/includes/header.html"); 
+				});
+			</script> 
+		</div>
+
+		<div class="row cells12">  <!-- row  -->
+			<div class="cell colspan8 padding10"> <!-- cell colspan8 -->
+				<div style="color:teal"><h3  class="text-light">Stat View</h3></div>
+				<ul class="breadcrumbs">
+				    <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
+				    <li>2013</li>
+				    <li><a href="#">Metallic Mineral Production</a></li>
+				    
+				</ul>
+				<hr class="thin bg-grayLighter">
+
+				<h4>Metallic Mineral Production Cordillera Administrative Region 2009-2012</h4> <br><br>
+				<p class="align-center"><img width="50%" src="/images/mineral.jpg"></p>
+			
+				
+
+				<br><br><br>
+
+				<hr class="thin bg-grayLighter">
+				<div class="tile-container align-left">
+					<a href="/pdf/sv/Statview-CAR_may2013.pdf">
+				        <div class="bg-darkTeal tile tile-small" data-role="tile">
+				            <div class="tile-content iconic">
+								<span class="icon mif-file-pdf fg-white mif-4x" data-role="hint"
+								data-hint-background="bg-white"
+							    data-hint-color="fg-black"
+							    data-hint-mode="4"
+							    data-hint="Download PDF|Metallic Mineral Production Cordillera Administrative Region 2009-2012"
+								></span>
+							</div>
+				        </div>
+			         </a>
+				</div>
+				<p>Page uploaded: May 16, 2013</p>
+
+
+			</div><!-- cell colspan8 -->
+
+
+			<div class="cell colspan4 padding10" id="archive"> <!-- cell colspan4 -->
+				<script> 
+					$(function(){
+						$("#archive").load("/includes/statview-navigation.html"); 
+					});
+				</script> 
+			</div> <!-- cell colspan4 -->
+		</div><!-- row  -->
+		<div class="row" id="footer"><!-- footer -->
+			<script> 
+				$(function(){
+					$("#footer").load("/includes/footer.html"); 
+				});
+			</script>
+		</div><!-- footer -->
+	</div><!-- grid -->
+
+</body>
+</html>
