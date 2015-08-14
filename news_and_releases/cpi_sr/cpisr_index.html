@@ -49,7 +49,57 @@
                                 	<p>The Consumer Price Index of CAR in January, 2015 was 138.7, higher by 3.4 from last year’s 135.3.</p>
                                 	<p>Generally, there was an increase in the CPI of all the provinces due to the increase in the average prices of goods and services.</p>
 
-                                	<!-- <p class="align-center"><img width="50%" src="/images/cpi/2015/jan/cpijan20152014.png"></p> -->
+                                	<?php
+
+                                	$myfile = fopen("names2.csv", "r") or die("Unable to open file!");
+                                	$line;
+
+                                	echo '<table class="table border bd-grayLighter no-padding bordered align-center">';
+                                	echo '<tr>';
+                                	echo '<th style="padding:1%" class="bd-grayLighter" rowspan="2">Province</th>';
+                                	echo '<th style="padding:1%" class="bd-grayLighter" colspan="2">January</th>';
+
+                                	echo '<th style="padding:1%" class="bd-grayLighter" rowspan="2">Index Point Change</th>';
+                                	echo '</tr>';
+                                	echo '
+                                	<tr>
+
+                                		<th style="padding:1%" class="bd-grayLighter">2011</th>
+                                		<th style="padding:1%" class="bd-grayLighter">2012</th>
+
+                                	</tr>
+
+                                	';
+                                	while(!feof($myfile)) {
+
+                                		echo "<tr>";
+                                		$line=fgetcsv($myfile);
+                                		$province = explode(',', $line[0]);
+                                		$year1 = explode(',', $line[1]);
+                                		$year2 = explode(',', $line[2]);
+                                		$indexPointChange = explode(',', $line[3]);
+
+                                		echo '<td style="padding:1%" class="bd-grayLighter">';
+                                		echo $province[0];
+                                		echo '</td>';
+
+                                		echo '<td style="padding:1%" class="bd-grayLighter">';
+                                		echo $year1[0];
+                                		echo '</td>';
+
+                                		echo '<td style="padding:1%" class="bd-grayLighter">';
+                                		echo $year2[0];
+                                		echo '</td>';
+
+                                		echo '<td style="padding:1%" class="bd-grayLighter">';
+                                		echo $indexPointChange[0];
+                                		echo '</td>';
+                                		echo '</tr>';
+                                	}
+
+                                	fclose($myfile);
+                                	echo '</table>';
+                                	?>
 
                                 	<p>Among provinces, Ifugao posted the highest CPI at 142.5 followed by Mt. Province at
 									142.4 and Benguet at 141.3. On the other hand, Apayao posted the lowest at 129.7.</p>
