@@ -5859,7 +5859,7 @@ a.tag {
   position: relative;
   font-weight: normal;
   color: #727272;
-  font-size: .800rem;
+  font-size: .750rem;
   outline: none;
   text-decoration: none;
   padding: .500rem 1.625rem; /*custom (orig: 1.125rem 1.625rem)*/
@@ -5888,14 +5888,14 @@ a.tag {
   left: auto;
 }
 /*custom*/
-@media only screen and (max-width: 948px) {
+@media only screen and (max-width: 889px) {
   .f-menu {
     height: 60px;
   }
   .f-menu > li > a {
     text-align: center;
     padding: .625rem 1.625rem;
-    font-size: 1.1vw;
+    font-size: .750rem;
   }
   .f-menu > li .d-menu {
     max-width: 200px;
@@ -5918,11 +5918,6 @@ a.tag {
   }
 }
 /* end */
-@media only screen and (max-width: 948px) {
-  .f-menu {
-    height: 40px;
-  }
-}
 @media only screen and (max-width: 739px) {
   .f-menu {
     height: 55px;
@@ -17549,3 +17544,29 @@ p [data-hint] {
 #povin_grid > div > div > div > p {
   font-size: 10px;
 }*/
+
+#navList1{
+  width: 22%;
+}
+#navList2{
+  width: 12%;
+}
+#navList3{
+  width: 25%;
+}
+#navList4{
+  width: 19%;
+}
+#navList5{
+  width: 19%;
+}
+
+@media only screen and (max-width: 650px) {
+  #navList1,
+  #navList2,
+  #navList3,
+  #navList4,
+  #navList5{
+     width:100%;
+  }
+}
