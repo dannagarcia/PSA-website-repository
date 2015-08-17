@@ -191,7 +191,9 @@
 										(2006 = 100)
 										</strong></p>
 										<?php
-											generateTable5("table5jan2015.csv", " ", " ", "Jan. 2015", "Dec. 2014");
+											// generateTable5("table5jan2015.csv", " ", " ", "Jan. 2015", "Dec. 2014");
+											generateTable5a("table5jan2015.csv", " ", " ", "Jan. 2015", "Dec. 2014", "Dec. 2013");
+
 												
 										?>
 									</div>

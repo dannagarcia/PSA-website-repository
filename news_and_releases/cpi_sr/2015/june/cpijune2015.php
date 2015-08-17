@@ -199,7 +199,6 @@
 										<p class="padding20"><strong>Table 5. Year-on-Year Inflation Rates of Selected Food Items, CAR: May and June 2015 and 2014 (2006 = 100)</strong></p>
 										<?php
 											generateTable5("table5june2015.csv", "2015", "2014", "June", "May");
-												
 										?>
 									</div>
 									<p><strong>Purchasing Power of the Peso (PPP)</strong></p>
@@ -222,13 +221,9 @@
 
 	                                <p class="align-center"><strong>Explanatory Notes</strong></p><br><br>
 	                                	<p><em><strong>Consumer price Index (CPI)</strong></em> is a general measure of the change in the average retail prices of a market basket or collection of goods and services commonly purchased by the average Filipino household.</p>
-
 	                                	<p><em><strong>Inflation Rate (IR)</strong></em> is the rate of change in the average price level between two periods (year on year/month-onmonth as measured by the CPI).</p>
-
 	                                	<p><em><strong>Purchasing Power of the Peso (PPP)</strong></em> measures how much the peso in the reference year is worth in another year.</p>
-
 	                                	<p><em><strong>Base Year (BY)</strong></em> is the reference point of the index number series, at which the index number is set to zero.</p>
-
 	                                	<p><em><strong>Market Basket (MB)</strong></em> ) is a sample of goods and services used to represent all goods and services produced or bought.</p>
                                 </div>
                             </div>
