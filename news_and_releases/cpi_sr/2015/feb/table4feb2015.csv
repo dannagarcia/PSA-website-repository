@@ -1,12 +1,12 @@
-All Items,0,0
-Food and Non-Alcoholic Beverages,0,0
-Alcoholic Beverages & Tobacco,0,0
-Clothing and Footwear,0,0
-"Housing, Water, Electricity, Gas and Other Fuels",0,0
+All Items,-0.3,-0.1
+Food and Non-Alcoholic Beverages,0.6,0.1
+Alcoholic Beverages & Tobacco,0.4,0.7
+Clothing and Footwear,0.2,0.1
+"Housing, Water, Electricity, Gas and Other Fuels",-0.3,-0.6
 "Furnishing, Household Equipment and Routine Maintenance of the House",0,0
-Health,0,0
-Transport,0,0
+Health,0.1,0
+Transport,0.4,-1.1
 Communication,0,0
 Recreation and Culture,0,0
 Education,0,0
-Restaurants and Miscellaneous Goods and Services,0,0
+Restaurants and Miscellaneous Goods and Services,0.1,0.1
