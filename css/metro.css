@@ -5888,7 +5888,7 @@ a.tag {
   left: auto;
 }
 /*custom*/
-@media only screen and (max-width: 889px) {
+@media only screen and (max-width: 964px) {
   .f-menu {
     height: 60px;
   }
@@ -17546,7 +17546,7 @@ p [data-hint] {
 }*/
 
 #navList1{
-  width: 22%;
+  width: 24%;
 }
 #navList2{
   width: 12%;
@@ -17560,13 +17560,17 @@ p [data-hint] {
 #navList5{
   width: 19%;
 }
+#navList6{
+  width: 25%;
+}
 
 @media only screen and (max-width: 650px) {
   #navList1,
   #navList2,
   #navList3,
   #navList4,
-  #navList5{
+  #navList5,
+  #navList6{
      width:100%;
   }
 }
