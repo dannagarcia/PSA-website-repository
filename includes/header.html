@@ -16,8 +16,13 @@
 	</div><!-- PSA LOGO -->
 
 	<!-- Navigation bar -->
+	<div id="gray" class="row half-opacity" style="display:none;position:absolute;z-index:499">
+		<ul class="f-menu bg-gray">
+			
+		</ul>
+	</div>
 	<div class="row" id="navigation">
-		<ul class="f-menu">
+		<ul class="f-menu bg-darkCobalt">
 			<li id="navList1">
 				<a href="#"><span class="fg-white">News and Releases</span></a>
 
@@ -151,20 +156,27 @@
 				<form>
 					<div class="input-control text place-right" style="margin-right: 10px;height:20px ;">
 						<input style="height:65%; border-radius: 10px;" type="text" placeholder="Search...">
-						<button class="button " style="height:65%; border-radius: 25px;"><span class="mif-search mif-1x"></span></button>
+						<button class="button" style="height:65%; border-radius: 25px;"><span class="mif-search mif-1x"></span></button>
 					</div>
 				</form>
 			</li>
-			<li class=" no-hovered" id="navList6b">
-				<a href="#"><span class="fg-white mif-search mif-lg"><span></a>
-				<ul class="d-menu">
-					<form>
-						<div class="input-control text place-right" style="margin-right: 10px;height:20px ;">
-							<input style="height:65%; border-radius: 10px;" type="text" placeholder="Search...">
-							<button class="button " style="height:65%; border-radius: 25px;"><span class="mif-search mif-1x"></span></button>
-						</div>
-					</form>
-				</ul>
+			<li id="navList6b">
+				<a id="show" href="#">
+					<span  class="fg-white mif-search mif-lg"></span>
+				</a>
+				<a id="hide" style="display:none;z-index:600" href="#">
+					<span  class="fg-white mif-cross mif-lg"></span>
+				</a>
+					<div id="popup" style="display:none;z-index:500;position:absolute;right:45px;width:300px">
+						<form>
+							<div class="input-control text place-right" style="margin-right: 10px;height:20px;">
+								
+								<input style="height:65%; border-radius: 10px;" type="text" placeholder="Search...">
+								<button class="button " style="height:65%; border-radius: 10px;"><span class="mif-search mif-1x"></span></button>
+							</div>
+						</form> 
+
+				</div>
 			</li>
 		</ul>
 	</div>
@@ -184,4 +196,21 @@ function myFunction() {
             count = 0;
         }
 }
+$(document).ready(function(){
+	$("#show").click(function(){
+		$("#gray").fadeIn();
+	    $("#popup").fadeIn();
+	    $("#hide").fadeIn(0);
+	    $("#show").fadeOut(0);
+	});
+
+	$("#hide").click(function(){
+		$("#gray").fadeOut();
+	    $("#popup").fadeOut();
+	    $("#hide").fadeOut(0);
+	    $("#show").fadeIn(0);
+
+	});
+});
+
 </script>
