@@ -24,10 +24,19 @@
 		</div>
 
 		<div class="row cells12">  <!-- row  -->
-			<div class="cell colspan8 padding10 no-padding-top"> <!-- cell colspan8 -->
-				<div class="bg-teal fg-white"><h3 class="uppercase">statrivia</h3></div>
-				<p>CY 2006 ISSUES:</p>
-				<ol class="numeric-list square-marker large-bullet green-bullet" >
+			<div class="cell colspan8 padding10"> <!-- cell colspan8 -->
+				<div style="color:teal"><h3 class="uppercase text-light">statrivia</h3></div>
+
+		        <ul class="breadcrumbs">
+		          <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
+		          <li><a href="/news_and_releases/stattrivia.html"></a>Stat Trivia</li>
+		          <li>2006</li>
+		          <li>CY 2006 ISSUES</li>
+		        </ul>
+
+		        <hr class="thin bg-grayLighter">
+				<h4>CY 2006 ISSUES:</h4><br><br>
+				<ol class="numeric-list square-marker large-bullet" >
 					<li><button class="button" onclick="showDialog('#february')">February 2006 Issue</button></li>
 					<li><button class="button" onclick="showDialog('#march')">March 2006 Issue</button>	</li>
 					<li><button class="button" onclick="showDialog('#may')">May 2006 Issue</button>	</li>
@@ -35,15 +44,15 @@
 					<li><button class="button" onclick="showDialog('#november')">November 2006 Issue</button>	</li>
 				</ol>
 
-				<p>The NSCB-CAR Stat Trivia is also published in the regional newspaper, "ZIGZAG WEEKLY."</p>
+				<p>The PSA-CAR Stat Trivia is also published in the regional newspaper, "ZIGZAG WEEKLY."</p>
 
 
-
+				<hr class="thin bg-grayLighter">
 				<p>Page last updated: January 13, 2010</p>
 			</div><!-- cell colspan8 -->
 
 
-			<div class="cell colspan4 padding10 no-padding-top" id="publications"> <!-- cell colspan4 -->
+			<div class="cell colspan4 padding10" id="publications"> <!-- cell colspan4 -->
 				<script> 
 					$(function(){
 						$("#publications").load("/includes/publications.html"); 
@@ -71,7 +80,7 @@
 </script>
 
 <!-- february issues -->
-<div data-role="dialog" id="february" 
+<div data-role="dialog" id="february" data-overlay="true" data-overlay-color="op-dark"
 data-close-button="true" class="padding20" 
 data-height="auto" data-width="50%">
 <div class="bg-cyan padding10 fg-white"><h1>February 2006</h1></div>
@@ -109,7 +118,7 @@ data-height="auto" data-width="50%">
 	</div><!-- february issues -->
 
 	<!-- March 2006 Issue -->
-	<div data-role="dialog" id="march" 
+	<div data-role="dialog" id="march" data-overlay="true" data-overlay-color="op-dark"
 	data-close-button="true" class="padding20" 
 	data-height="auto" data-width="50%">
 	<div class="bg-lightGreen padding10 fg-white"><h1>March 2006</h1></div>
@@ -127,7 +136,7 @@ data-height="auto" data-width="50%">
 
 
 	<!-- May 2006 Issue -->
-	<div data-role="dialog" id="may" 
+	<div data-role="dialog" id="may" data-overlay="true" data-overlay-color="op-dark"
 	data-close-button="true" class="padding20" 
 	data-height="auto" data-width="50%">
 	<div class="bg-lightRed padding10 fg-white"><h1>May 2006</h1></div>
@@ -146,7 +155,7 @@ data-height="auto" data-width="50%">
 	<!-- May 2006 Issue -->
 
 	<!-- September 2006 Issue -->
-	<div data-role="dialog" id="september" 
+	<div data-role="dialog" id="september" data-overlay="true" data-overlay-color="op-dark"
 	data-close-button="true" class="padding20" 
 	data-height="auto" data-width="50%">
 	<div class="bg-magenta padding10 fg-white"><h1>September 2006</h1></div>
@@ -180,7 +189,7 @@ data-height="auto" data-width="50%">
 <!-- September 2006 Issue -->
 
 <!-- November 2006 Issue -->
-	<div data-role="dialog" id="november" 
+	<div data-role="dialog" id="november" data-overlay="true" data-overlay-color="op-dark"
 	data-close-button="true" class="padding20" 
 	data-height="auto" data-width="50%">
 	<div class="bg-steel padding10 fg-white"><h1>November 2006</h1></div>
