@@ -24,11 +24,20 @@
     </div>
 
     <div class="row cells12"> <!-- row -->
-      <div class="cell colspan8 padding10 no-padding-top">  <!-- cell number 1  -->
-        <div class="bg-teal fg-white"><h3 class="uppercase">statrivia</h3></div>
-        <p>CY 2007 ISSUES:</p>
+      <div class="cell colspan8 padding10">  <!-- cell number 1  -->
+        <div style="color:teal"><h3 class="uppercase text-light">statrivia</h3></div>
 
-        <ol class="numeric-list square-marker large-bullet green-bullet" >
+        <ul class="breadcrumbs">
+          <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
+          <li><a href="/news_and_releases/stattrivia.html"></a>Stat Trivia</li>
+          <li>2007</li>
+          <li>CY 2007 ISSUES</li>
+        </ul>
+
+        <hr class="thin bg-grayLighter">
+        <h4>CY 2007 ISSUES:</h4><br><br>
+
+        <ol class="numeric-list square-marker large-bullet" >
           <li><button class="button" onclick="showDialog('#january')">Pupils in Cordillera</button></li>
           <li><button class="button" onclick="showDialog('#march')">Domestic Travelers</button> </li>
           <li><button class="button" onclick="showDialog('#may')">Passenger Traffic at Loakan Airport</button>  </li>
@@ -36,9 +45,11 @@
           <li><button class="button" onclick="showDialog('#september')">Domestic Visitors</button>  </li>
           <li><button class="button" onclick="showDialog('#november')">Teenage Mom</button> </li>
         </ol>
+
+        <hr class="thin bg-grayLighter">
         <p>Page last updated: March 31, 2008</p>
       </div> <!-- cell number 1  -->
-      <div class="cell colspan4 padding10 no-padding-top" id="publications">
+      <div class="cell colspan4 padding10" id="publications">
         <script> 
           $(function(){
             $("#publications").load("/includes/publications.html"); 
@@ -72,8 +83,9 @@
   2. divs can be located anywhere -->
 
   <!-- november issues -->
-  <div data-role="dialog" id="november" data-close-button="true" class="padding20" data-height="auto" data-width="50%">
-    <div class="bg-lighterBlue padding10 fg-white"><h3>3.8% of Cordilleran women from ages 15-19 years old have already given birth</h3></div>
+  <div data-role="dialog" id="november" data-overlay="true" data-overlay-color="op-dark"
+  data-close-button="true" class="padding20" data-height="auto" data-width="50%">
+    <div class="bg-darkTeal padding10 fg-white"><h3>3.8% of Cordilleran women from ages 15-19 years old have already given birth</h3></div>
     <p>
       <strong>November 2007 Issue</strong>
     </p>  
@@ -98,10 +110,10 @@
     </div> <!-- november issues -->
 
     <!-- september issues -->
-    <div data-role="dialog" id="september" 
+    <div data-role="dialog" id="september" data-overlay="true" data-overlay-color="op-dark"
     data-close-button="true" class="padding20" 
     data-height="auto" data-width="50%">
-    <div class="bg-yellow padding10 fg-white"><h3>9 out of 10 tourists in CAR are domestic visitors</h3></div>
+    <div class="bg-darkTeal padding10 fg-white"><h3>9 out of 10 tourists in CAR are domestic visitors</h3></div>
     <p>
       <strong>September 2007 Issue</strong></p>
       <hr class="thin bg-grayLight">
@@ -142,10 +154,10 @@
     </div><!-- september issues -->
 
     <!-- july issues -->
-    <div data-role="dialog" id="july" 
+    <div data-role="dialog" id="july" data-overlay="true" data-overlay-color="op-dark"
     data-close-button="true" class="padding20" 
     data-height="auto" data-width="50%">
-    <div class="bg-crimson padding10 fg-white"><h3>Prices in CAR have increased more than four times since 1985</h3></div>
+    <div class="bg-darkTeal padding10 fg-white"><h3>Prices in CAR have increased more than four times since 1985</h3></div>
     <p>
       <strong>July 2007 Issue</strong></p>
       <hr class="thin bg-grayLight">
@@ -182,10 +194,10 @@
 
 
     <!-- may issues  -->
-    <div data-role="dialog" id="may" 
+    <div data-role="dialog" id="may" data-overlay="true" data-overlay-color="op-dark"
     data-close-button="true" class="padding20" 
     data-height="auto" data-width="50%">
-    <div class="bg-darkViolet padding10 fg-white"><h3>Passenger traffic at Loakan Airport dropped by 60% in the last decade</h3></div>
+    <div class="bg-darkTeal padding10 fg-white"><h3>Passenger traffic at Loakan Airport dropped by 60% in the last decade</h3></div>
     <p>
       <strong>May 2007 Issue</strong>
     </p>
@@ -199,10 +211,10 @@
     <!-- may issues  -->
 
     <!-- march issues -->
-    <div data-role="dialog" id="march" 
+    <div data-role="dialog" id="march" data-overlay="true" data-overlay-color="op-dark"
     data-close-button="true" class="padding20" 
     data-height="auto" data-width="50%">
-    <div class="bg-cobalt padding10 fg-white"><h3>9 out every 10 visitors in CAR were domestic travelers</h3></div>
+    <div class="bg-darkTeal padding10 fg-white"><h3>9 out every 10 visitors in CAR were domestic travelers</h3></div>
     <p>
       <strong>March 2007 issue</strong>
     </p>
@@ -238,10 +250,10 @@
 
 
     <!-- january issues  -->
-    <div data-role="dialog" id="january" 
+    <div data-role="dialog" id="january" data-overlay="true" data-overlay-color="op-dark"
     data-close-button="true" class="padding10" 
     data-height="auto" data-width="50%">
-    <div class="bg-orange padding10 fg-white"><h3>4 out of every 10 pupils in the Cordilleras are from the Baguio-Benguet area</h3></div>
+    <div class="bg-darkTeal padding10 fg-white"><h3>4 out of every 10 pupils in the Cordilleras are from the Baguio-Benguet area</h3></div>
     <p>
       <strong>January 2007 Issue</strong>
     </p>

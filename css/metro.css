@@ -3315,7 +3315,7 @@ html {
 }
 @media screen and (min-width: 1401px) {
   html {
-    font-size: 120%;
+    font-size: 110%;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -3323,11 +3323,7 @@ html {
     font-size: 110%;
   }
 }
-@media screen and (max-width: 1200px) {
-  html {
-    font-size: 100%;
-  }
-}
+
 @media screen and (max-width: 768px) {
   html {
     font-size: 100%;
@@ -5792,7 +5788,7 @@ a.tag {
   list-style: none inside none;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: #3C4D71;
   border-collapse: separate;
   display: -webkit-flex;
   display: flex;
@@ -5839,13 +5835,7 @@ a.tag {
   float: left;
   position: relative;
 }
-.f-menu > li:hover {
-  background-color: #59cde2;
-  color: #ffffff;
-}
-.f-menu > li:hover > a {
-  color: #ffffff;
-}
+
 .f-menu > li.no-hovered {
   background-color: inherit;
   color: inherit;
@@ -5857,19 +5847,12 @@ a.tag {
   display: block;
   float: left;
   position: relative;
-  font-weight: normal;
-  color: #727272;
-  font-size: .750rem;
   outline: none;
   text-decoration: none;
-  padding: .500rem 1.625rem; /*custom (orig: 1.125rem 1.625rem)*/
+  padding: .500rem 13px; /*custom (orig: 1.125rem 1.625rem)*/
   border: none;
   text-align: center;
 
-}
-.f-menu > li > a:hover {
-  background-color: #59cde2;
-  color: #ffffff;
 }
 .f-menu > li .input-control,
 .f-menu > li .button {
@@ -5877,8 +5860,8 @@ a.tag {
 
 }
 .f-menu > li.active a {
-  background-color: #59cde2;
-  color: #ffffff;
+  background-color: #E6E6E6;
+  color: #0091BC;
 }
 .f-menu > li > .d-menu {
   left: 0;
@@ -5887,43 +5870,17 @@ a.tag {
 .f-menu > li > .d-menu {
   left: auto;
 }
-/*custom*/
-@media only screen and (max-width: 889px) {
-  .f-menu {
-    height: 60px;
-  }
+@media only screen and (max-width: 768px) {
   .f-menu > li > a {
-    text-align: center;
-    padding: .625rem 1.625rem;
-    font-size: .750rem;
+    padding: .480rem 10px;
   }
-  .f-menu > li .d-menu {
-    max-width: 200px;
-    min-width: 150px;
-    width: auto;
-  }
-  .f-menu > li #nav1 {
-    max-width: none;
-    min-width: 450px;
-    width: auto;
-  }
-  .f-menu > li #nav3 {
-    min-width: 275px;
-  }
-  #nav3nav {
-    min-width: 260px;
-  }
-  .f-menu > li #nav4 {
-    min-width: 250px;
+  #navList6b > a{
+    bottom:-2px;
   }
 }
-/* end */
-@media only screen and (max-width: 739px) {
+@media only screen and (max-width: 666px) {
   .f-menu {
     height: 55px;
-  }
-  .f-menu > li > a {
-    padding: .480rem 1.625rem;
   }
 }
 @media only screen and (max-width: 650px) {
@@ -6154,7 +6111,7 @@ a.tag {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 .d-menu li:hover > .dropdown-toggle:before {
-  border-color: #ffffff;
+  border-color: #0091BC;
 }
 .d-menu li {
   display: block;
@@ -6171,7 +6128,7 @@ a.tag {
 }
 .d-menu li a {
   color: #727272;
-  font-size: .750rem;
+  font-size: 12px;
   display: block;
   float: none;
   padding: .75rem 2rem .75rem 2.5rem;
@@ -6207,11 +6164,11 @@ a.tag {
 }
 .d-menu li:hover {
   text-decoration: none;
-  background: #59cde2;
+  background: #E6E6E6;
 }
 .d-menu li:hover > a,
 .d-menu li:hover .icon {
-  color: #ffffff;
+  color: #0091BC;
 }
 .d-menu .divider {
   padding: 0;
@@ -17546,19 +17503,47 @@ p [data-hint] {
 }*/
 
 #navList1{
-  width: 22%;
+  max-width: 140px;
+  text-align: center;
 }
 #navList2{
-  width: 12%;
+  max-width: 75px;
+  text-align: center;
 }
 #navList3{
-  width: 25%;
+  max-width: 175px;
+  text-align: center;
 }
 #navList4{
-  width: 19%;
+  max-width: 125px;
+  text-align: center;
 }
 #navList5{
-  width: 19%;
+  max-width: 125px;
+  text-align: center;
+}
+#navList1 > a,
+#navList2 > a,
+#navList3 > a,
+#navList4 > a,
+#navList5 > a{
+  width: auto;
+}
+  #navList1:hover,
+  #navList2:hover,
+  #navList3:hover,
+  #navList4:hover,
+  #navList5:hover{
+     background-color: #0091BC;
+    color: #ffffff;
+  }
+#navList6{
+  max-width: 100%;
+
+}
+#navList6 > form{
+  width: 300px;
+  float:right;
 }
 
 @media only screen and (max-width: 650px) {
@@ -17566,7 +17551,90 @@ p [data-hint] {
   #navList2,
   #navList3,
   #navList4,
-  #navList5{
+  #navList5,
+  #navList6{
      width:100%;
+  }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1920px) {
+  
+}
+
+  #header{
+    font:13px 'Open Sans',"Zoram ldslat","noto sans", Helvetica, Arial, sans-serif;
+  } 
+
+  #header > #navigation > .d-menu > a {
+    font:10px 'Open Sans',"Zoram ldslat","noto sans", Helvetica, Arial, sans-serif;
+  }
+  #navList6b {
+    display: none;
+  }
+
+@media only screen and (max-width: 954px) and (min-width: 651px){
+  #navList6 {
+    display: none;
+  }
+  #navList6b{
+    max-width: 100%;
+    display: block;
+  }
+  #navList6b > a{
+    width: auto;
+    float:right;
+  }
+  #navList6b > form{
+  width: 500px;
+  float:right;
+}
+
+}
+
+@media only screen and (max-width: 650px) {
+
+  #navList1,
+  #navList2,
+  #navList3,
+  #navList4,
+  #navList5,
+  #navList6{
+    width: 100%;
+    max-width: none;
+    
+  }
+  #navList1 > a,
+  #navList2 > a,
+  #navList3 > a,
+  #navList4 > a,
+  #navList5 > a {
+    width: 100%;
+  }
+  #navList6 > form{
+    width: 60%;
+    margin-right:20%;
+    margin-left: 20%;
+  }
+  
+
+  .f-menu > li .d-menu{
+    text-align: center;
+  }
+}
+.f-menu > li:hover {
+ 
+}
+.f-menu > li:hover > a {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 955px) and (max-width: 1920px){
+  #gray {
+    display: none;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 650px) {
+  #gray {
+    display: none;
   }
 }

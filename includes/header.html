@@ -16,13 +16,17 @@
 	</div><!-- PSA LOGO -->
 
 	<!-- Navigation bar -->
+	<div id="gray" class="row half-opacity" style="display:none;position:absolute;z-index:499">
+		<ul class="f-menu bg-gray">
+			
+		</ul>
+	</div>
 	<div class="row" id="navigation">
 		<ul class="f-menu bg-darkCobalt">
 			<li id="navList1">
 				<a href="#"><span class="fg-white">News and Releases</span></a>
 
 				<ul  class="d-menu" data-role="dropdown" id="nav1">
-						
 						<div class="row cells3 panel" id="navi1a">
 							<div class="cell">
 								<li><a href="/news_and_releases/statnews.html">Stat News</a></li>
@@ -31,11 +35,11 @@
 								<li><a href="/news_and_releases/cpi_sr/2015/june/cpijune2015.php">CPI Special Releases</a></li>
 							</div>
 							<div class="cell">
-								<li><a href="/news_and_releases/factSheet.html">Fact Sheet</a></li>
+								<li><a href="/news_and_releases/factSheet/2015/july22.html">Fact Sheet</a></li>
 								<li><a href="/news_and_releases/mdg-watch.html">MDG Watch</a></li>
-								<li><a href="https://psa.gov.ph/statistics/quickstat">Quick Stat</a></li>
+								<li><a href="/news_and_releases/quickstat/quickstat.html">Quick Stat</a></li>
 								<li><a href="/news_and_releases/stattrivia.html">Stat Trivia</a></li>
-								<li><a href="/news_and_releases/statview.html">Stat View</a></li>
+								<li><a href="/news_and_releases/statview/2014/firestat.html">Stat View</a></li>
 								<li><a href="/news_and_releases/statwatch.html">Stat Watch</a></li>
 							</div>
 							<div class="cell">
@@ -135,7 +139,7 @@
 			</li>
 			<li id="navList5">
 				<a href="#"><span class="fg-white">Provincial Offices</span></a>
-				<ul  class="d-menu" data-role="dropdown" id="nav5">
+				<ul class="d-menu" data-role="dropdown" id="nav5">
 				
 					<div class="panel">
 						<li><a href="/provinces/fnf_car.htm">CAR</a></li>
@@ -147,13 +151,31 @@
 					</div>
 				</ul>
 			</li>
-			<li class="place-right no-hovered">
+			<li class=" no-hovered" id="navList6">
 				<form>
-					<div class="input-control text" style="margin-right: 10px;height:20px ;">
-						<input style="height:65%; border-radius: 25px;" type="text" placeholder="Search...">
-						<button class="button " style="height:65%; border-radius: 25px;"><span class="mif-search mif-1x"></span></button>
+					<div class="input-control text place-right" style="margin-right: 10px;height:20px ;">
+						<input style="height:65%; border-radius: 10px;" type="text" placeholder="Search...">
+						<button class="button" style="height:65%; border-radius: 25px;"><span class="mif-search mif-1x"></span></button>
 					</div>
 				</form>
+			</li>
+			<li id="navList6b">
+				<a id="show" href="#">
+					<span  class="fg-white mif-search mif-lg"></span>
+				</a>
+				<a id="hide" style="display:none;z-index:600" href="#">
+					<span  class="fg-white mif-cross mif-lg"></span>
+				</a>
+					<div id="popup" style="display:none;z-index:500;position:absolute;right:45px;width:300px">
+						<form>
+							<div class="input-control text place-right" style="margin-right: 10px;height:20px;">
+								
+								<input style="height:65%; border-radius: 10px;" type="text" placeholder="Search...">
+								<button class="button " style="height:65%; border-radius: 10px;"><span class="mif-search mif-1x"></span></button>
+							</div>
+						</form> 
+
+				</div>
 			</li>
 		</ul>
 	</div>
@@ -173,4 +195,21 @@ function myFunction() {
             count = 0;
         }
 }
+$(document).ready(function(){
+	$("#show").click(function(){
+		$("#gray").fadeIn();
+	    $("#popup").fadeIn();
+	    $("#hide").fadeIn(0);
+	    $("#show").fadeOut(0);
+	});
+
+	$("#hide").click(function(){
+		$("#gray").fadeOut();
+	    $("#popup").fadeOut();
+	    $("#hide").fadeOut(0);
+	    $("#show").fadeIn(0);
+
+	});
+});
+
 </script>
