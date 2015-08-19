@@ -5882,6 +5882,9 @@ a.tag {
   .f-menu {
     height: 55px;
   }
+  #navList2 > a{
+    top: 9px;
+  }
 }
 @media only screen and (max-width: 650px) {
   .f-menu {
@@ -17537,6 +17540,7 @@ p [data-hint] {
      background-color: #0091BC;
     color: #ffffff;
   }
+
 #navList6{
   max-width: 100%;
 
