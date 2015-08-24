@@ -25,7 +25,13 @@
 
 		<div class="row cells12 align-justify">
 			<div class="cell colspan8 padding10 no-padding-top">
-				<div style="color:teal"><h3>Fact Sheet</h3></div>
+				<div id="heading">
+          <script> 
+            $(function(){
+              $("#heading").load("/includes/fs-heading.html"); 
+            });
+          </script> 
+        </div>
 
 				<ul class="breadcrumbs">
 					<li><a href="/index.html"><span class="icon mif-home"></span></a></li>
@@ -214,13 +220,13 @@
 			</div>
 <!-- ================================================================================================================================ -->
 
-			<div class="cell padding10 no-padding-top colspan4"  id="publications">
-				<script> 
-					$(function(){
-						$("#publications").load("/includes/publications.html"); 
-					});
-				</script> 
-			</div>
+			<div class="cell padding10 colspan4"  id="archive">
+          <script> 
+            $(function(){
+              $("#archive").load("/includes/fact_sheet_archive.html"); 
+            });
+          </script> 
+        </div>
 		</div>
 
 		<div class="row" id="footer">

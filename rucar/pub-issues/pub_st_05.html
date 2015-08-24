@@ -24,20 +24,22 @@
 		</div>
 
 		<div class="row cells12">  <!-- row  -->
-			<div class="cell colspan8 padding10 no-padding-top"> <!-- cell colspan8 -->
-				<div class="bg-teal fg-white"><h3 class="uppercase">statrivia</h3></div>
+			<div class="cell colspan8 padding10"> <!-- cell colspan8 -->
+				 <div style="color:teal"><h3 class="uppercase text-light">statrivia</h3></div>
 
+			        <ul class="breadcrumbs">
+			          <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
+			          <li><a href="/news_and_releases/stattrivia.html"></a>Stat Trivia</li>
+			          <li>2005</li>
+			          <li>CY 2005 ISSUES</li>
+			        </ul>
 
-				<ul class="breadcrumbs">
-				    <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-				    <li><a href="/news_and_releases/stattrivia.html">Stat Trivia</a></li>
-				    <li><a href="#">Stat Trivia Issue 2005	</a></li>
-				</ul>
+       				
 
 				<hr class="thin bg-grayLighter">
 
-				<p>CY 2005 ISSUES:</p>
-				<ol class="numeric-list square-marker large-bullet green-bullet" >
+				<h4>CY 2005 ISSUES:</h4><br><br>
+				<ol class="numeric-list square-marker large-bullet" >
 					<li><button class="button" onclick="showDialog('#march')">Politician Women</button></li>
 					<li><button class="button" onclick="showDialog('#may')">Revenue Collections</button>	</li>
 					<li><button class="button" onclick="showDialog('#july')">July 2005 Issue</button>	</li>
@@ -45,15 +47,15 @@
 					<li><button class="button" onclick="showDialog('#december')">Functional Literacy</button>	</li>
 				</ol>
 
-				<p>The NSCB-CAR Stat Trivia is also published in the regional newspaper, "ZIGZAG WEEKLY."</p>
+				<p>The PSA-CAR Stat Trivia is also published in the regional newspaper, "ZIGZAG WEEKLY."</p>
 
-
+				 <hr class="thin bg-grayLighter">
 
 				<p>Page last updated: January 13, 2010</p>
 			</div><!-- cell colspan8 -->
 
 
-			<div class="cell colspan4 padding10 no-padding-top" id="publications"> <!-- cell colspan4 -->
+			<div class="cell colspan4 padding10" id="publications"> <!-- cell colspan4 -->
 				<script> 
 					$(function(){
 						$("#publications").load("/includes/publications.html"); 
@@ -81,7 +83,7 @@
 </script>
 
 <!-- March issues -->
-<div data-role="dialog" id="march" 
+<div data-role="dialog" id="march" data-overlay="true" data-overlay-color="op-dark"
 data-close-button="true" class="padding20" 
 data-height="auto" data-width="50%">
 <div class="bg-cyan padding10 fg-white"><h3>Only 14 out of every 100 elected official in CAR is a woman</h3></div>
@@ -145,14 +147,14 @@ data-height="auto" data-width="50%">
 	</div><!-- march issues -->
 
 	<!-- May 2005 Issue -->
-	<div data-role="dialog" id="may" 
+	<div data-role="dialog" id="may" data-overlay="true" data-overlay-color="op-dark"
 	data-close-button="true" class="padding20" 
 	data-height="auto" data-width="50%">
 	<div class="bg-lightGreen padding10 fg-white"><h3>Revenue collections in CAR reached P3.6 billion in 2005</h3></div>
 	<p>
 		<strong>May 2005 Issue</strong></p>
 		<hr class="thin bg-grayLight">
-		<p>IIn 2004, taxpayers in the Cordillera Administrative Region (CAR) paid more than P2 billion to the Bureau of Internal Revenue. In 2005, revenue collections expanded by 78.0 percent to reach P3.6 billion. Baguio City taxpayers paid the lion's share at P2.9 billion or 80 percent of total regional collection.</p>
+		<p>In 2004, taxpayers in the Cordillera Administrative Region (CAR) paid more than P2 billion to the Bureau of Internal Revenue. In 2005, revenue collections expanded by 78.0 percent to reach P3.6 billion. Baguio City taxpayers paid the lion's share at P2.9 billion or 80 percent of total regional collection.</p>
 		<p>Figure 1 NUMBER OF OFWs IN CAR: 2001 & 2002 (In Thousand Pesos)</p>
 		<img src="/images/st_tax1.jpg">
 		<p>Source of Basic Data: Bureau of Internal Revenue</p>
@@ -162,7 +164,7 @@ data-height="auto" data-width="50%">
 
 
 	<!-- May 2006 Issue -->
-	<div data-role="dialog" id="may" 
+	<div data-role="dialog" id="may" data-overlay="true" data-overlay-color="op-dark"
 	data-close-button="true" class="padding20" 
 	data-height="auto" data-width="50%">
 	<div class="bg-lightRed padding10 fg-white"><h1>May 2006</h1></div>
@@ -181,7 +183,7 @@ data-height="auto" data-width="50%">
 	<!-- May 2006 Issue -->
 
 	<!-- July 2005 Issue -->
-	<div data-role="dialog" id="july" 
+	<div data-role="dialog" id="july" data-overlay="true" data-overlay-color="op-dark"
 	data-close-button="true" class="padding20" 
 	data-height="auto" data-width="50%">
 	<div class="bg-magenta padding10 fg-white"><h1>July 2005</h1></div>
@@ -217,7 +219,7 @@ data-height="auto" data-width="50%">
 <!-- July 2005 Issue -->
 
 <!-- September 2005 Issue -->
-	<div data-role="dialog" id="september" 
+	<div data-role="dialog" id="september" data-overlay="true" data-overlay-color="op-dark"
 	data-close-button="true" class="padding20" 
 	data-height="auto" data-width="50%">
 	<div class="bg-steel padding10 fg-white"><h3>9 out of every 10 tourists in the Cordilleras are domestic travelers</h3></div>
@@ -239,7 +241,7 @@ data-height="auto" data-width="50%">
 
 
 <!-- December 2005 Issue -->
-	<div data-role="dialog" id="december" 
+	<div data-role="dialog" id="december" data-overlay="true" data-overlay-color="op-dark"
 	data-close-button="true" class="padding20" 
 	data-height="auto" data-width="50%">
 	<div class="bg-steel padding10 fg-white"><h3>Women dominate men in functional literacy in the Cordilleras</h3></div>
