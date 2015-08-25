@@ -5882,6 +5882,8 @@ a.tag {
   .f-menu {
     height: 55px;
   }
+}
+@media only screen and (max-width: 666px) and (min-width: 651px){
   #navList2 > a{
     top: 9px;
   }
