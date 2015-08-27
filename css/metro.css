@@ -17325,6 +17325,7 @@ p [data-hint] {
   text-align: center;
 }
 #icons{
+  text-align: right;
   bottom:-50px;
 }
 @media only screen and (max-width: 768px) {
