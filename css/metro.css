@@ -5832,7 +5832,6 @@ a.tag {
 }
 .f-menu > li {
   display: block;
-  float: left;
   position: relative;
 }
 
@@ -5870,9 +5869,16 @@ a.tag {
 .f-menu > li > .d-menu {
   left: auto;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 667px){
   .f-menu > li > a {
     padding: .480rem 10px;
+  }
+  #navList1 > a,
+  #navList2 > a,
+  #navList3 > a,
+  #navList4 > a,
+  #navList5 > a {
+    top:2px;
   }
   #navList6b > a{
     bottom:-2px;
@@ -5907,10 +5913,6 @@ a.tag {
     width: 100%;
   }
   .f-menu > li #nav3 {
-    width: 100%;
-    max-width: none;
-  }
-  #nav3nav {
     width: 100%;
     max-width: none;
   }
@@ -5955,7 +5957,7 @@ a.tag {
 }
 }
 @media only screen and (max-width: 650px) {
-  #nav3nav {
+  #dropnest {
     position: relative;
     box-shadow: none;
     left: 0;
@@ -17323,15 +17325,14 @@ p [data-hint] {
   text-align: center;
 }
 #icons{
-  text-align: right;
   bottom:-50px;
 }
 @media only screen and (max-width: 768px) {
-  #icons{
+  #icons{ /**/
    text-align: center;
    top:-20px;
   }
-  #icon_con {
+  #icon_con { /*Used to adjust the icon containter's height*/
     height: 20px;
   }
   #banner {
@@ -17445,9 +17446,8 @@ p [data-hint] {
     display: inline-block;
   }
   #cbms_direction{
-  margin-top: 0px;
-}
-
+    margin-top: 0px;
+  }
 }
 
 @media only screen and (max-width: 650px) {
@@ -17485,27 +17485,9 @@ p [data-hint] {
   }
 }
 
-
-@media only screen and (min-width: 650px) {
-.triangle{
-    height: 0;
-    width: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 10px solid #ffffff;
-    border-top: 10px solid transparent;
-    top:-27px;
-    left:30px;
-}
-}
-
 #pov_in {
   z-index: 100;
 }
-/*
-#povin_grid > div > div > div > p {
-  font-size: 10px;
-}*/
 
 #navList1{
   max-width: 140px;
@@ -17571,7 +17553,7 @@ p [data-hint] {
     font:13px 'Open Sans',"Zoram ldslat","noto sans", Helvetica, Arial, sans-serif;
   } 
 
-  #header > #navigation > .d-menu > a {
+  #header > .d-menu > a {
     font:10px 'Open Sans',"Zoram ldslat","noto sans", Helvetica, Arial, sans-serif;
   }
   #navList6b {
@@ -17604,11 +17586,11 @@ p [data-hint] {
   #navList3,
   #navList4,
   #navList5,
-  #navList6{
+  #navList6 {
     width: 100%;
     max-width: none;
-    
   }
+
   #navList1 > a,
   #navList2 > a,
   #navList3 > a,
@@ -17616,6 +17598,7 @@ p [data-hint] {
   #navList5 > a {
     width: 100%;
   }
+
   #navList6 > form{
     width: 60%;
     margin-right:20%;
