@@ -17559,9 +17559,19 @@ Another different ids because it only has 1 map per page */
     width: 25%;
     display: inline-block;
   }
+
   #cbms_direction{
     margin-top: 0px;
   }
 }
 /* End of Poverty Mapping */
 /* END OF CUSTOM CSSs*/
+=======
+}
+@media screen and (min-width: 0px) and (max-width: 650px) {
+  #gray {
+    display: none;
+  
+  }
+}
+
