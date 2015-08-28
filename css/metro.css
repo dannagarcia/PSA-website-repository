@@ -17642,5 +17642,6 @@ p [data-hint] {
 @media screen and (min-width: 0px) and (max-width: 650px) {
   #gray {
     display: none;
+  
   }
 }
