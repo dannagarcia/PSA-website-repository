@@ -2901,7 +2901,7 @@ span {
 .transparent-border {
   border-color: transparent !important;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 510px) {
   .no-phone {
     display: none !important;
   }
@@ -3329,7 +3329,7 @@ html {
     font-size: 100%;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 510px) {
   html {
     font-size: 90%;
   }
@@ -3684,7 +3684,7 @@ a.tag {
     padding: 10px;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 510px) {
   .container:not(.no-responsive-future) {
     width: 100%;
     padding: 10px;
@@ -4252,7 +4252,7 @@ a.tag {
     width: 100%;
   }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 510px) {
   .grid:not(.no-responsive-future) .row {
     margin: 0;
   }
@@ -4807,7 +4807,7 @@ a.tag {
     margin: .3125rem 0;
   }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 510px) {
   .grid.condensed:not(.no-responsive-future) .row {
     margin: 0;
   }
@@ -5036,7 +5036,7 @@ a.tag {
             flex-basis: 100%;
   }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 510px) {
   .flex-grid:not(.no-responsive-future) .row {
     -webkit-flex-direction: column;
             flex-direction: column;
@@ -5784,7 +5784,7 @@ a.tag {
 .f-menu {
   text-align: center;
   display: block;
-  height: 40px; /*custom (orig: auto)*/
+  height: 40px; /* custom (orig: auto) */
   list-style: none inside none;
   margin: 0;
   padding: 0;
@@ -5794,30 +5794,9 @@ a.tag {
   display: flex;
 }
 .f-menu > li .d-menu {
-  width: 100%;/*custom size (orig 100%)*/
+  width: 100%;/* custom size (orig 100%) */
   max-width: none;
-  }
-  .f-menu > li #nav1 > div {
-    width: 450px;
-  }
-  .f-menu > li #nav1 > div > div {
-    width: 140px;
-  }
-  .f-menu > li #nav1 {
-    width: 450px;
-  }
-  .f-menu > li #nav2 {
-    width: 222px;
-  }
-  .f-menu > li #nav3 {
-    width: 300px;
-  }
-  .f-menu > li #nav4 {
-    width: 270px;
-  }
-  .f-menu > li #nav5 {
-    width: 100%;
-  }
+}
 
 .f-menu li:hover > .dropdown-toggle:before {
   border-color: #ffffff;
@@ -5848,7 +5827,7 @@ a.tag {
   position: relative;
   outline: none;
   text-decoration: none;
-  padding: .500rem 13px; /*custom (orig: 1.125rem 1.625rem)*/
+  padding: .500rem 13px; /* custom (orig: 1.125rem 1.625rem); Fixes the vertical alignment of the items listed under the f-menu*/
   border: none;
   text-align: center;
 
@@ -5869,65 +5848,6 @@ a.tag {
 .f-menu > li > .d-menu {
   left: auto;
 }
-@media only screen and (max-width: 768px) and (min-width: 667px){
-  .f-menu > li > a {
-    padding: .480rem 10px;
-  }
-  #navList1 > a,
-  #navList2 > a,
-  #navList3 > a,
-  #navList4 > a,
-  #navList5 > a {
-    top:2px;
-  }
-  #navList6b > a{
-    bottom:-2px;
-  }
-}
-@media only screen and (max-width: 666px) {
-  .f-menu {
-    height: 55px;
-  }
-}
-@media only screen and (max-width: 666px) and (min-width: 651px){
-  #navList2 > a{
-    top: 9px;
-  }
-}
-@media only screen and (max-width: 650px) {
-  .f-menu {
-    height: 200px; /*custom*/
-    -webkit-flex-direction: column;
-            flex-direction: column;
-  }
-  /*custom*/
-  .f-menu > li .d-menu {
-    width: 100%;
-    max-width: none;
-  }
-  .f-menu > li #nav1 {
-    width: 100%;
-    max-width: none;
-  }
-  .f-menu > li #nav2 {
-    width: 100%;
-  }
-  .f-menu > li #nav3 {
-    width: 100%;
-    max-width: none;
-  }
-  .f-menu > li a {
-  text-align: center;
-  width: 100%;
-  font-size: .800rem;
-}
-  .f-menu > li #nav4 {
-    width: 100%;
-    max-width: none;
-  }
-
-  /*end custom*/
-}
 .f-menu > li {
   text-align: left;
   -webkit-flex: 1 auto;
@@ -5944,25 +5864,17 @@ a.tag {
   padding: 5px 5px;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 510px) {
   .f-menu > li .d-menu {
-    position: absolute;
-    box-shadow: none;
-    left: 0;
-
-  }
-  .f-menu > li .d-menu li a {
-
-  padding: 5px 0px;
-}
-}
-@media only screen and (max-width: 650px) {
-  #dropnest {
     position: relative;
     box-shadow: none;
     left: 0;
   }
+  .f-menu > li .d-menu li a {
+    padding: 5px 0px;
+  }
 }
+
 .v-menu {
   text-align: left;
   background: #ffffff;
@@ -8810,7 +8722,7 @@ div.square-button.big-button {
 }
 .input-control {
   display: inline-block;
-  min-height: 2.125rem; /*Go Here*/
+  min-height: 2.125rem; /* Go Here */
   height: 2.125rem;
   position: relative;
   vertical-align: middle;
@@ -12823,7 +12735,7 @@ input[type="submit"].link:active {
 }
 .accordion > .frame.active > .heading {
   background-color: teal;
-  /*border-color: #1ba1e2;*/
+  /* border-color: #1ba1e2; */
   color: #ffffff;
   box-shadow: -1px 6px 6px -6px rgba(0, 0, 0, 0.35);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
@@ -14969,7 +14881,7 @@ input[type="submit"].link:active {
 .tile-area-scheme-grayed [class*=tile] {
   outline-color: #727272;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 510px) {
   .tile-area:not(.no-responsive-future) {
     width: 100% ;
     padding: 0;
@@ -14986,7 +14898,7 @@ input[type="submit"].link:active {
     display: none;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 510px) {
   .tile-container:not(.no-responsive-future) {
     width: 100% ;
   }
@@ -16633,10 +16545,10 @@ p [data-hint] {
 .input-control.info .select2-selection {
   border: 1px solid #1ba1e2;
 }
-/*
+/* 
 * Third-party plugin DataTables
 * Plugin home page: http://datatables.net/
-*/
+ */
 .dataTable {
   width: 100%;
   margin: .625rem 0;
@@ -17305,75 +17217,263 @@ p [data-hint] {
   flex: 0 0 1000px;
 }
 
-/* Custom CSS*/
 
-#arcMonthTable tr td:nth-child(2),
-#arcMonthTable tr td:nth-child(3),
-#arcMonthTable tr td:nth-child(4),
-#arcMonthTable tr td:nth-child(5)
-{
-  text-align: center;
-}
-#arcAgencyTable tr td:nth-child(2),
-#arcAgencyTable tr td:nth-child(3),
-#arcAgencyTable tr td:nth-child(4)
-{
-  text-align: center;
-}
-#arcAgencyTable2 tr td
-{
-  text-align: center;
-}
-#icons{
-  text-align: right;
-  bottom:-50px;
+
+/* -------------------------------------------------------------------------------------- */
+
+/* Custom CSS starts here */
+
+/* Icons & Banner */
+#icons{ 
+  text-align: right; /* Align's the icons to the right */
+  bottom:-50px; /* adjusts the icons' position vertically */
 }
 @media only screen and (max-width: 768px) {
-  #icons{ /**/
-   text-align: center;
-   top:-20px;
+  #icons{ 
+   text-align: center;/* centers the icons at 768px screen width */
+   top:-20px; /* adjusts the icons' position vertically */
   }
-  #icon_con { /*Used to adjust the icon containter's height*/
+  #icon_con { /* Used to adjust the icon containter's height so that it removes extra white spaces */
     height: 20px;
   }
-  #banner {
+  #banner { /* centers the banner at 768px screen width */
     text-align: center;
   }
 }
+/* End Icons & Banner */
+
+/* The Gray Bar */
+/* Used in the search bar toggle when screen width is in between 954px and 511px */
+#gray {
+    position:absolute; /* positions the gray bar the same as the navigation bar */
+    z-index:499; /* puts the gray bar in front of the navigation bar making clickables under it unclickable */
+    display: none; /* wont display the gray bar at the start */
+  }
+@media screen and (min-width: 955px) and (max-width: 1920px){
+  #gray { /* Fixes the bug where the gray bar still shows up when screen is already NOT in between 954px and 511px */
+    z-index:-1;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 510px) {
+  #gray { /* Fixes the bug where the gray bar still shows up when screen is already NOT in between 954px and 511px */
+    z-index:-1;
+  }
+}
+/* End of Gray Bar */
+
+/* NavLists: these are used to resize and align the items on the menu on the navigation bar*/
+#navList1,
+#navList2,
+#navList3,
+#navList4,
+#navList5{
+  text-align: center;
+}
+
+#navList1{ /* News and Releases */
+  max-width: 140px;
+}
+#navList2{ /* Statistics */
+  max-width: 75px;
+}
+#navList3{ /* Policies and Coordination */
+  max-width: 175px;
+}
+#navList4, /* Civil Registration */
+#navList5{ /* Provincial Offices */
+  max-width: 125px;  
+}
+
+#navList6 > form{ /* The Search Bar */
+  width: 300px; 
+  float:right; /* Like alignment */
+}
+
+#navList6b { /* Hides the Magnifying glass icon that will only appear in sreen widths between 954px and 511px */
+  display: none;
+}
+
+/* The Hover CSS of the 5 */
+#navList1:hover,
+#navList2:hover,
+#navList3:hover,
+#navList4:hover,
+#navList5:hover{
+  background-color: #0091BC;
+  color: #ffffff;
+}
+
+/* The search bar icon toggle */
+@media only screen and (max-width: 954px) and (min-width: 511px){
+  #navList6 { /* Hides the other search bar */
+    display: none;
+  }
+  #navList6b{  /* Displays the magnifying glass icon */
+    max-width: 100%;
+    display: block;
+  }
+  #navList6b > a{ /* resizes the icon and position the icon to the right */
+    width: auto;
+    float: right;
+  }
+  #navList6b > form { /* Size of the search bar and its positioned to the right just before the icon */
+    width: 500px;
+    float:right;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  #navList1,
+  #navList2,
+  #navList3,
+  #navList4,
+  #navList5,
+  #navList6 {
+    width: 100%;
+    max-width: none; /* Fixes the alignment of the items listed on the menu*/
+  }
+
+  #navList6 > form { /* Size and Position of search bar at 510px and below*/
+    width: 60%;
+    margin-right:20%;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 667px){
+/* Fixes the vertical alignment of all items in the navigation bar including the search icon */ 
+  .f-menu > li > a {
+    padding: .480rem 10px;
+  }
+  #navList1 > a,
+  #navList2 > a,
+  #navList3 > a,
+  #navList4 > a,
+  #navList5 > a { 
+    top:2px;
+  }
+  #navList6b > a{
+    bottom:-2px;
+  }
+}
+@media only screen and (max-width: 666px) {
+  .f-menu { /* Fixes the thickness of the navigation bar since the items under the menu are long */
+    height: 55px;
+  }
+}
+@media only screen and (max-width: 666px) and (min-width: 511px){
+  #navList2 > a{ /* Fixes the vertical alignment of 'Statistics' on the screen width indicated above */
+    top: 9px;
+  }
+}
+/* End of NavLists */
+
+/* navi1a & navi1b: these are for the 2 different news and releases dropdown menu */
+#navi1a { /* shows the contents of the news and releases dropdown with this id */
+  display: block;
+}
+#navi1b { /* hides the contents of the news and releases dropdown with this id */
+  display: none;
+}
+
+
+/* Dropdown Menu Sizes */
+.f-menu > li #nav1 > div > div { /* Fixes the width of the dropdown menu in news and releases' columns */
+  width: 140px;
+}
+.f-menu > li #nav1 { /* Fixes the width of the whole dropdown menu of News and Releases */
+  width: 450px;
+}
+.f-menu > li #nav2 { /* Statistics */
+  width: 222px;
+}
+.f-menu > li #nav3 { /* Policies and Coordination */
+  width: 300px;
+}
+.f-menu > li #nav4 { /* Civil Registration */
+  width: 270px;
+}
+.f-menu > li #nav5 { /* Provincial Offices */
+  width: 100%;
+}
+
+@media only screen and (max-width: 510px) {
+  .f-menu { /* stacks the listed items in the f-menu vertically */
+    height: auto;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+  }
+  /* Resizes all the dropdown menus on the navigation bar to full width */
+  .f-menu > li #nav1 {
+    width: 100%;
+  }
+  .f-menu > li #nav2 {
+    width: 100%;
+  }
+  .f-menu > li #nav3 {
+    width: 100%;
+  }
+  .f-menu > li #nav4 {
+    width: 100%;
+  }
+
+  .f-menu > li a {
+    font-size: .800rem; /* Resizes all text in the f-menu */
+  }
+  #navi1a { /* hides the contents of the the news and releases dropdown with this id at 510px screen width */
+    display: none;
+  }
+  #navi1b { /* shows the contents of the the news and releases dropdown with this id at 510px screen width */
+   display: block;
+   max-width: 100%; /* limits the width on the news and releases */
+  }
+  #navi1b > li{
+    width: 90vw; /* auto adjust for all li tags inside news and releases dropdown with this id */
+  }
+  #navi1b > hr{
+    width: 90vw; /* same as mentioned above but only works on hr tags */
+  }
+  #dropnest { /* Fixes the position of the nested dropdown menu at 510px below */
+    position: relative;
+    box-shadow: none;
+    left: 0;
+  }
+}
+
+/* Footer */
+#webfoot a:hover{ /* Adds an Underline Hover an links inside the footer */
+  color: teal;
+  text-decoration: underline;
+}
+/* End of Footer */
+
+
+/* Poverty Mapping */
+#pov_in { /* Used on every municipalities and provincial maps' index pages except for baguio city's. */
+  z-index: 100; /* places the download icons in front so it wont be blocked by the container of the text next to it. */
+}
+
+/* used to adjust the position of the compass used on Apayao,Abra,Benguet,Kibungan,Kapangan, and Natonin:MtProv in the poverty mapping's pages. */
 #direction {
   margin-top:100px;
   height: 150px;
   display: block
 }
 
+/* adjusts the position legend and the compass on Apayao,Abra,Benguet,Kibungan,Kapangan, and Natonin:MtProv in the poverty mapping's pages when screen width is at 768px. */
 @media only screen and (max-width: 768px) {
   #legend,
   #direction {
      height: 0%;
      margin-top:0px;
      padding: 20px;
-     display: inline-block;
-  }
-  #legdir{
-    display: inline-block;
+     display: inline-block; /* Displays the legend and compass horizontally inline*/
   }
 }
 
-#direction2 {
-  margin-top: 120%;
-  height: 100%;
-  padding: 20px;
-  display: inline-block;
-}
-@media only screen and (max-width: 768px) {
-  #legend2,
-  #direction2 {
-    margin-top: 0px;
-     height: 100%;
-     padding: 20px;
-     display: inline-block;
-  }
-}
+/* This CSS is only used for Ifugao's maps in poverty mapping.
+I made a different name because I also made a different position of the compass and the legend since the map's labels are small and almost unreadable*/
+/* Hides the Compass and Legend of the other and shows the other when screen width is at 768px and below*/
 #legendirect {
   display: block;
 }
@@ -17381,6 +17481,23 @@ p [data-hint] {
   display: none;
 }
 
+/* Used for adjusting the compass and legend in at 769px and above*/
+#direction2 {
+  margin-top: 120%;
+  height: 100%;
+  padding: 20px;
+}
+
+/* Used for adjusting the compass and legend in at 768px and below*/
+#legend2b,
+#direction2b {
+  margin-top: 0px;
+  height: 100%;
+  padding: 20px;
+  display: inline-block; /* Displays the compass and legend horizontally inline */
+}
+
+/* Hides the Compass and Legend of the other and shows the other when screen width is at 768px and below*/
 @media only screen and (max-width: 768px) {
   #legendirect {
     display: none;
@@ -17389,47 +17506,43 @@ p [data-hint] {
     display: inline-block;
   }
 }
-@media only screen and (max-width: 768px) {
-  #legend2b,
-  #direction2b {
-    margin-top: 0px;
-     height: 100%;
-     padding: 20px;
-     display: inline-block;
-  }
-}
 
+/* These CSS only works on Kalinga's maps.
+I also made a different ids for the kalinga maps because instead of 2 it has 3 maps */
+/* It adjusts the size and position of the compass and legend */
 #kdirection,
 #klegend {
   display:inline-block;
   width: 50%;
   height: 50%;
 }
-
 @media only screen and (max-width: 768px) {
-  #kgrd{
+  #kgrd{ /* used to resize the maps */
     width: 50%;
     height: 50%;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  #kgrd{
+  #kgrd{ /* used to resize the maps */
     width: 100%;
     height: 100%;
   }
-  #kdirection{
+  #kdirection{ /* adjusts compass' position and size */
     display:inline-block;
     width: 50%;
     height: 50%;
   }
-  #klegend {
+  #klegend { /* adjusts legend's position and size */
     display:inline-block;
     width: 40%;
     height: 25%;
   }
 }
 
+/* These CSS only works on Natonin CBMS maps.
+Another different ids because it only has 1 map per page */
+/* Adjusts the compass' and direction's size and position */
 #cbms_direction,
 #cbms_legend {
   height: 50%;
@@ -17450,181 +17563,5 @@ p [data-hint] {
     margin-top: 0px;
   }
 }
-
-@media only screen and (max-width: 650px) {
-.select2-container {
-  min-width:98%;
-  display: block;
-}
-
-}
-
-#webfoot a:hover{
-  color: teal;
-  text-decoration: underline;
-}
-
-#navi1a {
-  display: block;
-}
-#navi1b {
-  display: none;
-  }
-
-@media only screen and (max-width: 650px) {
-  #navi1a {
-    display: none;
-  }
-  #navi1b {
-   display: block;
-  }
-  #navi1b > li{
-    width: 130%;
-  }
-  .d-menu {
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-  }
-}
-
-#pov_in {
-  z-index: 100;
-}
-
-#navList1{
-  max-width: 140px;
-  text-align: center;
-}
-#navList2{
-  max-width: 75px;
-  text-align: center;
-}
-#navList3{
-  max-width: 175px;
-  text-align: center;
-}
-#navList4{
-  max-width: 125px;
-  text-align: center;
-}
-#navList5{
-  max-width: 125px;
-  text-align: center;
-}
-#navList1 > a,
-#navList2 > a,
-#navList3 > a,
-#navList4 > a,
-#navList5 > a{
-  width: auto;
-}
-  #navList1:hover,
-  #navList2:hover,
-  #navList3:hover,
-  #navList4:hover,
-  #navList5:hover{
-     background-color: #0091BC;
-    color: #ffffff;
-  }
-
-#navList6{
-  max-width: 100%;
-
-}
-#navList6 > form{
-  width: 300px;
-  float:right;
-}
-
-@media only screen and (max-width: 650px) {
-  #navList1,
-  #navList2,
-  #navList3,
-  #navList4,
-  #navList5,
-  #navList6{
-     width:100%;
-  }
-}
-
-@media only screen and (min-width: 1367px) and (max-width: 1920px) {
-  
-}
-
-  #header{
-    font:13px 'Open Sans',"Zoram ldslat","noto sans", Helvetica, Arial, sans-serif;
-  } 
-
-  #header > .d-menu > a {
-    font:10px 'Open Sans',"Zoram ldslat","noto sans", Helvetica, Arial, sans-serif;
-  }
-  #navList6b {
-    display: none;
-  }
-
-@media only screen and (max-width: 954px) and (min-width: 651px){
-  #navList6 {
-    display: none;
-  }
-  #navList6b{
-    max-width: 100%;
-    display: block;
-  }
-  #navList6b > a{
-    width: auto;
-    float:right;
-  }
-  #navList6b > form{
-  width: 500px;
-  float:right;
-}
-
-}
-
-@media only screen and (max-width: 650px) {
-
-  #navList1,
-  #navList2,
-  #navList3,
-  #navList4,
-  #navList5,
-  #navList6 {
-    width: 100%;
-    max-width: none;
-  }
-
-  #navList1 > a,
-  #navList2 > a,
-  #navList3 > a,
-  #navList4 > a,
-  #navList5 > a {
-    width: 100%;
-  }
-
-  #navList6 > form{
-    width: 60%;
-    margin-right:20%;
-    margin-left: 20%;
-  }
-  
-
-  .f-menu > li .d-menu{
-    text-align: center;
-  }
-}
-.f-menu > li:hover {
- 
-}
-.f-menu > li:hover > a {
-  color: #ffffff;
-}
-
-@media screen and (min-width: 955px) and (max-width: 1920px){
-  #gray {
-    display: none;
-  }
-}
-@media screen and (min-width: 0px) and (max-width: 650px) {
-  #gray {
-    display: none;
-  }
-}
+/* End of Poverty Mapping */
+/* END OF CUSTOM CSSs*/
