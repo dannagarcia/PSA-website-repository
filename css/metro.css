@@ -17271,17 +17271,17 @@ p [data-hint] {
 }
 
 #navList1{ /* News and Releases */
-  max-width: 140px;
+  max-width: 150px;
 }
 #navList2{ /* Statistics */
-  max-width: 75px;
+  max-width: 85px;
 }
 #navList3{ /* Policies and Coordination */
-  max-width: 175px;
+  max-width: 185px;
 }
 #navList4, /* Civil Registration */
 #navList5{ /* Provincial Offices */
-  max-width: 125px;  
+  max-width: 135px;  
 }
 
 #navList6 > form{ /* The Search Bar */
