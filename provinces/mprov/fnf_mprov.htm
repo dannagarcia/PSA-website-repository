@@ -28,6 +28,13 @@
         });
       </script> 
       </div>
+      <div id="provheader">
+       <script> 
+        $(document).ready(function(){
+          $("#provheader").load("/includes/province_headers/mprov_header.html"); 
+        });
+      </script> 
+      </div>
 <div class="row cells12 align-justify">      
       <div class="cell colspan8 padding10">
            <!-- fnf_header -->
@@ -42,9 +49,9 @@
 
       <p class="align-left" ><ul class="breadcrumbs">
             <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-            <li><a href="/provinces/fnf_municipalities.htm">Facts &amp; Figures</a></li>
-            <li><a href="/provinces/fnf_car.htm">CAR</a></li>
-            <li><a href="#">Mountain Province</a></li>
+            <li><a href="/provinces/fnf_municipalities.htm">Mt. Province</a></li>
+            <li><a href="/provinces/fnf_index.htm">Facts &amp; Figures</a></li>
+            <li><a href="#">Mt. Province</a></li>
       </ul></p>
       <hr class="thin bg-grayLighter">
       
@@ -234,34 +241,13 @@
       </div>
 
       <div class="cell colspan4 padding10 ">
-
-        <div id="pr-heading"><a href="/provinces/fnf_municipalities.htm">
-                  <div style="color:teal;">
-                      <h3 class="text-light">About Mt. Province</h3>
-                  </div></a>
-        </div>
-
           <div class="row cells4 padding10">
             <ul class=" sidebar2">
-              <li><a href="#history">Brief History</a></li>
-              <li><a href="#interest">Point of Interest</a></li>
-              <li><a href="#historical">HISTORICAL</a></li>
-              <li><a href="#cultural">CULTURAL</a></li>
-              <li><a href="#natural">NATURAL</a></li>
-              <li><a href="#manmade">MAN-MADE</a></li>
-            </ul>
-          </div>
-
-         <div id="pr-heading"><a href="/provinces/fnf_municipalities.htm">
-                  <div style="color:teal;">
-                      <h3 class="text-light">Municipalities</h3>
-                  </div></a>
-        </div>
-
-          <div class="row cells4 padding10">
-            <ul class=" sidebar2">
-              <li><a href="/provinces/mprov/fnf_mp_natonin.htm">Natonin</a></li>
-              <li><a href="/provinces/mprov/fnf_mp_sagada.htm">Sagada</a></li>
+              <li><a href="/provinces/mprov/news.htm">News</a></li>
+              <li><a href="/provinces/mprov/events.htm">Events</a></li>
+              <li><a href="/provinces/mprov/publication.htm">Publication</a></li>
+              <li><a href="/provinces/mprov/fnf_index.htm">Facts and Figures</a></li>
+              <li><a href="/provinces/mprov/provincial_staff.htm">Provincial Staff</a></li>
             </ul>
           </div>
 
@@ -277,6 +263,13 @@
 </div>
 
     <hr class="thin bg-grayLighter">
+    <div class="row" id="provfooter">
+      <script> 
+        $(function(){
+          $("#provfooter").load("/includes/provincial_footers/footer_mprov.html"); 
+        });
+      </script> 
+    </div>
     <div class="row" id="footer">
       <script> 
         $(function(){

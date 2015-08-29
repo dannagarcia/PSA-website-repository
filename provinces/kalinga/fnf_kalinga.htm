@@ -27,6 +27,13 @@
         });
       </script> 
       </div>
+      <div id="provheader">
+       <script> 
+        $(document).ready(function(){
+          $("#provheader").load("/includes/province_headers/kalinga_header.html"); 
+        });
+      </script> 
+      </div>
   <div class="row cells12 align-justify">      
     <div class="cell colspan8 padding10">
         <!-- fnf_header -->
@@ -41,8 +48,8 @@
 
       <p class="align-left" ><ul class="breadcrumbs">
             <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-            <li><a href="/provinces/fnf_municipalities.htm">Facts &amp; Figures</a></li>
-            <li><a href="/provinces/fnf_car.htm">CAR</a></li>
+            <li><a href="/provinces/index.htm">Kalinga</a></li>
+            <li><a href="/provinces/fnf_index.htm">Facts &amp; Figures</a></li>
             <li><a href="#">Kalinga</a></li>
       </ul></p>
       <hr class="thin bg-grayLighter">
@@ -230,35 +237,20 @@
 
       <div class="cell colspan4 padding10 ">
 
-        <div>
-            <div style="color:teal;">
-                <h3 class="text-light">About Kalinga</h3>
-            </div></a>
-          </div>
-
+      <div class="row cells4 padding10">
           <div class="row cells4 padding10">
             <ul class=" sidebar2">
-              <li><a href="#history">Brief History</a></li>
-              <li><a href="#interest">Point of Interest</a></li>
-              <li><a href="#historical">HISTORICAL</a></li>
-              <li><a href="#natural">NATURAL</a></li>
-              <li><a href="#manmade">MAN-MADE</a></li>
+              <li><a href="/provinces/kalinga/news.htm">News</a></li>
+              <li><a href="/provinces/kalinga/events.htm">Events</a></li>
+              <li><a href="/provinces/kalinga/publication.htm">Publication</a></li>
+              <li><a href="/provinces/kalinga/fnf_index.htm">Facts and Figures</a></li>
+              <li><a href="/provinces/kalinga/provincial_staff.htm">Provincial Staff</a></li>
             </ul>
           </div>
-
-          <div class="row cells4 padding10">
-              <div id="pr-heading"><a href="/provinces/fnf_municipalities.htm">
-                      <div style="color:teal;">
-                          <h3 class="text-light">Municipalities</h3>
-                      </div></a>
-              </div>
-
-            <ul class=" sidebar2">
-              <li><a href="/provinces/kalinga/fnf_kal_balbalan.htm">Balbalan</a></li>
-            </ul>
-          </div>
+        </div>
 
         <div id="relativeinfo">
+
               <script> 
                 $(function(){
                   $("#relativeinfo").load("/includes/fnf_relativelinks.html"); 
@@ -270,6 +262,13 @@
 
     <hr class="thin bg-grayLighter">
     <div class="row" id="footer">
+      <div class="row" id="provfooter">
+      <script> 
+        $(function(){
+          $("#provfooter").load("/includes/provincial_footers/footer_kalinga.html"); 
+        });
+      </script> 
+    </div>
       <script> 
         $(function(){
           $("#footer").load("/includes/footer.html"); 

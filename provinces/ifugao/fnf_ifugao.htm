@@ -28,6 +28,13 @@
         });
       </script> 
       </div>
+      <div id="provheader">
+             <script> 
+            $(document).ready(function(){
+              $("#provheader").load("/includes/province_headers/ifugao_header.html"); 
+            });
+            </script> 
+        </div> 
 <!-- Ifugao Area Inforamtion Start -->
 <div class="row cells12 align-justify"> 
     <div class="cell colspan8 padding10 align-justify" >
@@ -38,13 +45,15 @@
               $("#fnfheader").load("/includes/fnf_header.html"); 
             });
           </script> 
-        </div> 
+        </div>
+        
+
         
           <p class="align-left" ><ul class="breadcrumbs">
               <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-              <li><a href="/provinces/fnf_municipalities.htm">Facts &amp; Figures</a></li>
-              <li><a href="/provinces/fnf_car.htm">CAR</a></li>
-              <li><a href="#">Ifugao</a></li>
+              <li><a href="/provinces/ifugao/index.htm">Ifugao</a></li> 
+            <li><a href="/provinces/fnf_index.htm">Facts &amp; Figures</a></li>
+            <li><a href="#">Ifugao</a></li>
           </ul></p>
          
         <hr class="thin bg-grayLighter">
@@ -232,15 +241,13 @@
     <!-- Start of SideBar -->
     <div class="cell colspan4 padding10">
           
-          <div>
-            <div style="color:teal;">
-                <h3 class="text-light">Municipalities</h3>
-            </div></a>
-          </div>
-
           <div class="row cells4 padding10">
             <ul class=" sidebar2">
-              <li><a href="/provinces/ifugao/fnf_ifu_banaue.htm">Banaue</a></li>
+              <li><a href="/provinces/ifugao/news.htm">News</a></li>
+              <li><a href="/provinces/ifugao/events.htm">Events</a></li>
+              <li><a href="/provinces/ifugao/publication.htm">Publication</a></li>
+              <li><a href="/provinces/ifugao/fnf_index.htm">Facts and Figures</a></li>
+              <li><a href="/provinces/ifugao/provincial_staff.htm">Provincial Staff</a></li>
             </ul>
           </div>
 
@@ -257,6 +264,13 @@
 </div>
 
 <hr class="thin bg-grayLighter">
+<div class="row" id="provfooter">
+      <script> 
+        $(function(){
+          $("#provfooter").load("/includes/provincial_footers/footer_ifugao.html"); 
+        });
+      </script> 
+</div>
 <div class="row" id="footer">
   <script> 
     $(function(){

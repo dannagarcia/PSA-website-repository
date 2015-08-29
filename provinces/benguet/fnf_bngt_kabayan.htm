@@ -28,6 +28,13 @@
         });
       </script> 
       </div>
+      <div id="provheader">
+       <script> 
+        $(document).ready(function(){
+          $("#provheader").load("/includes/province_headers/benguet_header.html"); 
+        });
+      </script> 
+      </div>
 <div class="row cells12 align-justify">      
       <div class="cell colspan8 padding10">
           <!-- fnf_header -->
@@ -37,15 +44,15 @@
               $("#fnfheader").load("/includes/fnf_header.html"); 
             });
           </script> 
-        </div>    
+        </div>
+
         
 
       <p class="align-left" ><ul class="breadcrumbs">
             <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-            <li><a href="/provinces/fnf_municipalities.htm">Facts &amp; Figures</a></li>
-            <li><a href="/provinces/fnf_car.htm">CAR</a></li>
-            <li><a href="/provinces/benguet/fnf_benguet.html">Benguet</a></li>
-            <li><a href="#">kabayan</a></li>
+            <li><a href="/provinces/index.htm">Benguet</a></li>
+            <li><a href="/provinces/fnf_index.htm">Facts &amp; Figures</a></li>
+            <li><a href="#">Kabayan</a></li>
       </ul></p>
       <hr class="thin bg-grayLighter">
       
@@ -2715,6 +2722,14 @@
 </div>
 
     <hr class="thin bg-grayLighter">
+    
+    <div class="row" id="provfooter">
+      <script> 
+        $(function(){
+          $("#provfooter").load("/includes/provincial_footers/footer_benguet.html"); 
+        });
+      </script> 
+    </div>
     <div class="row" id="footer">
       <script> 
         $(function(){
