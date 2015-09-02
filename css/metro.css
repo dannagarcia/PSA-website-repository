@@ -17540,7 +17540,7 @@ I also made a different ids for the kalinga maps because instead of 2 it has 3 m
   }
 }
 
-/* These CSS only works on Natonin CBMS maps.
+/* These CSS only w222orks on Natonin CBMS maps.
 Another different ids because it only has 1 map per page */
 /* Adjusts the compass' and direction's size and position */
 #cbms_direction,
@@ -17566,12 +17566,18 @@ Another different ids because it only has 1 map per page */
 }
 /* End of Poverty Mapping */
 /* END OF CUSTOM CSSs*/
-=======
+
+#statboard1  {
+  display: block;
 }
-@media screen and (min-width: 0px) and (max-width: 650px) {
-  #gray {
-    display: none;
-  
+#statboard2  {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #statboard1  {
+   display: none;
+  }
+  #statboard2  {
+    display: block;
   }
 }
-

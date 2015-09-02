@@ -13,6 +13,7 @@
     <script src="/js/jquery-2.1.3.min.js"></script>
     <script src="/js/metro.js"></script>
     <script src="/js/ga.js"></script>
+
 </head>
 <body class="text-secondary fg-gray">
 	<div class="margin10 no-margin-top grid condensed">
@@ -28,7 +29,7 @@
 			<!--.........content here ........-->
 			<div class="row cells12 align-justify">
 				<!-- place content here -->
-				<div class="cell colspan3 padding20">
+				<div class="cell colspan3 padding20" id="statboard1">
 				<div>
 					<!-- stat board -->
 
@@ -406,7 +407,11 @@
 			                </a>
 			                
 		            	</div>
-				</div> <!-- end of headlines -->
+				</div> <!-- end of headlines -->'
+
+				<div class="cell colspan3 padding20" id="statboard2">	
+				</div>
+
 				<div class="cell colspan2 padding20">
 					<div>
 					<h4 style="color:teal" class="text-light">Advisory</h4>
@@ -446,6 +451,19 @@
 				</script> 
 				
 			</div>
-	</div> <!-- end of grid div -->	
+	</div>
+	<div id="mobile-indicator"></div> 
+	<!-- end of grid div -->	
 </body>
 </html>
+
+<script>
+
+$(function(){
+	$("#statboard1").clone().show().appendTo("#statboard2");
+});
+
+// clone() - clones the contents of statboard1 to the value where you'll be appnding it to.
+// show() - shows the contents of statboard2 since it was hidden because of the code in the CSS
+
+</script>
