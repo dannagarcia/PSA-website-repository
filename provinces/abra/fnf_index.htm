@@ -1,9 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
-
 <html>
 <head>
-<title>Facts &amp; Figures:  CAR</title>
+<title>Facts &amp; Figures:  Cordillera Administrative Region</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +15,7 @@
     <script src="/js/ga.js"></script>
 </head>
 
-<body class="text-secondary fg-gray">
+<body class="text-secondary fg-gray align-justify">
 
 <div class="margin10 no-margin-top grid condensed">
   <!-- PSA LOGO -->
@@ -26,40 +25,50 @@
         $(document).ready(function(){
           $("#header").load("/includes/header.html"); 
         });
-      </script>  
+      </script> 
       </div>
       <div id="provheader">
        <script> 
         $(document).ready(function(){
-          $("#provheader").load("/includes/province_headers/Abra.html"); 
+          $("#provheader").load("/includes/province_headers/abra_header.html"); 
         });
       </script> 
       </div>
 
-
-
-<div class="row cells12 align-justify"> 
-    <div class="cell colspan8 padding10" >
-         <div id="pr-heading"><a href="/provinces/fnf_index.html">
-                  <div style="color:teal;">
-                      <h3 class="text-light">Events</h3>
-                  </div></a>
-          </div>
-
-        <p class="align-left" >
-          <ul class="breadcrumbs">
+    <div class="row cells12 align-justify">  
+      <div class="cell colspan8 padding10">
+        <!-- fnf_header -->
+            <div class="row" id="fnfheader">
+              <script> 
+                $(function(){
+                  $("#fnfheader").load("/includes/fnf_header.html"); 
+                });
+              </script> 
+            </div>   
+            
+      <p class="align-left" ><ul class="breadcrumbs">
             <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-            <li><a href="#">Abra</a></li>
-          </ul>
-        </p>
-        <hr class="thin bg-grayLighter">    
-  
-       </div>
+            <li><a href="/provinces/abra/index.htm">Abra</a></li>
+            <li><a href="#">Facts & Figures</a></li>
+      </ul></p>
+      <hr class="thin bg-grayLighter">
+    <h3 class="text-light">Abra Provincial Office: Facts & Figures</h3>
+    <div class="row cells12 ">
+        <div class="cell colspan6 padding10">
+            <h4 class="text-light">Province:</h4>
+            <a href="/provinces/abra/fnf_abra.htm"><button class="button bg-darkTeal fg-white" style="width:100%;">Abra</button></a>
+      
+            <h4 class="text-light">Municipalities:</h4>
+            <a href="/provinces/abra/fnf_abra_bangued.htm"><button class="button bg-darkTeal fg-white" style="width:100%;">Bangued</button></a>
+            <a href="/provinces/abra/fnf_abra_tineg.htm"><button class="button bg-darkTeal fg-white" style="width:100%;">Tineg</button></a>
 
+            
+        </div>
+    </div>
+  </div>
 
+    <div class="cell colspan4 padding10 ">
 
-      <div class="cell colspan4 padding10 ">
-        
           <div class="row cells4 padding10">
             <ul class=" sidebar2">
               <li><a href="/provinces/abra/news.htm">News</a></li>
@@ -77,26 +86,27 @@
                 });
               </script>
         </div>
-      </div>
-</div>
 
-    <hr class="thin bg-grayLighter">
-    <div class="row" id="provfooter">
+      </div>
+
+  </div>
+
+<hr class="thin bg-grayLighter">
+<div class="row" id="provfooter">
       <script> 
         $(function(){
           $("#provfooter").load("/includes/provincial_footers/footer_abra.html"); 
         });
       </script> 
-    </div>
-    <div class="row" id="footer">
-      <script> 
-        $(function(){
-          $("#footer").load("/includes/footer.html"); 
-        });
-      </script> 
-    </div>
-
+</div>
+<div class="row" id="footer">
+  <script> 
+    $(function(){
+      $("#footer").load("/includes/footer.html"); 
+    });
+  </script> 
 </div>
 
+</div>
 </body>
 </html>
