@@ -5,19 +5,19 @@
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link href="/css/metro.css" rel="stylesheet">
-    <link href="/css/metro-icons.css" rel="stylesheet">
-    <link href="/css/custom.css" rel="stylesheet">
-    <script src="/js/jquery-2.1.3.min.js"></script>
-    <script src="/js/metro.js"></script>
-    <script src="/js/ga.js"></script>
+	<link href="/rucar/css/metro.css" rel="stylesheet">
+    <link href="/rucar/css/metro-icons.css" rel="stylesheet">
+    <link href="/rucar/css/custom.css" rel="stylesheet">
+    <script src="/rucar/js/jquery-2.1.3.min.js"></script>
+    <script src="/rucar/js/metro.js"></script>
+    <script src="/rucar/js/ga.js"></script>
 </head>
 <body class="text-secondary fg-gray">
 	<div class="margin10 no-margin-top grid condensed">
 			 <div id="header">
 				 <script> 
 					$(document).ready(function(){
-					  $("#header").load("/includes/header.html"); 
+					  $("#header").load("/rucar/includes/header.html"); 
 					});
 				</script>
 			</div>
@@ -30,8 +30,8 @@
 
 
 					<ul class="breadcrumbs">
-					    <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-					    <li><a href="/news_and_releases/sat_acc/sa_index.html">CPI Special Releases</a></li>
+					    <li><a href="/rucar/index.html"><span class="icon mif-home"></span></a></li>
+					    <li><a href="/rucar/news_and_releases/sat_acc/sa_index.html">CPI Special Releases</a></li>
 					</ul>
 					<hr class="thin bg-grayLighter">
 					
@@ -207,7 +207,7 @@
 										point change. Housing, Water, Electricity, Gas and Other Fuels and Transport had a
 										negative percent change.</li>
 									</ul>
-									<p class="align-center"><img src="/images/cpi/2015/may/Year-on-Year Consumer Price Index by Commodity Group.png"></p>
+									<p class="align-center"><img src="/rucar/images/cpi/2015/may/Year-on-Year Consumer Price Index by Commodity Group.png"></p>
                                 </div>
 
                                 <div class="frame bg-white" id="tab3" style="display: none;">
@@ -420,7 +420,7 @@
 										Kalinga at 75 centavos. On the other hand, Mt. Province had the lowest peso value at
 										70 centavos.</li>
 									</ul>
-									<p class="align-center"><img src="/images/cpi/2015/may/Purchasing Power of the Peso by Province, CAR.png"></p>
+									<p class="align-center"><img src="/rucar/images/cpi/2015/may/Purchasing Power of the Peso by Province, CAR.png"></p>
                                 </div>
 
                                 <div class="frame bg-white" id="tab6" style="display: none;">
@@ -448,7 +448,7 @@
 					<div id="archive">
 					 <script> 
 						$(document).ready(function(){
-						  $("#archive").load("/includes/cpi-navigation.html"); 
+						  $("#archive").load("/rucar/includes/cpi-navigation.html"); 
 						});
 					</script>
 				</div>
@@ -460,7 +460,7 @@
 			<div id="footer">
 				 <script> 
 					$(function(){
-					  $("#footer").load("/includes/footer.html"); 
+					  $("#footer").load("/rucar/includes/footer.html"); 
 					});
 				</script>
 			</div>
