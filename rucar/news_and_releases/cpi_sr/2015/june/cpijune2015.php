@@ -17,7 +17,7 @@
 <body class="text-secondary fg-gray">
 
 	<?php
-		 include("{$_SERVER['DOCUMENT_ROOT']}/news_and_releases/cpi_sr/cpi_functions.php");
+		 include("{$_SERVER['DOCUMENT_ROOT']}/rucar/news_and_releases/cpi_sr/cpi_functions.php");
 	?>
 
 	<div class="margin10 no-margin-top grid condensed">
