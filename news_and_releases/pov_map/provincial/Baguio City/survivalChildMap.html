@@ -5,17 +5,17 @@
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link href="/css/metro.css" rel="stylesheet">
-    <link href="/css/metro-icons.css" rel="stylesheet">
-    <link href="/css/custom.css" rel="stylesheet">
-    <script src="/js/jquery-2.1.3.min.js"></script>
-    <script src="/js/metro.js"></script>
-    <script src="/js/ga.js"></script>
-    <script src="/js/select2.min.js"></script>
-	<script type="text/javascript" src="/js/cvi_tip_lib.js"></script>
-	<script type="text/javascript" src="/js/wz_jsgraphics.js"></script>
-	<script type="text/javascript" src="/js/maputil.js"></script>
-	<script type="text/javascript" src="/js/mapper.js"></script>
+	<link href="/rucar/css/metro.css" rel="stylesheet">
+    <link href="/rucar/css/metro-icons.css" rel="stylesheet">
+    <link href="/rucar/css/custom.css" rel="stylesheet">
+    <script src="/rucar/js/jquery-2.1.3.min.js"></script>
+    <script src="/rucar/js/metro.js"></script>
+    <script src="/rucar/js/ga.js"></script>
+    <script src="/rucar/js/select2.min.js"></script>
+	<script type="text/javascript" src="/rucar/js/cvi_tip_lib.js"></script>
+	<script type="text/javascript" src="/rucar/js/wz_jsgraphics.js"></script>
+	<script type="text/javascript" src="/rucar/js/maputil.js"></script>
+	<script type="text/javascript" src="/rucar/js/mapper.js"></script>
 	<script type="text/javascript">	
 	<!--
 	function showCoords(map,area,x,y,w,h) {
@@ -29,7 +29,7 @@
 	}
 	-->
 	</script>
-	<link rel="stylesheet" type="text/css" href="/js/tooltip.css"/>
+	<link rel="stylesheet" type="text/css" href="/rucar/js/tooltip.css"/rucar/>
 </head>
 <body class="text-secondary fg-gray">
 	<div class="margin10 no-margin-top grid condensed">
@@ -38,7 +38,7 @@
 			 <div id="header">
 				 <script> 
 					$(document).ready(function(){
-					  $("#header").load("/includes/header.html"); 
+					  $("#header").load("/rucar/includes/header.html"); 
 					});
 				</script>
 			</div>
@@ -50,9 +50,9 @@
 						<h3 class="text-light">Poverty Mapping</h3>
 
 							<ul class="breadcrumbs">
-								<li><a href="/index.html"><span class="icon mif-home"></span></a></li>
-								<li><a href="/news_and_releases/pov_map/pm_index.html">Poverty Mapping Index</a></li>
-								<li><a href="/news_and_releases/pov_map/provincial/Baguio City/bag_index.html">Baguio City</a></li>
+								<li><a href="/rucar/index.html"><span class="icon mif-home"></span></a></li>
+								<li><a href="/rucar/news_and_releases/pov_map/pm_index.html">Poverty Mapping Index</a></li>
+								<li><a href="/rucar/news_and_releases/pov_map/provincial/Baguio City/bag_index.html">Baguio City</a></li>
 								<li>Child Mortality Rate</li>
 							</ul>
 							<hr class="thin bg-grayLighter">
@@ -62,7 +62,7 @@
 			      <div id="baguio_drop">
 			        <script> 
 			          $(function(){
-			            $("#baguio_drop").load("/includes/PM/baguio_drop.html"); 
+			            $("#baguio_drop").load("/rucar/includes/PM/baguio_drop.html"); 
 			          });
 			        </script> 
 			      </div>
@@ -80,7 +80,7 @@
 					        <div class="frame bg-white fg-gray" id="1">
 
 								<div style="margin-left:25%;"><div>
-								<img class="mapper" src="/images/pov_map\provincial\Baguio City/baguio_child_mortality_rate_2001.png" usemap="#map_of_baguio" width="470" height="483" border="0" alt="" />
+								<img class="mapper" src="/rucar/images/pov_map\provincial\Baguio City/baguio_child_mortality_rate_2001.png" usemap="#map_of_baguio" width="470" height="483" border="0" alt="" />
 								</div></div>
 								<map name="map_of_baguio">
 								<!-- color #10 -->
@@ -116,79 +116,79 @@
 
 								<area id="DON" alt="dontogan" tooltip="Dontogan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="157,316.0000108991351,174,345.0000108991351,174,358.0000108991351,177,369.0000108991351,199,405.0000108991351,200,413.0000108991351,170,421.0000108991351,141,438.0000108991351,121,435.0000108991351,93,337.0000108991351" />
 
-								<area id="PIN" alt="pinsao_proper" tooltip="Pinsao Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="48,7,199,25,201,40,200,46,208,53,208,62,206,68,214,74,200,94,189,91,181,100,152,92,148,59,131,56,111,40,91,36,54,20"/>
+								<area id="PIN" alt="pinsao_proper" tooltip="Pinsao Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="48,7,199,25,201,40,200,46,208,53,208,62,206,68,214,74,200,94,189,91,181,100,152,92,148,59,131,56,111,40,91,36,54,20"/rucar/>
 
-								<area id="SSA" alt="stomas_sa" tooltip="Santo Tomas School Area" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="266,394,251,396,200,419,200,412,170,420,140,437,280,456,280,430,277,411"/>
+								<area id="SSA" alt="stomas_sa" tooltip="Santo Tomas School Area" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="266,394,251,396,200,419,200,412,170,420,140,437,280,456,280,430,277,411"/rucar/>
 
-								<area id="STP" alt="stomas_proper" tooltip="Santo Tomas Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="248,280,221,292,212,298,185,297,160,285,157,315,173,343,175,364,191,391,201,418,252,396,265,393,267,371,260,354,263,340,260,335,260,326,249,317"/>
+								<area id="STP" alt="stomas_proper" tooltip="Santo Tomas Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="248,280,221,292,212,298,185,297,160,285,157,315,173,343,175,364,191,391,201,418,252,396,265,393,267,371,260,354,263,340,260,335,260,326,249,317"/rucar/>
 
-								<area id="BC" alt="bakakeng_central" tooltip="Bakakeng Central" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="200,230,190,240,175,245,160,252,159,285,179,295,210,298,221,290,218,250,214,239"/>
+								<area id="BC" alt="bakakeng_central" tooltip="Bakakeng Central" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="200,230,190,240,175,245,160,252,159,285,179,295,210,298,221,290,218,250,214,239"/rucar/>
 
-								<area id="DMH" alt="domninican_hm" tooltip="Dominican Hill-Mirador" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="205,160,195,163,190,172,187,191,180,197,160,200,149,213,148,222,160,250,175,243,190,240,202,229,215,221,230,216,230,201,226,185,208,170"/>
+								<area id="DMH" alt="domninican_hm" tooltip="Dominican Hill-Mirador" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="205,160,195,163,190,172,187,191,180,197,160,200,149,213,148,222,160,250,175,243,190,240,202,229,215,221,230,216,230,201,226,185,208,170"/rucar/>
 
-								<area id="SVL" alt="sluis_ville" tooltip="Saint Louis Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="170,146,145,162,161,200,181,197,187,191,189,174,194,161,195,150,189,145"/>
+								<area id="SVL" alt="sluis_ville" tooltip="Saint Louis Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="170,146,145,162,161,200,181,197,187,191,189,174,194,161,195,150,189,145"/rucar/>
 
-								<area id="VCL" alt="victoria_ville" tooltip="Victoria Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly	" coords="189,133,176,132,161,133,151,135,159,155,169,147,186,147,194,150"/>
+								<area id="VCL" alt="victoria_ville" tooltip="Victoria Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly	" coords="189,133,176,132,161,133,151,135,159,155,169,147,186,147,194,150"/rucar/>
 
-								<area id="MHS" alt="mqhill_sub" tooltip="Middle Quezon Hill Subdivision" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="152,121,148,126,152,136,162,133,174,131,189,133,187,125,175,126,169,118,158,122"/> 
+								<area id="MHS" alt="mqhill_sub" tooltip="Middle Quezon Hill Subdivision" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="152,121,148,126,152,136,162,133,174,131,189,133,187,125,175,126,169,118,158,122"/rucar/> 
 
 
-								<area id="qhu" alt="qhill_up" title="" tooltip="Upper Quezon Hill" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="152,92,141,113,148,125,153,120,158,124,170,116,174,125,188,126,183,100"/>
+								<area id="qhu" alt="qhill_up" title="" tooltip="Upper Quezon Hill" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="152,92,141,113,148,125,153,120,158,124,170,116,174,125,188,126,183,100"/rucar/>
 
-								<area id="pnt" alt="pinget" title="" tooltip="Pinget" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="240,31,234,58,229,67,233,75,224,73,224,66,222,60,213,52,207,52,200,43,198,26"/>
+								<area id="pnt" alt="pinget" title="" tooltip="Pinget" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="240,31,234,58,229,67,233,75,224,73,224,66,222,60,213,52,207,52,200,43,198,26"/rucar/>
 
-								<area id="ppp" alt="pinsao_pp" title="" tooltip="Pinsao Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="207,52,221,60,224,71,220,76,208,69,209,63"/>
+								<area id="ppp" alt="pinsao_pp" title="" tooltip="Pinsao Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="207,52,221,60,224,71,220,76,208,69,209,63"/rucar/>
 
-								<area id="fvv" alt="fairview_ville" title="" tooltip="Farview Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="202,94,196,101,211,113,219,117,215,128,214,136,204,128,188,128,182,100,187,90"/>
+								<area id="fvv" alt="fairview_ville" title="" tooltip="Farview Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="202,94,196,101,211,113,219,117,215,128,214,136,204,128,188,128,182,100,187,90"/rucar/>
 
-								<area id="qhp" alt="qhill_proper" title="" tooltip="Quezon Hill Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="229,149,212,151,194,150,188,129,202,127,231,145"/>
+								<area id="qhp" alt="qhill_proper" title="" tooltip="Quezon Hill Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="229,149,212,151,194,150,188,129,202,127,231,145"/rucar/>
 
-								<area id="srv" alt="sroque_ville" title="" tooltip="San Roque Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="213,152,206,159,196,161,196,155,194,149"/>
+								<area id="srv" alt="sroque_ville" title="" tooltip="San Roque Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="213,152,206,159,196,161,196,155,194,149"/rucar/>
 
-								<area id="lsp" alt="lourdes_sub_prop" title="" tooltip="Loardes Subdivision Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="212,156,223,163,220,168,226,170,216,176,204,165,206,160"/>
+								<area id="lsp" alt="lourdes_sub_prop" title="" tooltip="Loardes Subdivision Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="212,156,223,163,220,168,226,170,216,176,204,165,206,160"/rucar/>
 
-								<area id="rql" alt="rquarry_low" title="" tooltip="Rock Quarry Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="225,170,226,177,234,182,227,188,216,178"/>
+								<area id="rql" alt="rquarry_low" title="" tooltip="Rock Quarry Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="225,170,226,177,234,182,227,188,216,178"/rucar/>
 
-								<area id="rqm" alt="rquarry_mid" title="" tooltip="Rock Quarry Middle" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="233,183,225,186,230,201,239,201,239,195"/>
+								<area id="rqm" alt="rquarry_mid" title="" tooltip="Rock Quarry Middle" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="233,183,225,186,230,201,239,201,239,195"/rucar/>
 
-								<area id="rqu" alt="rquarry_lup" title="" tooltip="Rock Quarry Up" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="238,201,228,203,231,217,236,220,244,216,248,212"/>
+								<area id="rqu" alt="rquarry_lup" title="" tooltip="Rock Quarry Up" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="238,201,228,203,231,217,236,220,244,216,248,212"/rucar/>
 
-								<area id="sro" alt="santa_rosario" title="" tooltip="Santa Rosario" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="244,216,251,224,245,227,242,231,236,230,219,233,215,237,200,231,212,223,230,216,237,220" style="outline:none;"/>
+								<area id="sro" alt="santa_rosario" title="" tooltip="Santa Rosario" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="244,216,251,224,245,227,242,231,236,230,219,233,215,237,200,231,212,223,230,216,237,220" style="outline:none;"/rucar/>
 
-								<area id="ssh" alt="slu_svp" title="" tooltip="SLU SVP Housing Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,224,254,235,260,232,260,240,253,244,232,245,219,252,212,238,217,235,240,232" style="outline:none;"/>
+								<area id="ssh" alt="slu_svp" title="" tooltip="SLU SVP Housing Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,224,254,235,260,232,260,240,253,244,232,245,219,252,212,238,217,235,240,232" style="outline:none;"/rucar/>
 
-								<area id="bkn" alt="bakakeng_north" title="" tooltip="Bakakeng North" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="244,244,217,251,220,292,240,281,248,280,242,260" style="outline:none;"/>
+								<area id="bkn" alt="bakakeng_north" title="" tooltip="Bakakeng North" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="244,244,217,251,220,292,240,281,248,280,242,260" style="outline:none;"/rucar/>
 
-								<area id="gsr" alt="guisad_surong" title="" tooltip="Guisad Surong" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="215,73,221,78,226,88,235,94,229,104,226,111,219,116,209,112,205,108,198,102,195,102" style="outline:none;"/>
+								<area id="gsr" alt="guisad_surong" title="" tooltip="Guisad Surong" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="215,73,221,78,226,88,235,94,229,104,226,111,219,116,209,112,205,108,198,102,195,102" style="outline:none;"/rucar/>
 
-								<area id="lse" alt="lourdes_subdivision_extension" title="" tooltip="Lourdes Subdivision Extention" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="212,152,229,148,231,154,225,157,223,159" style="outline:none;"/>
+								<area id="lse" alt="lourdes_subdivision_extension" title="" tooltip="Lourdes Subdivision Extention" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="212,152,229,148,231,154,225,157,223,159" style="outline:none;"/rucar/>
 
-								<area id="lsl" alt="lourdes_subdivision_lower" title="" tooltip="Lourdes Subdivision Extention" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="214,156,231,162,225,170,220,169,221,165" style="outline:none;"/>
+								<area id="lsl" alt="lourdes_subdivision_lower" title="" tooltip="Lourdes Subdivision Extention" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="214,156,231,162,225,170,220,169,221,165" style="outline:none;"/rucar/>
 
-								<area id="gcl" alt="guisad_central" title="" tooltip="Guisad Central" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="223,72,233,75,238,82,236,87,236,95,224,87,220,76" style="outline:none;"/>
+								<area id="gcl" alt="guisad_central" title="" tooltip="Guisad Central" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="223,72,233,75,238,82,236,87,236,95,224,87,220,76" style="outline:none;"/rucar/>
 
-								<area id="blb" alt="Andres Bonifacio (Lower Bokawkan)" title="" tooltip="Andres Bonifacio (Lower Bokawkan)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="231,104,238,113,237,121,224,122,218,117,224,112" style="outline:none;"/>
+								<area id="blb" alt="Andres Bonifacio (Lower Bokawkan)" title="" tooltip="Andres Bonifacio (Lower Bokawkan)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="231,104,238,113,237,121,224,122,218,117,224,112" style="outline:none;"/rucar/>
 
-								<area id="cfo" alt="campo filipino" title="" tooltip="Campo Filipino" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="242,122,241,130,245,135,230,148,215,137,213,130,218,116,223,123,236,120" style="outline:none;"/>
+								<area id="cfo" alt="campo filipino" title="" tooltip="Campo Filipino" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="242,122,241,130,245,135,230,148,215,137,213,130,218,116,223,123,236,120" style="outline:none;"/rucar/>
 
-								<area id="mrr" alt="MRR Queen of Peace" title="" tooltip="MRR Queen of Peace" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="240,139,245,144,236,152,237,159,231,163,224,158,230,154,230,148"/>
+								<area id="mrr" alt="MRR Queen of Peace" title="" tooltip="MRR Queen of Peace" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="240,139,245,144,236,152,237,159,231,163,224,158,230,154,230,148"/rucar/>
 
-								<area id="ccc" alt="City Camp, Central" title="" tooltip="City Camp, Central" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="230,164,241,175,240,183,232,183,224,176,225,169"/>
+								<area id="ccc" alt="City Camp, Central" title="" tooltip="City Camp, Central" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="230,164,241,175,240,183,232,183,224,176,225,169"/rucar/>
 
-								<area id="qhw" alt="qhill_west" title="" tooltip="Quezon Hill West" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="240,31,253,31,248,37,244,47,237,47"/>
+								<area id="qhw" alt="qhill_west" title="" tooltip="Quezon Hill West" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="240,31,253,31,248,37,244,47,237,47"/rucar/>
 
-								<area id="qhl" alt="qhill, low" title="" tooltip="Quezon Hill Low" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="236,46,244,49,244,61,233,57"/>
+								<area id="qhl" alt="qhill, low" title="" tooltip="Quezon Hill Low" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="236,46,244,49,244,61,233,57"/rucar/>
 
-								<area id="dsn" alt="dizon sub" title="" tooltip="Dizon Subdivision" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="233,56,247,62,256,63,268,72,264,78,261,85,255,92,251,84,238,82,230,70"/>
+								<area id="dsn" alt="dizon sub" title="" tooltip="Dizon Subdivision" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="233,56,247,62,256,63,268,72,264,78,261,85,255,92,251,84,238,82,230,70"/rucar/>
 
-								<area id="cvl" alt="Crecensia Village" title="" tooltip="Crecensia Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="239,81,250,84,255,89,247,108,248,117,241,122,237,120,237,112,232,104,236,95"/>
+								<area id="cvl" alt="Crecensia Village" title="" tooltip="Crecensia Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="239,81,250,84,255,89,247,108,248,117,241,122,237,120,237,112,232,104,236,95"/rucar/>
 
-								<area id="qhm" alt="qhill_mid" title="" tooltip="Quezon Hill Middle" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="254,34,248,38,244,48,244,56,263,49,258,42"/>
+								<area id="qhm" alt="qhill_mid" title="" tooltip="Quezon Hill Middle" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="254,34,248,38,244,48,244,56,263,49,258,42"/rucar/>
 
-								<area id="cds" alt="camdas subd" title="" tooltip="Camdass Subdivision" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="265,50,260,50,244,56,245,62,256,64,270,76,274,56"/>
+								<area id="cds" alt="camdas subd" title="" tooltip="Camdass Subdivision" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="265,50,260,50,244,56,245,62,256,64,270,76,274,56"/rucar/>
 
-								<area id="qhe" alt="qhill east" title="" tooltip="Quezon Hill East" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="275,32,268,40,266,48,261,49,253,36,254,32"/>
-								<area id="hhl" alt="happy homes lucban" title="" tooltip="Happy Homes Lucban" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="294,34,292,49,284,54,281,66,273,68,274,57,269,54,266,48,266,40,273,34"/>
+								<area id="qhe" alt="qhill east" title="" tooltip="Quezon Hill East" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="275,32,268,40,266,48,261,49,253,36,254,32"/rucar/>
+								<area id="hhl" alt="happy homes lucban" title="" tooltip="Happy Homes Lucban" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="294,34,292,49,284,54,281,66,273,68,274,57,269,54,266,48,266,40,273,34"/rucar/>
 
 								<area id="scn" alt="sanitary camp north" title="" tooltip="Sanitary Camp North" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="293,35,292,46,295,55,307,59,309,49,320,38,306,35" />
 
@@ -232,137 +232,137 @@
 
 								<area id="sha" alt="slaughter house area" title="" tooltip="Slaughter House" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="279,96,285,103,280,107,271,98" />
 
-								<area id="mgl" alt="mgsyssy lower" title="" tooltip="Magsaysay Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="267,73,272,81,267,83,269,89,271,99,284,115,277,123,272,117,271,109,266,107,264,86,260,84"/>
+								<area id="mgl" alt="mgsyssy lower" title="" tooltip="Magsaysay Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="267,73,272,81,267,83,269,89,271,99,284,115,277,123,272,117,271,109,266,107,264,86,260,84"/rucar/>
 
-								<area id="pbr" alt="padre burgos" title="" tooltip="Padre Burgos" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="262,83,264,102,272,117,269,119,258,109,254,111,249,106,253,91"/>
+								<area id="pbr" alt="padre burgos" title="" tooltip="Padre Burgos" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="262,83,264,102,272,117,269,119,258,109,254,111,249,106,253,91"/rucar/>
 
-								<area id="pzm" alt="padre zamora" title="" tooltip="Padre Zamora" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="249,106,244,111,249,120,254,118,272,126,278,123,273,118,267,118,258,111"/>
+								<area id="pzm" alt="padre zamora" title="" tooltip="Padre Zamora" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="249,106,244,111,249,120,254,118,272,126,278,123,273,118,267,118,258,111"/rucar/>
 
-								<area id="tal" alt="teodora alonzo" title="" tooltip="Teodora Alonzo" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="285,101,294,110,291,114,284,128,276,123,285,115,280,111"/>
+								<area id="tal" alt="teodora alonzo" title="" tooltip="Teodora Alonzo" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="285,101,294,110,291,114,284,128,276,123,285,115,280,111"/rucar/>
 
-								<area id="ahn" alt="aurora hill north" title="" tooltip="Aurora Hill North" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,72,337,83,331,84,325,77,330,72,336,71"/>
+								<area id="ahn" alt="aurora hill north" title="" tooltip="Aurora Hill North" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,72,337,83,331,84,325,77,330,72,336,71"/rucar/>
 
-								<area id="ahp" alt="aurora hill proper" title="" tooltip="Aurora Hill Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="324,76,331,82,324,85,318,90,316,82"/>
+								<area id="ahp" alt="aurora hill proper" title="" tooltip="Aurora Hill Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="324,76,331,82,324,85,318,90,316,82"/rucar/>
 
-								<area id="msw" alt="modern site west" title="" tooltip="Modern Site West" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="331,81,338,96,325,102,317,97,313,92,319,89,323,85"/>
+								<area id="msw" alt="modern site west" title="" tooltip="Modern Site West" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="331,81,338,96,325,102,317,97,313,92,319,89,323,85"/rucar/>
 
-								<area id="brs" alt="brookside" title="" tooltip="Brookside" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="312,91,309,95,300,100,312,109,320,112,331,107,320,101"/>
+								<area id="brs" alt="brookside" title="" tooltip="Brookside" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="312,91,309,95,300,100,312,109,320,112,331,107,320,101"/rucar/>
 
-								<area id="hhg" alt="honeymoon holy ghost" title="" tooltip="Honeymoon Holy Ghost" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="302,100,313,110,305,115,308,125,300,125,296,111"/>
+								<area id="hhg" alt="honeymoon holy ghost" title="" tooltip="Honeymoon Holy Ghost" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="302,100,313,110,305,115,308,125,300,125,296,111"/rucar/>
 
-								<area id="abcr" alt="A.Bonifacio-Caguioa-RImando" title="" tooltip="A.Bonifacio-Caguioa-Rimando" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="300,127,289,128,283,128,290,118,292,112,297,112"/>
+								<area id="abcr" alt="A.Bonifacio-Caguioa-RImando" title="" tooltip="A.Bonifacio-Caguioa-Rimando" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="300,127,289,128,283,128,290,118,292,112,297,112"/rucar/>
 
-								<area id="hge" alt="Holy Ghost Extension" title="" tooltip="Holy Ghost Extension"  onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="312,111,306,116,308,128,300,124,296,127,298,133,299,140,304,144,308,142,317,143,320,151,325,144,336,139,329,127,330,108,322,112"/>
+								<area id="hge" alt="Holy Ghost Extension" title="" tooltip="Holy Ghost Extension"  onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="312,111,306,116,308,128,300,124,296,127,298,133,299,140,304,144,308,142,317,143,320,151,325,144,336,139,329,127,330,108,322,112"/rucar/>
 
-								<area id="kgt" alt="kagitingan" title="" tooltip="Kagitingan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="297,128,299,139,279,134,282,128,288,131"/>
+								<area id="kgt" alt="kagitingan" title="" tooltip="Kagitingan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="297,128,299,139,279,134,282,128,288,131"/rucar/>
 
-								<area id="GLL" alt="General Luna Lower" title="" tooltip="General Luna Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="298,140,300,148,280,137,281,134"/>
+								<area id="GLL" alt="General Luna Lower" title="" tooltip="General Luna Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="298,140,300,148,280,137,281,134"/rucar/>
 
-								<area id="hgp" alt="holy ghost proper" title="" tooltip="Holy Ghost Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="321,151,316,149,312,155,306,150,300,150,300,140,307,144,310,140,318,145"/>
+								<area id="hgp" alt="holy ghost proper" title="" tooltip="Holy Ghost Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="321,151,316,149,312,155,306,150,300,150,300,140,307,144,310,140,318,145"/rucar/>
 
-								<area id="cpl" alt="camp allen" title="" tooltip="Camp Allen" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="269,125,251,119,241,121,244,136,250,136,255,140,265,140"/>
+								<area id="cpl" alt="camp allen" title="" tooltip="Camp Allen" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="269,125,251,119,241,121,244,136,250,136,255,140,265,140"/rucar/>
 
-								<area id="mgu" alt="mgsysy upper" title="" tooltip="Magsaysay Upper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="277,123,283,129,275,130,272,127"/>
+								<area id="mgu" alt="mgsysy upper" title="" tooltip="Magsaysay Upper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="277,123,283,129,275,130,272,127"/rucar/>
 
-								<area id="msu" alt="market subd upper" title="" tooltip="Market Subdivision Upper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="270,125,268,131,274,134,276,130"/>
+								<area id="msu" alt="market subd upper" title="" tooltip="Market Subdivision Upper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="270,125,268,131,274,134,276,130"/rucar/>
 
-								<area id="kht" alt="kayang hill top" title="" tooltip="Kayang Hill Top" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="272,135,272,140,267,140,268,132"/>
+								<area id="kht" alt="kayang hill top" title="" tooltip="Kayang Hill Top" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="272,135,272,140,267,140,268,132"/rucar/>
 
-								<area id="bgl" alt="bagong lipugan (market area)" title="" tooltip="Bagong Lipunan(Market Area)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="280,130,277,141,272,140,272,132,276,129"/>
+								<area id="bgl" alt="bagong lipugan (market area)" title="" tooltip="Bagong Lipunan(Market Area)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="280,130,277,141,272,140,272,132,276,129"/rucar/>
 
-								<area id="azkco" alt="abanao-zandueta-kayang-chugum otek" title="" tooltip="Abanao-Zandueta-Kayang-Chugum Otek" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="276,142.00000114440917,271,148.00000114440917,267,145.00000114440917,258,147.00000114440917,259,140.00000114440917,267,140.00000114440917"/>
+								<area id="azkco" alt="abanao-zandueta-kayang-chugum otek" title="" tooltip="Abanao-Zandueta-Kayang-Chugum Otek" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="276,142.00000114440917,271,148.00000114440917,267,145.00000114440917,258,147.00000114440917,259,140.00000114440917,267,140.00000114440917"/rucar/>
 
-								<area id="kbh" alt="kabayanihan" title="" tooltip="Kabayanihan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="300,149.00000114440917,295,143.00000114440917,280,137.00000114440917,277,142.00000114440917,288,149.00000114440917,297,158.00000114440917"/>
+								<area id="kbh" alt="kabayanihan" title="" tooltip="Kabayanihan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="300,149.00000114440917,295,143.00000114440917,280,137.00000114440917,277,142.00000114440917,288,149.00000114440917,297,158.00000114440917"/rucar/>
 
-								<area id="hrc" alt="harrison carantes" title="" tooltip="Harrison Carantes" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="282,144,288,151,286,169,277,160,283,152,280,148"/>
+								<area id="hrc" alt="harrison carantes" title="" tooltip="Harrison Carantes" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="282,144,288,151,286,169,277,160,283,152,280,148"/rucar/>
 
-								<area id="msp" alt="malcolm square-perfecto (jose abad)" title="" tooltip="Malcolm Sqaure-Perfecto" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="282,151,277,149,282,144,276,142,269,151,276,162"/>
+								<area id="msp" alt="malcolm square-perfecto (jose abad)" title="" tooltip="Malcolm Sqaure-Perfecto" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="282,151,277,149,282,144,276,142,269,151,276,162"/rucar/>
 
-								<area id="rma" alt="rizal monument area" title="" tooltip="Rizal Monument Area" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="272,148,269,153,264,150,263,159,258,161,252,160,253,140,261,142,260,147"/>
+								<area id="rma" alt="rizal monument area" title="" tooltip="Rizal Monument Area" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="272,148,269,153,264,150,263,159,258,161,252,160,253,140,261,142,260,147"/rucar/>
 
-								<area id="kex" alt="kayang ext" title="" tooltip="Kayang Extension" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="244,135,241,140,244,146,236,152,236,160,252,159,255,137"/>
+								<area id="kex" alt="kayang ext" title="" tooltip="Kayang Extension" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="244,135,241,140,244,146,236,152,236,160,252,159,255,137"/rucar/>
 
-								<area id="plu" alt="palma urbano (garino-palma)" title="" tooltip="Palma Urbano(Garino-Palma)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,156,252,165,241,174,229,163,238,160"/>
+								<area id="plu" alt="palma urbano (garino-palma)" title="" tooltip="Palma Urbano(Garino-Palma)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,156,252,165,241,174,229,163,238,160"/rucar/>
 
-								<area id="ccp" alt="city camp proper" title="" tooltip="City Camp Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,163,256,168,260,182,248,187,241,184,241,177"/>
+								<area id="ccp" alt="city camp proper" title="" tooltip="City Camp Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,163,256,168,260,182,248,187,241,184,241,177"/rucar/>
 
-								<area id="gea" alt="gen. emilio f. aguinaldo (quirino -mg)" title="" tooltip="General Emillio F. Aguinaldo(Quirino -mg)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="259,181,263,189,238,194,234,183,246,186"/>
+								<area id="gea" alt="gen. emilio f. aguinaldo (quirino -mg)" title="" tooltip="General Emillio F. Aguinaldo(Quirino -mg)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="259,181,263,189,238,194,234,183,246,186"/rucar/>
 
-								<area id="qmu" alt="quirino-magsaysay upper (upper qm)" title="" tooltip="Quirino-Magsaysay Upper(Upper qm)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="260,188,265,195,264,205,259,202,248,213,240,200,237,192"/>
+								<area id="qmu" alt="quirino-magsaysay upper (upper qm)" title="" tooltip="Quirino-Magsaysay Upper(Upper qm)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="260,188,265,195,264,205,259,202,248,213,240,200,237,192"/rucar/>
 
-								<area id="FHC"  alt="Ferdinand (happy homes - camp sioco)" title="" tooltip="Ferdinand(Happy Homes- Camp Sioco)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="260,202.00000228881837,271,219.00000228881837,252,224.00000228881837,244,218.00000228881837"/>
+								<area id="FHC"  alt="Ferdinand (happy homes - camp sioco)" title="" tooltip="Ferdinand(Happy Homes- Camp Sioco)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="260,202.00000228881837,271,219.00000228881837,252,224.00000228881837,244,218.00000228881837"/rucar/>
 
-								<area id="irm"  alt="imelda r. marcos (la salle)" title="" tooltip="Imelda R. Marcos (La Salle)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="269,219.00000228881837,268,224.00000228881837,255,228.00000228881837,251,224.00000228881837"/>
+								<area id="irm"  alt="imelda r. marcos (la salle)" title="" tooltip="Imelda R. Marcos (La Salle)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="269,219.00000228881837,268,224.00000228881837,255,228.00000228881837,251,224.00000228881837"/rucar/>
 
-								<area id="blg" alt="balsigan" title="" tooltip="Balsigan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="268,223.00000228881837,272,228.00000228881837,270,233.00000228881837,261,239.00000228881837,259,232.00000228881837,256,235.00000228881837,254,228.00000228881837"/>
+								<area id="blg" alt="balsigan" title="" tooltip="Balsigan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="268,223.00000228881837,272,228.00000228881837,270,233.00000228881837,261,239.00000228881837,259,232.00000228881837,256,235.00000228881837,254,228.00000228881837"/rucar/>
 
-								<area id="bgh" alt="bgh compound" title="" tooltip="BGH Compound" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="276,216.00000228881837,282,220.00000228881837,276,225.00000228881837,272,220.00000228881837"/>
+								<area id="bgh" alt="bgh compound" title="" tooltip="BGH Compound" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="276,216.00000228881837,282,220.00000228881837,276,225.00000228881837,272,220.00000228881837"/rucar/>
 
-								<area id="pam" alt="phil-am" title="" tooltip="Phil-Am" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="271,220.00000228881837,275,226.00000228881837,282,222.00000228881837,280,231.00000228881837,271,235.00000228881837,269,225.00000228881837,268,222.00000228881837"/>
+								<area id="pam" alt="phil-am" title="" tooltip="Phil-Am" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="271,220.00000228881837,275,226.00000228881837,282,222.00000228881837,280,231.00000228881837,271,235.00000228881837,269,225.00000228881837,268,222.00000228881837"/rucar/>
 
-								<area id="lbk" alt="Legarda-Burnham Kisad" title="" tooltip="Legarda-Burnham Kisad" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,157.00000228881837,252,165.00000228881837,257,178.00000228881837,265,192.00000228881837,263,204.00000228881837,267,219.00000228881837,274,220.00000228881837,290,179.00000228881837,286,170.00000228881837,280,168.00000228881837,268,152.00000228881837,264,152.00000228881837,261,154.00000228881837,261,160.00000228881837,257,163.00000228881837"/>
+								<area id="lbk" alt="Legarda-Burnham Kisad" title="" tooltip="Legarda-Burnham Kisad" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,157.00000228881837,252,165.00000228881837,257,178.00000228881837,265,192.00000228881837,263,204.00000228881837,267,219.00000228881837,274,220.00000228881837,290,179.00000228881837,286,170.00000228881837,280,168.00000228881837,268,152.00000228881837,264,152.00000228881837,261,154.00000228881837,261,160.00000228881837,257,163.00000228881837"/rucar/>
 
-								<area id="ssr" alt="session road" title="" tooltip="Session Road" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="306,194.00000228881837,304,186.00000228881837,301,184.00000228881837,301,168.00000228881837,298,157.00000228881837,288,149.00000228881837,286,169.00000228881837,291,180.00000228881837,284,200.00000228881837,291,204.00000228881837"/>
+								<area id="ssr" alt="session road" title="" tooltip="Session Road" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="306,194.00000228881837,304,186.00000228881837,301,184.00000228881837,301,168.00000228881837,298,157.00000228881837,288,149.00000228881837,286,169.00000228881837,291,180.00000228881837,284,200.00000228881837,291,204.00000228881837"/rucar/>
 
-								<area id="cp8" alt="camp 8" title="" tooltip="Camp 8" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="289,224,307,222,317,247,305,254,300,254,296,250,302,241"/>
+								<area id="cp8" alt="camp 8" title="" tooltip="Camp 8" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="289,224,307,222,317,247,305,254,300,254,296,250,302,241"/rucar/>
 
-								<area id="plw" alt="poliwes" title="" tooltip="Poliwes" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="282,222,279,233,289,257,295,264,296,273,312,274,318,271,304,256,298,255,295,248,300,242,289,226"/>
+								<area id="plw" alt="poliwes" title="" tooltip="Poliwes" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="282,222,279,233,289,257,295,264,296,273,312,274,318,271,304,256,298,255,295,248,300,242,289,226"/rucar/>
 
-								<area id="svc" alt="san vicente" title="" tooltip="San Vicente" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="279,232,272,236,268,233,260,240,256,243,244,245,244,257,248,280,268,277,296,272,295,264,289,258"/>
+								<area id="svc" alt="san vicente" title="" tooltip="San Vicente" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="279,232,272,236,268,233,260,240,256,243,244,245,244,257,248,280,268,277,296,272,295,264,289,258"/rucar/>
 
-								<area id="hls" alt="hillside" title="" tooltip="Hillside" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="316,245.0000030517578,323,252.0000030517578,332,254.0000030517578,338,263.0000030517578,340,272.0000030517578,320,272.0000030517578,304,256.0000030517578"/>
+								<area id="hls" alt="hillside" title="" tooltip="Hillside" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="316,245.0000030517578,323,252.0000030517578,332,254.0000030517578,338,263.0000030517578,340,272.0000030517578,320,272.0000030517578,304,256.0000030517578"/rucar/>
 
-								<area id="gbs" alt="gabriela silang" title="" tooltip="Gabriela Silang" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="313,275.0000030517578,318,270.0000030517578,330,272.0000030517578,337,300.0000030517578,340,312.0000030517578,332,327.0000030517578,328,307.0000030517578,320,302.0000030517578,315,289.0000030517578"/>
+								<area id="gbs" alt="gabriela silang" title="" tooltip="Gabriela Silang" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="313,275.0000030517578,318,270.0000030517578,330,272.0000030517578,337,300.0000030517578,340,312.0000030517578,332,327.0000030517578,328,307.0000030517578,320,302.0000030517578,315,289.0000030517578"/rucar/>
 
-								<area id="dgl" alt="dagsian lower" title="" tooltip="Dagsian Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="330,272.0000030517578,340,300.0000030517578,341,312.0000030517578,332,326.0000030517578,344,348.0000030517578,364,339.0000030517578,365,332.0000030517578,367,325.0000030517578,346,288.0000030517578,340,276.0000030517578"/>
+								<area id="dgl" alt="dagsian lower" title="" tooltip="Dagsian Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="330,272.0000030517578,340,300.0000030517578,341,312.0000030517578,332,326.0000030517578,344,348.0000030517578,364,339.0000030517578,365,332.0000030517578,367,325.0000030517578,346,288.0000030517578,340,276.0000030517578"/rucar/>
 
-								<area id="lwl" alt="liwanag-loakan" title="" tooltip="Liwanag-Loakan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="363,337.00000114440917,376,360.00000114440917,356,375.00000114440917,336,393.00000114440917,332,379.00000114440917,330,371.00000114440917,331,359.00000114440917,342,349.00000114440917"/>
+								<area id="lwl" alt="liwanag-loakan" title="" tooltip="Liwanag-Loakan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="363,337.00000114440917,376,360.00000114440917,356,375.00000114440917,336,393.00000114440917,332,379.00000114440917,330,371.00000114440917,331,359.00000114440917,342,349.00000114440917"/rucar/>
 
-								<area id="dgu" alt="dagsian-upper" title="" tooltip="Dagsian-Upper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="337,271.00000228881834,344,274.00000228881834,360,266.00000228881834,369,290.00000228881834,369,312.00000228881834,380,326.00000228881834,380,346.00000228881834,384,352.00000228881834,376,360.00000228881834,363,339.00000228881834,367,332.00000228881834,367,324.00000228881834,347,297.00000228881834"/>
+								<area id="dgu" alt="dagsian-upper" title="" tooltip="Dagsian-Upper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="337,271.00000228881834,344,274.00000228881834,360,266.00000228881834,369,290.00000228881834,369,312.00000228881834,380,326.00000228881834,380,346.00000228881834,384,352.00000228881834,376,360.00000228881834,363,339.00000228881834,367,332.00000228881834,367,324.00000228881834,347,297.00000228881834"/rucar/>
 
-								<area id="scb" alt="scout barrio" title="" tooltip="Scout Barrio" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="330,253,336,263,339,272,346,274,361,267,356,257,348,246"/>
+								<area id="scb" alt="scout barrio" title="" tooltip="Scout Barrio" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="330,253,336,263,339,272,346,274,361,267,356,257,348,246"/rucar/>
 
-								<area id="sel" alt="santa escolastica" title="" tooltip="Santa Escolastica" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="307,221,316,220,324,230,347,231,349,245,332,253,322,253,316,246"/>
+								<area id="sel" alt="santa escolastica" title="" tooltip="Santa Escolastica" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="307,221,316,220,324,230,347,231,349,245,332,253,322,253,316,246"/rucar/>
 
-								<area id="gwv" alt="green water village" title="" tooltip="Green Water Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="331,211,336,216,345,217,345,234,325,233,316,220,325,218"/>
+								<area id="gwv" alt="green water village" title="" tooltip="Green Water Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="331,211,336,216,345,217,345,234,325,233,316,220,325,218"/rucar/>
 
-								<area id="bmv" alt="bal-marcoville (marcoville)" title="" tooltip="Bal-Marcoville(marcoville)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="317,194,314,200,320,220,336,210,337,201"/>
+								<area id="bmv" alt="bal-marcoville (marcoville)" title="" tooltip="Bal-Marcoville(marcoville)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="317,194,314,200,320,220,336,210,337,201"/rucar/>
 
-								<area id="cp7" alt="camp 7" title="" tooltip="Camp 7" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="248,280,250,288,249,316,261,326,260,334,264,339,260,354,266,372,264,380,266,394,275,408,280,428,280,456,333,462,332,444,338,431,334,418,336,407,329,398,331,395,340,402,342,400,336,390,332,372,332,362,339,354,346,348,333,325,329,320,325,307,319,296,314,285,312,276,302,272,275,273"/>
+								<area id="cp7" alt="camp 7" title="" tooltip="Camp 7" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="248,280,250,288,249,316,261,326,260,334,264,339,260,354,266,372,264,380,266,394,275,408,280,428,280,456,333,462,332,444,338,431,334,418,336,407,329,398,331,395,340,402,342,400,336,390,332,372,332,362,339,354,346,348,333,325,329,320,325,307,319,296,314,285,312,276,302,272,275,273"/rucar/>
 
-								<area id="dps" alt="dps area" title="" tooltip="DPS Area" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="320,178,352,188,337,200,318,195,316,189"/>
+								<area id="dps" alt="dps area" title="" tooltip="DPS Area" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="320,178,352,188,337,200,318,195,316,189"/rucar/>
 
-								<area id="chtc" alt="cabinet hill - teacher's camp" title="" tooltip="Cabinet Hill - Teacher's Camp" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,146,320,164,318,173,321,179,349,187,355,177,358,175,362,164,361,157,351,156,346,153"/>
+								<area id="chtc" alt="cabinet hill - teacher's camp" title="" tooltip="Cabinet Hill - Teacher's Camp" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,146,320,164,318,173,321,179,349,187,355,177,358,175,362,164,361,157,351,156,346,153"/rucar/>
 
-								<area id="sdr" alt="south drive" title="" tooltip="South Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,144,351,143,363,144,376,144,388,139,392,137,396,144,391,144,391,152,386,160,387,167,384,176,357,176,361,161,360,156,354,156,345,152,343,148"/>
+								<area id="sdr" alt="south drive" title="" tooltip="South Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,144,351,143,363,144,376,144,388,139,392,137,396,144,391,144,391,152,386,160,387,167,384,176,357,176,361,161,360,156,354,156,345,152,343,148"/rucar/>
 
-								<area id="sjv" alt="st. joseph village" title="" tooltip="Joseph Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="357,90,353,98,337,104,336,116,341,129,342,135,344,144,350,141,366,144,387,141,392,137,384,128,384,123,381,114,377,113,377,108,373,103,377,97,369,91"/>
+								<area id="sjv" alt="st. joseph village" title="" tooltip="Joseph Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="357,90,353,98,337,104,336,116,341,129,342,135,344,144,350,141,366,144,387,141,392,137,384,128,384,123,381,114,377,113,377,108,373,103,377,97,369,91"/rucar/>
 
-								<area id="pcl" alt="pacdal" title="" tooltip="Pacdal" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="379,52,431,59,427,72,428,78,437,80,441,87,438,92,433,97,424,98,422,101,416,115,415,122,407,126,399,130,392,140,388,132,384,128,382,117,378,114,376,110,378,108,375,103,377,98,369,91"/>
+								<area id="pcl" alt="pacdal" title="" tooltip="Pacdal" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="379,52,431,59,427,72,428,78,437,80,441,87,438,92,433,97,424,98,422,101,416,115,415,122,407,126,399,130,392,140,388,132,384,128,382,117,378,114,376,110,378,108,375,103,377,98,369,91"/rucar/>
 
-								<area id="llht" alt="lualhati" title="" tooltip="Lualhati" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="433,154,429,160,420,177,412,172,405,172,403,169,392,164,394,160,388,157,392,149,392,143,397,137,408,142,413,137,422,152"/>
+								<area id="llht" alt="lualhati" title="" tooltip="Lualhati" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="433,154,429,160,420,177,412,172,405,172,403,169,392,164,394,160,388,157,392,149,392,143,397,137,408,142,413,137,422,152"/rucar/>
 
-								<area id="ccv" alt="country club village" title="" tooltip="Country Club Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="390,156,386,162,384,176,391,190,400,188,418,196,413,185,415,173,406,176,402,168,393,166"/>
+								<area id="ccv" alt="country club village" title="" tooltip="Country Club Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="390,156,386,162,384,176,391,190,400,188,418,196,413,185,415,173,406,176,402,168,393,166"/rucar/>
 
-								<area id="odr" alt="outlook drive" title="" tooltip="Outlook Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="431,155,446,151,448,160,442,171,440,184,432,192,419,196,412,186,413,176,420,177,428,164"/>
+								<area id="odr" alt="outlook drive" title="" tooltip="Outlook Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="431,155,446,151,448,160,442,171,440,184,432,192,419,196,412,186,413,176,420,177,428,164"/rucar/>
 
-								<area id="sdr" alt="south drive" title="" tooltip="South Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,144,351,143,363,144,376,144,388,139,392,137,396,144,391,144,391,152,386,160,387,167,384,176,357,176,361,161,360,156,354,156,345,152,343,148"/>
+								<area id="sdr" alt="south drive" title="" tooltip="South Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,144,351,143,363,144,376,144,388,139,392,137,396,144,391,144,391,152,386,160,387,167,384,176,357,176,361,161,360,156,354,156,345,152,343,148"/rucar/>
 
-								<area id="sjv" alt="st. joseph village" title="" tooltip="St. Joseph Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="357,90,353,98,337,104,336,116,341,129,342,135,344,144,350,141,366,144,387,141,392,137,384,128,384,123,381,114,377,113,377,108,373,103,377,97,369,91"/>
+								<area id="sjv" alt="st. joseph village" title="" tooltip="St. Joseph Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="357,90,353,98,337,104,336,116,341,129,342,135,344,144,350,141,366,144,387,141,392,137,384,128,384,123,381,114,377,113,377,108,373,103,377,97,369,91"/rucar/>
 
-								<area id="pcl" alt="pacdal" title="" tooltip="Pacdal" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="379,52,431,59,427,72,428,78,437,80,441,87,438,92,433,97,424,98,422,101,416,115,415,122,407,126,399,130,392,140,388,132,384,128,382,117,378,114,376,110,378,108,375,103,377,98,369,91"/>
+								<area id="pcl" alt="pacdal" title="" tooltip="Pacdal" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="379,52,431,59,427,72,428,78,437,80,441,87,438,92,433,97,424,98,422,101,416,115,415,122,407,126,399,130,392,140,388,132,384,128,382,117,378,114,376,110,378,108,375,103,377,98,369,91"/rucar/>
 
-								<area id="llht" alt="lualhati" title="" tooltip="Lualhati" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="433,154,429,160,420,177,412,172,405,172,403,169,392,164,394,160,388,157,392,149,392,143,397,137,408,142,413,137,422,152"/>
+								<area id="llht" alt="lualhati" title="" tooltip="Lualhati" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="433,154,429,160,420,177,412,172,405,172,403,169,392,164,394,160,388,157,392,149,392,143,397,137,408,142,413,137,422,152"/rucar/>
 
-								<area id="ccv" alt="country club village" title="" tooltip="Country Club Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="390,156,386,162,384,176,391,190,400,188,418,196,413,185,415,173,406,176,402,168,393,166"/>
+								<area id="ccv" alt="country club village" title="" tooltip="Country Club Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="390,156,386,162,384,176,391,190,400,188,418,196,413,185,415,173,406,176,402,168,393,166"/rucar/>
 
-								<area id="odr" alt="outlook drive" title="" tooltip="Outlook Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="431,155,446,151,448,160,442,171,440,184,432,192,419,196,412,186,413,176,420,177,428,164"/>
+								<area id="odr" alt="outlook drive" title="" tooltip="Outlook Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="431,155,446,151,448,160,442,171,440,184,432,192,419,196,412,186,413,176,420,177,428,164"/rucar/>
 
-								<area id="fdp" alt="fort del pilar" title="" tooltip="Fort Del Pilar" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="448,404,336,431,332,444,333,460,434,476,453,423"/>
+								<area id="fdp" alt="fort del pilar" title="" tooltip="Fort Del Pilar" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="448,404,336,431,332,444,333,460,434,476,453,423"/rucar/>
 
-								<area id="lkp" alt="loakan proper" title="" tooltip="Loakan Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="384,352,375,359,336,393,341,400,338,402,333,393,330,397,334,405,333,413,333,423,337,431,449,404,444,398,439,388,431,380,420,380,416,373,404,372,398,360"/>
+								<area id="lkp" alt="loakan proper" title="" tooltip="Loakan Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="384,352,375,359,336,393,341,400,338,402,333,393,330,397,334,405,333,413,333,423,337,431,449,404,444,398,439,388,431,380,420,380,416,373,404,372,398,360"/rucar/>
 
-								<area id="mco" alt="military cut-off" title="" tooltip="Military Cut-Off" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="306,193,314,202,321,218,317,221,311,220,289,225,276,216,283,200,290,204,299,199"/>
+								<area id="mco" alt="military cut-off" title="" tooltip="Military Cut-Off" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="306,193,314,202,321,218,317,221,311,220,289,225,276,216,283,200,290,204,299,199"/rucar/>
 
 							</map>
 
@@ -371,7 +371,7 @@
 <!-- ========================================================2nd TAB ===================================================================-->
 					        <div class="frame bg-white fg-gray" id="2">
 					        	<div style="margin-left:25%;"><div>
-								<img class="mapper" src="/images/pov_map\provincial\Baguio City/baguio_child_mortality_rate_2003.png" usemap="#map_of_baguio" width="470" height="483" border="0" alt="" />
+								<img class="mapper" src="/rucar/images/pov_map\provincial\Baguio City/baguio_child_mortality_rate_2003.png" usemap="#map_of_baguio" width="470" height="483" border="0" alt="" />
 								</div></div>
 								<map name="map_of_baguio">
 								<!-- color #10 -->
@@ -407,79 +407,79 @@
 
 								<area id="DON" alt="dontogan" tooltip="Dontogan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="157,316.0000108991351,174,345.0000108991351,174,358.0000108991351,177,369.0000108991351,199,405.0000108991351,200,413.0000108991351,170,421.0000108991351,141,438.0000108991351,121,435.0000108991351,93,337.0000108991351" />
 
-								<area id="PIN" alt="pinsao_proper" tooltip="Pinsao Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="48,7,199,25,201,40,200,46,208,53,208,62,206,68,214,74,200,94,189,91,181,100,152,92,148,59,131,56,111,40,91,36,54,20"/>
+								<area id="PIN" alt="pinsao_proper" tooltip="Pinsao Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="48,7,199,25,201,40,200,46,208,53,208,62,206,68,214,74,200,94,189,91,181,100,152,92,148,59,131,56,111,40,91,36,54,20"/rucar/>
 
-								<area id="SSA" alt="stomas_sa" tooltip="Santo Tomas School Area" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="266,394,251,396,200,419,200,412,170,420,140,437,280,456,280,430,277,411"/>
+								<area id="SSA" alt="stomas_sa" tooltip="Santo Tomas School Area" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="266,394,251,396,200,419,200,412,170,420,140,437,280,456,280,430,277,411"/rucar/>
 
-								<area id="STP" alt="stomas_proper" tooltip="Santo Tomas Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="248,280,221,292,212,298,185,297,160,285,157,315,173,343,175,364,191,391,201,418,252,396,265,393,267,371,260,354,263,340,260,335,260,326,249,317"/>
+								<area id="STP" alt="stomas_proper" tooltip="Santo Tomas Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="248,280,221,292,212,298,185,297,160,285,157,315,173,343,175,364,191,391,201,418,252,396,265,393,267,371,260,354,263,340,260,335,260,326,249,317"/rucar/>
 
-								<area id="BC" alt="bakakeng_central" tooltip="Bakakeng Central" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="200,230,190,240,175,245,160,252,159,285,179,295,210,298,221,290,218,250,214,239"/>
+								<area id="BC" alt="bakakeng_central" tooltip="Bakakeng Central" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="200,230,190,240,175,245,160,252,159,285,179,295,210,298,221,290,218,250,214,239"/rucar/>
 
-								<area id="DMH" alt="domninican_hm" tooltip="Dominican Hill-Mirador" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="205,160,195,163,190,172,187,191,180,197,160,200,149,213,148,222,160,250,175,243,190,240,202,229,215,221,230,216,230,201,226,185,208,170"/>
+								<area id="DMH" alt="domninican_hm" tooltip="Dominican Hill-Mirador" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="205,160,195,163,190,172,187,191,180,197,160,200,149,213,148,222,160,250,175,243,190,240,202,229,215,221,230,216,230,201,226,185,208,170"/rucar/>
 
-								<area id="SVL" alt="sluis_ville" tooltip="Saint Louis Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="170,146,145,162,161,200,181,197,187,191,189,174,194,161,195,150,189,145"/>
+								<area id="SVL" alt="sluis_ville" tooltip="Saint Louis Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="170,146,145,162,161,200,181,197,187,191,189,174,194,161,195,150,189,145"/rucar/>
 
-								<area id="VCL" alt="victoria_ville" tooltip="Victoria Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly	" coords="189,133,176,132,161,133,151,135,159,155,169,147,186,147,194,150"/>
+								<area id="VCL" alt="victoria_ville" tooltip="Victoria Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly	" coords="189,133,176,132,161,133,151,135,159,155,169,147,186,147,194,150"/rucar/>
 
-								<area id="MHS" alt="mqhill_sub" tooltip="Middle Quezon Hill Subdivision" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="152,121,148,126,152,136,162,133,174,131,189,133,187,125,175,126,169,118,158,122"/> 
+								<area id="MHS" alt="mqhill_sub" tooltip="Middle Quezon Hill Subdivision" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="152,121,148,126,152,136,162,133,174,131,189,133,187,125,175,126,169,118,158,122"/rucar/> 
 
 
-								<area id="qhu" alt="qhill_up" title="" tooltip="Upper Quezon Hill" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="152,92,141,113,148,125,153,120,158,124,170,116,174,125,188,126,183,100"/>
+								<area id="qhu" alt="qhill_up" title="" tooltip="Upper Quezon Hill" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="152,92,141,113,148,125,153,120,158,124,170,116,174,125,188,126,183,100"/rucar/>
 
-								<area id="pnt" alt="pinget" title="" tooltip="Pinget" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="240,31,234,58,229,67,233,75,224,73,224,66,222,60,213,52,207,52,200,43,198,26"/>
+								<area id="pnt" alt="pinget" title="" tooltip="Pinget" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="240,31,234,58,229,67,233,75,224,73,224,66,222,60,213,52,207,52,200,43,198,26"/rucar/>
 
-								<area id="ppp" alt="pinsao_pp" title="" tooltip="Pinsao Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="207,52,221,60,224,71,220,76,208,69,209,63"/>
+								<area id="ppp" alt="pinsao_pp" title="" tooltip="Pinsao Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="207,52,221,60,224,71,220,76,208,69,209,63"/rucar/>
 
-								<area id="fvv" alt="fairview_ville" title="" tooltip="Farview Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="202,94,196,101,211,113,219,117,215,128,214,136,204,128,188,128,182,100,187,90"/>
+								<area id="fvv" alt="fairview_ville" title="" tooltip="Farview Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="202,94,196,101,211,113,219,117,215,128,214,136,204,128,188,128,182,100,187,90"/rucar/>
 
-								<area id="qhp" alt="qhill_proper" title="" tooltip="Quezon Hill Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="229,149,212,151,194,150,188,129,202,127,231,145"/>
+								<area id="qhp" alt="qhill_proper" title="" tooltip="Quezon Hill Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="229,149,212,151,194,150,188,129,202,127,231,145"/rucar/>
 
-								<area id="srv" alt="sroque_ville" title="" tooltip="San Roque Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="213,152,206,159,196,161,196,155,194,149"/>
+								<area id="srv" alt="sroque_ville" title="" tooltip="San Roque Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="213,152,206,159,196,161,196,155,194,149"/rucar/>
 
-								<area id="lsp" alt="lourdes_sub_prop" title="" tooltip="Loardes Subdivision Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="212,156,223,163,220,168,226,170,216,176,204,165,206,160"/>
+								<area id="lsp" alt="lourdes_sub_prop" title="" tooltip="Loardes Subdivision Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="212,156,223,163,220,168,226,170,216,176,204,165,206,160"/rucar/>
 
-								<area id="rql" alt="rquarry_low" title="" tooltip="Rock Quarry Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="225,170,226,177,234,182,227,188,216,178"/>
+								<area id="rql" alt="rquarry_low" title="" tooltip="Rock Quarry Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="225,170,226,177,234,182,227,188,216,178"/rucar/>
 
-								<area id="rqm" alt="rquarry_mid" title="" tooltip="Rock Quarry Middle" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="233,183,225,186,230,201,239,201,239,195"/>
+								<area id="rqm" alt="rquarry_mid" title="" tooltip="Rock Quarry Middle" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="233,183,225,186,230,201,239,201,239,195"/rucar/>
 
-								<area id="rqu" alt="rquarry_lup" title="" tooltip="Rock Quarry Up" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="238,201,228,203,231,217,236,220,244,216,248,212"/>
+								<area id="rqu" alt="rquarry_lup" title="" tooltip="Rock Quarry Up" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="238,201,228,203,231,217,236,220,244,216,248,212"/rucar/>
 
-								<area id="sro" alt="santa_rosario" title="" tooltip="Santa Rosario" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="244,216,251,224,245,227,242,231,236,230,219,233,215,237,200,231,212,223,230,216,237,220" style="outline:none;"/>
+								<area id="sro" alt="santa_rosario" title="" tooltip="Santa Rosario" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="244,216,251,224,245,227,242,231,236,230,219,233,215,237,200,231,212,223,230,216,237,220" style="outline:none;"/rucar/>
 
-								<area id="ssh" alt="slu_svp" title="" tooltip="SLU SVP Housing Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,224,254,235,260,232,260,240,253,244,232,245,219,252,212,238,217,235,240,232" style="outline:none;"/>
+								<area id="ssh" alt="slu_svp" title="" tooltip="SLU SVP Housing Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,224,254,235,260,232,260,240,253,244,232,245,219,252,212,238,217,235,240,232" style="outline:none;"/rucar/>
 
-								<area id="bkn" alt="bakakeng_north" title="" tooltip="Bakakeng North" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="244,244,217,251,220,292,240,281,248,280,242,260" style="outline:none;"/>
+								<area id="bkn" alt="bakakeng_north" title="" tooltip="Bakakeng North" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="244,244,217,251,220,292,240,281,248,280,242,260" style="outline:none;"/rucar/>
 
-								<area id="gsr" alt="guisad_surong" title="" tooltip="Guisad Surong" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="215,73,221,78,226,88,235,94,229,104,226,111,219,116,209,112,205,108,198,102,195,102" style="outline:none;"/>
+								<area id="gsr" alt="guisad_surong" title="" tooltip="Guisad Surong" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="215,73,221,78,226,88,235,94,229,104,226,111,219,116,209,112,205,108,198,102,195,102" style="outline:none;"/rucar/>
 
-								<area id="lse" alt="lourdes_subdivision_extension" title="" tooltip="Lourdes Subdivision Extention" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="212,152,229,148,231,154,225,157,223,159" style="outline:none;"/>
+								<area id="lse" alt="lourdes_subdivision_extension" title="" tooltip="Lourdes Subdivision Extention" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="212,152,229,148,231,154,225,157,223,159" style="outline:none;"/rucar/>
 
-								<area id="lsl" alt="lourdes_subdivision_lower" title="" tooltip="Lourdes Subdivision Extention" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="214,156,231,162,225,170,220,169,221,165" style="outline:none;"/>
+								<area id="lsl" alt="lourdes_subdivision_lower" title="" tooltip="Lourdes Subdivision Extention" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="214,156,231,162,225,170,220,169,221,165" style="outline:none;"/rucar/>
 
-								<area id="gcl" alt="guisad_central" title="" tooltip="Guisad Central" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="223,72,233,75,238,82,236,87,236,95,224,87,220,76" style="outline:none;"/>
+								<area id="gcl" alt="guisad_central" title="" tooltip="Guisad Central" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="223,72,233,75,238,82,236,87,236,95,224,87,220,76" style="outline:none;"/rucar/>
 
-								<area id="blb" alt="Andres Bonifacio (Lower Bokawkan)" title="" tooltip="Andres Bonifacio (Lower Bokawkan)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="231,104,238,113,237,121,224,122,218,117,224,112" style="outline:none;"/>
+								<area id="blb" alt="Andres Bonifacio (Lower Bokawkan)" title="" tooltip="Andres Bonifacio (Lower Bokawkan)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="231,104,238,113,237,121,224,122,218,117,224,112" style="outline:none;"/rucar/>
 
-								<area id="cfo" alt="campo filipino" title="" tooltip="Campo Filipino" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="242,122,241,130,245,135,230,148,215,137,213,130,218,116,223,123,236,120" style="outline:none;"/>
+								<area id="cfo" alt="campo filipino" title="" tooltip="Campo Filipino" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="242,122,241,130,245,135,230,148,215,137,213,130,218,116,223,123,236,120" style="outline:none;"/rucar/>
 
-								<area id="mrr" alt="MRR Queen of Peace" title="" tooltip="MRR Queen of Peace" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="240,139,245,144,236,152,237,159,231,163,224,158,230,154,230,148"/>
+								<area id="mrr" alt="MRR Queen of Peace" title="" tooltip="MRR Queen of Peace" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="240,139,245,144,236,152,237,159,231,163,224,158,230,154,230,148"/rucar/>
 
-								<area id="ccc" alt="City Camp, Central" title="" tooltip="City Camp, Central" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="230,164,241,175,240,183,232,183,224,176,225,169"/>
+								<area id="ccc" alt="City Camp, Central" title="" tooltip="City Camp, Central" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="230,164,241,175,240,183,232,183,224,176,225,169"/rucar/>
 
-								<area id="qhw" alt="qhill_west" title="" tooltip="Quezon Hill West" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="240,31,253,31,248,37,244,47,237,47"/>
+								<area id="qhw" alt="qhill_west" title="" tooltip="Quezon Hill West" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="240,31,253,31,248,37,244,47,237,47"/rucar/>
 
-								<area id="qhl" alt="qhill, low" title="" tooltip="Quezon Hill Low" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="236,46,244,49,244,61,233,57"/>
+								<area id="qhl" alt="qhill, low" title="" tooltip="Quezon Hill Low" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="236,46,244,49,244,61,233,57"/rucar/>
 
-								<area id="dsn" alt="dizon sub" title="" tooltip="Dizon Subdivision" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="233,56,247,62,256,63,268,72,264,78,261,85,255,92,251,84,238,82,230,70"/>
+								<area id="dsn" alt="dizon sub" title="" tooltip="Dizon Subdivision" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="233,56,247,62,256,63,268,72,264,78,261,85,255,92,251,84,238,82,230,70"/rucar/>
 
-								<area id="cvl" alt="Crecensia Village" title="" tooltip="Crecensia Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="239,81,250,84,255,89,247,108,248,117,241,122,237,120,237,112,232,104,236,95"/>
+								<area id="cvl" alt="Crecensia Village" title="" tooltip="Crecensia Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="239,81,250,84,255,89,247,108,248,117,241,122,237,120,237,112,232,104,236,95"/rucar/>
 
-								<area id="qhm" alt="qhill_mid" title="" tooltip="Quezon Hill Middle" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="254,34,248,38,244,48,244,56,263,49,258,42"/>
+								<area id="qhm" alt="qhill_mid" title="" tooltip="Quezon Hill Middle" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="254,34,248,38,244,48,244,56,263,49,258,42"/rucar/>
 
-								<area id="cds" alt="camdas subd" title="" tooltip="Camdass Subdivision" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="265,50,260,50,244,56,245,62,256,64,270,76,274,56"/>
+								<area id="cds" alt="camdas subd" title="" tooltip="Camdass Subdivision" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="265,50,260,50,244,56,245,62,256,64,270,76,274,56"/rucar/>
 
-								<area id="qhe" alt="qhill east" title="" tooltip="Quezon Hill East" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="275,32,268,40,266,48,261,49,253,36,254,32"/>
-								<area id="hhl" alt="happy homes lucban" title="" tooltip="Happy Homes Lucban" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="294,34,292,49,284,54,281,66,273,68,274,57,269,54,266,48,266,40,273,34"/>
+								<area id="qhe" alt="qhill east" title="" tooltip="Quezon Hill East" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="275,32,268,40,266,48,261,49,253,36,254,32"/rucar/>
+								<area id="hhl" alt="happy homes lucban" title="" tooltip="Happy Homes Lucban" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="294,34,292,49,284,54,281,66,273,68,274,57,269,54,266,48,266,40,273,34"/rucar/>
 
 								<area id="scn" alt="sanitary camp north" title="" tooltip="Sanitary Camp North" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="293,35,292,46,295,55,307,59,309,49,320,38,306,35" />
 
@@ -523,137 +523,137 @@
 
 								<area id="sha" alt="slaughter house area" title="" tooltip="Slaughter House" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="279,96,285,103,280,107,271,98" />
 
-								<area id="mgl" alt="mgsyssy lower" title="" tooltip="Magsaysay Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="267,73,272,81,267,83,269,89,271,99,284,115,277,123,272,117,271,109,266,107,264,86,260,84"/>
+								<area id="mgl" alt="mgsyssy lower" title="" tooltip="Magsaysay Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="267,73,272,81,267,83,269,89,271,99,284,115,277,123,272,117,271,109,266,107,264,86,260,84"/rucar/>
 
-								<area id="pbr" alt="padre burgos" title="" tooltip="Padre Burgos" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="262,83,264,102,272,117,269,119,258,109,254,111,249,106,253,91"/>
+								<area id="pbr" alt="padre burgos" title="" tooltip="Padre Burgos" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="262,83,264,102,272,117,269,119,258,109,254,111,249,106,253,91"/rucar/>
 
-								<area id="pzm" alt="padre zamora" title="" tooltip="Padre Zamora" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="249,106,244,111,249,120,254,118,272,126,278,123,273,118,267,118,258,111"/>
+								<area id="pzm" alt="padre zamora" title="" tooltip="Padre Zamora" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="249,106,244,111,249,120,254,118,272,126,278,123,273,118,267,118,258,111"/rucar/>
 
-								<area id="tal" alt="teodora alonzo" title="" tooltip="Teodora Alonzo" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="285,101,294,110,291,114,284,128,276,123,285,115,280,111"/>
+								<area id="tal" alt="teodora alonzo" title="" tooltip="Teodora Alonzo" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="285,101,294,110,291,114,284,128,276,123,285,115,280,111"/rucar/>
 
-								<area id="ahn" alt="aurora hill north" title="" tooltip="Aurora Hill North" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,72,337,83,331,84,325,77,330,72,336,71"/>
+								<area id="ahn" alt="aurora hill north" title="" tooltip="Aurora Hill North" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,72,337,83,331,84,325,77,330,72,336,71"/rucar/>
 
-								<area id="ahp" alt="aurora hill proper" title="" tooltip="Aurora Hill Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="324,76,331,82,324,85,318,90,316,82"/>
+								<area id="ahp" alt="aurora hill proper" title="" tooltip="Aurora Hill Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="324,76,331,82,324,85,318,90,316,82"/rucar/>
 
-								<area id="msw" alt="modern site west" title="" tooltip="Modern Site West" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="331,81,338,96,325,102,317,97,313,92,319,89,323,85"/>
+								<area id="msw" alt="modern site west" title="" tooltip="Modern Site West" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="331,81,338,96,325,102,317,97,313,92,319,89,323,85"/rucar/>
 
-								<area id="brs" alt="brookside" title="" tooltip="Brookside" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="312,91,309,95,300,100,312,109,320,112,331,107,320,101"/>
+								<area id="brs" alt="brookside" title="" tooltip="Brookside" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="312,91,309,95,300,100,312,109,320,112,331,107,320,101"/rucar/>
 
-								<area id="hhg" alt="honeymoon holy ghost" title="" tooltip="Honeymoon Holy Ghost" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="302,100,313,110,305,115,308,125,300,125,296,111"/>
+								<area id="hhg" alt="honeymoon holy ghost" title="" tooltip="Honeymoon Holy Ghost" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="302,100,313,110,305,115,308,125,300,125,296,111"/rucar/>
 
-								<area id="abcr" alt="A.Bonifacio-Caguioa-RImando" title="" tooltip="A.Bonifacio-Caguioa-Rimando" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="300,127,289,128,283,128,290,118,292,112,297,112"/>
+								<area id="abcr" alt="A.Bonifacio-Caguioa-RImando" title="" tooltip="A.Bonifacio-Caguioa-Rimando" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="300,127,289,128,283,128,290,118,292,112,297,112"/rucar/>
 
-								<area id="hge" alt="Holy Ghost Extension" title="" tooltip="Holy Ghost Extension"  onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="312,111,306,116,308,128,300,124,296,127,298,133,299,140,304,144,308,142,317,143,320,151,325,144,336,139,329,127,330,108,322,112"/>
+								<area id="hge" alt="Holy Ghost Extension" title="" tooltip="Holy Ghost Extension"  onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="312,111,306,116,308,128,300,124,296,127,298,133,299,140,304,144,308,142,317,143,320,151,325,144,336,139,329,127,330,108,322,112"/rucar/>
 
-								<area id="kgt" alt="kagitingan" title="" tooltip="Kagitingan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="297,128,299,139,279,134,282,128,288,131"/>
+								<area id="kgt" alt="kagitingan" title="" tooltip="Kagitingan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="297,128,299,139,279,134,282,128,288,131"/rucar/>
 
-								<area id="GLL" alt="General Luna Lower" title="" tooltip="General Luna Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="298,140,300,148,280,137,281,134"/>
+								<area id="GLL" alt="General Luna Lower" title="" tooltip="General Luna Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="298,140,300,148,280,137,281,134"/rucar/>
 
-								<area id="hgp" alt="holy ghost proper" title="" tooltip="Holy Ghost Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="321,151,316,149,312,155,306,150,300,150,300,140,307,144,310,140,318,145"/>
+								<area id="hgp" alt="holy ghost proper" title="" tooltip="Holy Ghost Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="321,151,316,149,312,155,306,150,300,150,300,140,307,144,310,140,318,145"/rucar/>
 
-								<area id="cpl" alt="camp allen" title="" tooltip="Camp Allen" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="269,125,251,119,241,121,244,136,250,136,255,140,265,140"/>
+								<area id="cpl" alt="camp allen" title="" tooltip="Camp Allen" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="269,125,251,119,241,121,244,136,250,136,255,140,265,140"/rucar/>
 
-								<area id="mgu" alt="mgsysy upper" title="" tooltip="Magsaysay Upper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="277,123,283,129,275,130,272,127"/>
+								<area id="mgu" alt="mgsysy upper" title="" tooltip="Magsaysay Upper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="277,123,283,129,275,130,272,127"/rucar/>
 
-								<area id="msu" alt="market subd upper" title="" tooltip="Market Subdivision Upper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="270,125,268,131,274,134,276,130"/>
+								<area id="msu" alt="market subd upper" title="" tooltip="Market Subdivision Upper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="270,125,268,131,274,134,276,130"/rucar/>
 
-								<area id="kht" alt="kayang hill top" title="" tooltip="Kayang Hill Top" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="272,135,272,140,267,140,268,132"/>
+								<area id="kht" alt="kayang hill top" title="" tooltip="Kayang Hill Top" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="272,135,272,140,267,140,268,132"/rucar/>
 
-								<area id="bgl" alt="bagong lipugan (market area)" title="" tooltip="Bagong Lipunan(Market Area)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="280,130,277,141,272,140,272,132,276,129"/>
+								<area id="bgl" alt="bagong lipugan (market area)" title="" tooltip="Bagong Lipunan(Market Area)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="280,130,277,141,272,140,272,132,276,129"/rucar/>
 
-								<area id="azkco" alt="abanao-zandueta-kayang-chugum otek" title="" tooltip="Abanao-Zandueta-Kayang-Chugum Otek" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="276,142.00000114440917,271,148.00000114440917,267,145.00000114440917,258,147.00000114440917,259,140.00000114440917,267,140.00000114440917"/>
+								<area id="azkco" alt="abanao-zandueta-kayang-chugum otek" title="" tooltip="Abanao-Zandueta-Kayang-Chugum Otek" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="276,142.00000114440917,271,148.00000114440917,267,145.00000114440917,258,147.00000114440917,259,140.00000114440917,267,140.00000114440917"/rucar/>
 
-								<area id="kbh" alt="kabayanihan" title="" tooltip="Kabayanihan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="300,149.00000114440917,295,143.00000114440917,280,137.00000114440917,277,142.00000114440917,288,149.00000114440917,297,158.00000114440917"/>
+								<area id="kbh" alt="kabayanihan" title="" tooltip="Kabayanihan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="300,149.00000114440917,295,143.00000114440917,280,137.00000114440917,277,142.00000114440917,288,149.00000114440917,297,158.00000114440917"/rucar/>
 
-								<area id="hrc" alt="harrison carantes" title="" tooltip="Harrison Carantes" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="282,144,288,151,286,169,277,160,283,152,280,148"/>
+								<area id="hrc" alt="harrison carantes" title="" tooltip="Harrison Carantes" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="282,144,288,151,286,169,277,160,283,152,280,148"/rucar/>
 
-								<area id="msp" alt="malcolm square-perfecto (jose abad)" title="" tooltip="Malcolm Sqaure-Perfecto" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="282,151,277,149,282,144,276,142,269,151,276,162"/>
+								<area id="msp" alt="malcolm square-perfecto (jose abad)" title="" tooltip="Malcolm Sqaure-Perfecto" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="282,151,277,149,282,144,276,142,269,151,276,162"/rucar/>
 
-								<area id="rma" alt="rizal monument area" title="" tooltip="Rizal Monument Area" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="272,148,269,153,264,150,263,159,258,161,252,160,253,140,261,142,260,147"/>
+								<area id="rma" alt="rizal monument area" title="" tooltip="Rizal Monument Area" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="272,148,269,153,264,150,263,159,258,161,252,160,253,140,261,142,260,147"/rucar/>
 
-								<area id="kex" alt="kayang ext" title="" tooltip="Kayang Extension" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="244,135,241,140,244,146,236,152,236,160,252,159,255,137"/>
+								<area id="kex" alt="kayang ext" title="" tooltip="Kayang Extension" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="244,135,241,140,244,146,236,152,236,160,252,159,255,137"/rucar/>
 
-								<area id="plu" alt="palma urbano (garino-palma)" title="" tooltip="Palma Urbano(Garino-Palma)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,156,252,165,241,174,229,163,238,160"/>
+								<area id="plu" alt="palma urbano (garino-palma)" title="" tooltip="Palma Urbano(Garino-Palma)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,156,252,165,241,174,229,163,238,160"/rucar/>
 
-								<area id="ccp" alt="city camp proper" title="" tooltip="City Camp Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,163,256,168,260,182,248,187,241,184,241,177"/>
+								<area id="ccp" alt="city camp proper" title="" tooltip="City Camp Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,163,256,168,260,182,248,187,241,184,241,177"/rucar/>
 
-								<area id="gea" alt="gen. emilio f. aguinaldo (quirino -mg)" title="" tooltip="General Emillio F. Aguinaldo(Quirino -mg)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="259,181,263,189,238,194,234,183,246,186"/>
+								<area id="gea" alt="gen. emilio f. aguinaldo (quirino -mg)" title="" tooltip="General Emillio F. Aguinaldo(Quirino -mg)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="259,181,263,189,238,194,234,183,246,186"/rucar/>
 
-								<area id="qmu" alt="quirino-magsaysay upper (upper qm)" title="" tooltip="Quirino-Magsaysay Upper(Upper qm)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="260,188,265,195,264,205,259,202,248,213,240,200,237,192"/>
+								<area id="qmu" alt="quirino-magsaysay upper (upper qm)" title="" tooltip="Quirino-Magsaysay Upper(Upper qm)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="260,188,265,195,264,205,259,202,248,213,240,200,237,192"/rucar/>
 
-								<area id="FHC"  alt="Ferdinand (happy homes - camp sioco)" title="" tooltip="Ferdinand(Happy Homes- Camp Sioco)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="260,202.00000228881837,271,219.00000228881837,252,224.00000228881837,244,218.00000228881837"/>
+								<area id="FHC"  alt="Ferdinand (happy homes - camp sioco)" title="" tooltip="Ferdinand(Happy Homes- Camp Sioco)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="260,202.00000228881837,271,219.00000228881837,252,224.00000228881837,244,218.00000228881837"/rucar/>
 
-								<area id="irm"  alt="imelda r. marcos (la salle)" title="" tooltip="Imelda R. Marcos (La Salle)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="269,219.00000228881837,268,224.00000228881837,255,228.00000228881837,251,224.00000228881837"/>
+								<area id="irm"  alt="imelda r. marcos (la salle)" title="" tooltip="Imelda R. Marcos (La Salle)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="269,219.00000228881837,268,224.00000228881837,255,228.00000228881837,251,224.00000228881837"/rucar/>
 
-								<area id="blg" alt="balsigan" title="" tooltip="Balsigan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="268,223.00000228881837,272,228.00000228881837,270,233.00000228881837,261,239.00000228881837,259,232.00000228881837,256,235.00000228881837,254,228.00000228881837"/>
+								<area id="blg" alt="balsigan" title="" tooltip="Balsigan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="268,223.00000228881837,272,228.00000228881837,270,233.00000228881837,261,239.00000228881837,259,232.00000228881837,256,235.00000228881837,254,228.00000228881837"/rucar/>
 
-								<area id="bgh" alt="bgh compound" title="" tooltip="BGH Compound" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="276,216.00000228881837,282,220.00000228881837,276,225.00000228881837,272,220.00000228881837"/>
+								<area id="bgh" alt="bgh compound" title="" tooltip="BGH Compound" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="276,216.00000228881837,282,220.00000228881837,276,225.00000228881837,272,220.00000228881837"/rucar/>
 
-								<area id="pam" alt="phil-am" title="" tooltip="Phil-Am" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="271,220.00000228881837,275,226.00000228881837,282,222.00000228881837,280,231.00000228881837,271,235.00000228881837,269,225.00000228881837,268,222.00000228881837"/>
+								<area id="pam" alt="phil-am" title="" tooltip="Phil-Am" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="271,220.00000228881837,275,226.00000228881837,282,222.00000228881837,280,231.00000228881837,271,235.00000228881837,269,225.00000228881837,268,222.00000228881837"/rucar/>
 
-								<area id="lbk" alt="Legarda-Burnham Kisad" title="" tooltip="Legarda-Burnham Kisad" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,157.00000228881837,252,165.00000228881837,257,178.00000228881837,265,192.00000228881837,263,204.00000228881837,267,219.00000228881837,274,220.00000228881837,290,179.00000228881837,286,170.00000228881837,280,168.00000228881837,268,152.00000228881837,264,152.00000228881837,261,154.00000228881837,261,160.00000228881837,257,163.00000228881837"/>
+								<area id="lbk" alt="Legarda-Burnham Kisad" title="" tooltip="Legarda-Burnham Kisad" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="252,157.00000228881837,252,165.00000228881837,257,178.00000228881837,265,192.00000228881837,263,204.00000228881837,267,219.00000228881837,274,220.00000228881837,290,179.00000228881837,286,170.00000228881837,280,168.00000228881837,268,152.00000228881837,264,152.00000228881837,261,154.00000228881837,261,160.00000228881837,257,163.00000228881837"/rucar/>
 
-								<area id="ssr" alt="session road" title="" tooltip="Session Road" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="306,194.00000228881837,304,186.00000228881837,301,184.00000228881837,301,168.00000228881837,298,157.00000228881837,288,149.00000228881837,286,169.00000228881837,291,180.00000228881837,284,200.00000228881837,291,204.00000228881837"/>
+								<area id="ssr" alt="session road" title="" tooltip="Session Road" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="306,194.00000228881837,304,186.00000228881837,301,184.00000228881837,301,168.00000228881837,298,157.00000228881837,288,149.00000228881837,286,169.00000228881837,291,180.00000228881837,284,200.00000228881837,291,204.00000228881837"/rucar/>
 
-								<area id="cp8" alt="camp 8" title="" tooltip="Camp 8" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="289,224,307,222,317,247,305,254,300,254,296,250,302,241"/>
+								<area id="cp8" alt="camp 8" title="" tooltip="Camp 8" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="289,224,307,222,317,247,305,254,300,254,296,250,302,241"/rucar/>
 
-								<area id="plw" alt="poliwes" title="" tooltip="Poliwes" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="282,222,279,233,289,257,295,264,296,273,312,274,318,271,304,256,298,255,295,248,300,242,289,226"/>
+								<area id="plw" alt="poliwes" title="" tooltip="Poliwes" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="282,222,279,233,289,257,295,264,296,273,312,274,318,271,304,256,298,255,295,248,300,242,289,226"/rucar/>
 
-								<area id="svc" alt="san vicente" title="" tooltip="San Vicente" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="279,232,272,236,268,233,260,240,256,243,244,245,244,257,248,280,268,277,296,272,295,264,289,258"/>
+								<area id="svc" alt="san vicente" title="" tooltip="San Vicente" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="279,232,272,236,268,233,260,240,256,243,244,245,244,257,248,280,268,277,296,272,295,264,289,258"/rucar/>
 
-								<area id="hls" alt="hillside" title="" tooltip="Hillside" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="316,245.0000030517578,323,252.0000030517578,332,254.0000030517578,338,263.0000030517578,340,272.0000030517578,320,272.0000030517578,304,256.0000030517578"/>
+								<area id="hls" alt="hillside" title="" tooltip="Hillside" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="316,245.0000030517578,323,252.0000030517578,332,254.0000030517578,338,263.0000030517578,340,272.0000030517578,320,272.0000030517578,304,256.0000030517578"/rucar/>
 
-								<area id="gbs" alt="gabriela silang" title="" tooltip="Gabriela Silang" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="313,275.0000030517578,318,270.0000030517578,330,272.0000030517578,337,300.0000030517578,340,312.0000030517578,332,327.0000030517578,328,307.0000030517578,320,302.0000030517578,315,289.0000030517578"/>
+								<area id="gbs" alt="gabriela silang" title="" tooltip="Gabriela Silang" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="313,275.0000030517578,318,270.0000030517578,330,272.0000030517578,337,300.0000030517578,340,312.0000030517578,332,327.0000030517578,328,307.0000030517578,320,302.0000030517578,315,289.0000030517578"/rucar/>
 
-								<area id="dgl" alt="dagsian lower" title="" tooltip="Dagsian Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="330,272.0000030517578,340,300.0000030517578,341,312.0000030517578,332,326.0000030517578,344,348.0000030517578,364,339.0000030517578,365,332.0000030517578,367,325.0000030517578,346,288.0000030517578,340,276.0000030517578"/>
+								<area id="dgl" alt="dagsian lower" title="" tooltip="Dagsian Lower" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="330,272.0000030517578,340,300.0000030517578,341,312.0000030517578,332,326.0000030517578,344,348.0000030517578,364,339.0000030517578,365,332.0000030517578,367,325.0000030517578,346,288.0000030517578,340,276.0000030517578"/rucar/>
 
-								<area id="lwl" alt="liwanag-loakan" title="" tooltip="Liwanag-Loakan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="363,337.00000114440917,376,360.00000114440917,356,375.00000114440917,336,393.00000114440917,332,379.00000114440917,330,371.00000114440917,331,359.00000114440917,342,349.00000114440917"/>
+								<area id="lwl" alt="liwanag-loakan" title="" tooltip="Liwanag-Loakan" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="363,337.00000114440917,376,360.00000114440917,356,375.00000114440917,336,393.00000114440917,332,379.00000114440917,330,371.00000114440917,331,359.00000114440917,342,349.00000114440917"/rucar/>
 
-								<area id="dgu" alt="dagsian-upper" title="" tooltip="Dagsian-Upper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="337,271.00000228881834,344,274.00000228881834,360,266.00000228881834,369,290.00000228881834,369,312.00000228881834,380,326.00000228881834,380,346.00000228881834,384,352.00000228881834,376,360.00000228881834,363,339.00000228881834,367,332.00000228881834,367,324.00000228881834,347,297.00000228881834"/>
+								<area id="dgu" alt="dagsian-upper" title="" tooltip="Dagsian-Upper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="337,271.00000228881834,344,274.00000228881834,360,266.00000228881834,369,290.00000228881834,369,312.00000228881834,380,326.00000228881834,380,346.00000228881834,384,352.00000228881834,376,360.00000228881834,363,339.00000228881834,367,332.00000228881834,367,324.00000228881834,347,297.00000228881834"/rucar/>
 
-								<area id="scb" alt="scout barrio" title="" tooltip="Scout Barrio" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="330,253,336,263,339,272,346,274,361,267,356,257,348,246"/>
+								<area id="scb" alt="scout barrio" title="" tooltip="Scout Barrio" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="330,253,336,263,339,272,346,274,361,267,356,257,348,246"/rucar/>
 
-								<area id="sel" alt="santa escolastica" title="" tooltip="Santa Escolastica" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="307,221,316,220,324,230,347,231,349,245,332,253,322,253,316,246"/>
+								<area id="sel" alt="santa escolastica" title="" tooltip="Santa Escolastica" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="307,221,316,220,324,230,347,231,349,245,332,253,322,253,316,246"/rucar/>
 
-								<area id="gwv" alt="green water village" title="" tooltip="Green Water Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="331,211,336,216,345,217,345,234,325,233,316,220,325,218"/>
+								<area id="gwv" alt="green water village" title="" tooltip="Green Water Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="331,211,336,216,345,217,345,234,325,233,316,220,325,218"/rucar/>
 
-								<area id="bmv" alt="bal-marcoville (marcoville)" title="" tooltip="Bal-Marcoville(marcoville)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="317,194,314,200,320,220,336,210,337,201"/>
+								<area id="bmv" alt="bal-marcoville (marcoville)" title="" tooltip="Bal-Marcoville(marcoville)" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="317,194,314,200,320,220,336,210,337,201"/rucar/>
 
-								<area id="cp7" alt="camp 7" title="" tooltip="Camp 7" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="248,280,250,288,249,316,261,326,260,334,264,339,260,354,266,372,264,380,266,394,275,408,280,428,280,456,333,462,332,444,338,431,334,418,336,407,329,398,331,395,340,402,342,400,336,390,332,372,332,362,339,354,346,348,333,325,329,320,325,307,319,296,314,285,312,276,302,272,275,273"/>
+								<area id="cp7" alt="camp 7" title="" tooltip="Camp 7" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="248,280,250,288,249,316,261,326,260,334,264,339,260,354,266,372,264,380,266,394,275,408,280,428,280,456,333,462,332,444,338,431,334,418,336,407,329,398,331,395,340,402,342,400,336,390,332,372,332,362,339,354,346,348,333,325,329,320,325,307,319,296,314,285,312,276,302,272,275,273"/rucar/>
 
-								<area id="dps" alt="dps area" title="" tooltip="DPS Area" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="320,178,352,188,337,200,318,195,316,189"/>
+								<area id="dps" alt="dps area" title="" tooltip="DPS Area" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="320,178,352,188,337,200,318,195,316,189"/rucar/>
 
-								<area id="chtc" alt="cabinet hill - teacher's camp" title="" tooltip="Cabinet Hill - Teacher's Camp" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,146,320,164,318,173,321,179,349,187,355,177,358,175,362,164,361,157,351,156,346,153"/>
+								<area id="chtc" alt="cabinet hill - teacher's camp" title="" tooltip="Cabinet Hill - Teacher's Camp" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,146,320,164,318,173,321,179,349,187,355,177,358,175,362,164,361,157,351,156,346,153"/rucar/>
 
-								<area id="sdr" alt="south drive" title="" tooltip="South Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,144,351,143,363,144,376,144,388,139,392,137,396,144,391,144,391,152,386,160,387,167,384,176,357,176,361,161,360,156,354,156,345,152,343,148"/>
+								<area id="sdr" alt="south drive" title="" tooltip="South Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,144,351,143,363,144,376,144,388,139,392,137,396,144,391,144,391,152,386,160,387,167,384,176,357,176,361,161,360,156,354,156,345,152,343,148"/rucar/>
 
-								<area id="sjv" alt="st. joseph village" title="" tooltip="Joseph Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="357,90,353,98,337,104,336,116,341,129,342,135,344,144,350,141,366,144,387,141,392,137,384,128,384,123,381,114,377,113,377,108,373,103,377,97,369,91"/>
+								<area id="sjv" alt="st. joseph village" title="" tooltip="Joseph Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="357,90,353,98,337,104,336,116,341,129,342,135,344,144,350,141,366,144,387,141,392,137,384,128,384,123,381,114,377,113,377,108,373,103,377,97,369,91"/rucar/>
 
-								<area id="pcl" alt="pacdal" title="" tooltip="Pacdal" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="379,52,431,59,427,72,428,78,437,80,441,87,438,92,433,97,424,98,422,101,416,115,415,122,407,126,399,130,392,140,388,132,384,128,382,117,378,114,376,110,378,108,375,103,377,98,369,91"/>
+								<area id="pcl" alt="pacdal" title="" tooltip="Pacdal" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="379,52,431,59,427,72,428,78,437,80,441,87,438,92,433,97,424,98,422,101,416,115,415,122,407,126,399,130,392,140,388,132,384,128,382,117,378,114,376,110,378,108,375,103,377,98,369,91"/rucar/>
 
-								<area id="llht" alt="lualhati" title="" tooltip="Lualhati" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="433,154,429,160,420,177,412,172,405,172,403,169,392,164,394,160,388,157,392,149,392,143,397,137,408,142,413,137,422,152"/>
+								<area id="llht" alt="lualhati" title="" tooltip="Lualhati" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="433,154,429,160,420,177,412,172,405,172,403,169,392,164,394,160,388,157,392,149,392,143,397,137,408,142,413,137,422,152"/rucar/>
 
-								<area id="ccv" alt="country club village" title="" tooltip="Country Club Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="390,156,386,162,384,176,391,190,400,188,418,196,413,185,415,173,406,176,402,168,393,166"/>
+								<area id="ccv" alt="country club village" title="" tooltip="Country Club Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="390,156,386,162,384,176,391,190,400,188,418,196,413,185,415,173,406,176,402,168,393,166"/rucar/>
 
-								<area id="odr" alt="outlook drive" title="" tooltip="Outlook Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="431,155,446,151,448,160,442,171,440,184,432,192,419,196,412,186,413,176,420,177,428,164"/>
+								<area id="odr" alt="outlook drive" title="" tooltip="Outlook Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="431,155,446,151,448,160,442,171,440,184,432,192,419,196,412,186,413,176,420,177,428,164"/rucar/>
 
-								<area id="sdr" alt="south drive" title="" tooltip="South Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,144,351,143,363,144,376,144,388,139,392,137,396,144,391,144,391,152,386,160,387,167,384,176,357,176,361,161,360,156,354,156,345,152,343,148"/>
+								<area id="sdr" alt="south drive" title="" tooltip="South Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="344,144,351,143,363,144,376,144,388,139,392,137,396,144,391,144,391,152,386,160,387,167,384,176,357,176,361,161,360,156,354,156,345,152,343,148"/rucar/>
 
-								<area id="sjv" alt="st. joseph village" title="" tooltip="St. Joseph Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="357,90,353,98,337,104,336,116,341,129,342,135,344,144,350,141,366,144,387,141,392,137,384,128,384,123,381,114,377,113,377,108,373,103,377,97,369,91"/>
+								<area id="sjv" alt="st. joseph village" title="" tooltip="St. Joseph Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="357,90,353,98,337,104,336,116,341,129,342,135,344,144,350,141,366,144,387,141,392,137,384,128,384,123,381,114,377,113,377,108,373,103,377,97,369,91"/rucar/>
 
-								<area id="pcl" alt="pacdal" title="" tooltip="Pacdal" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="379,52,431,59,427,72,428,78,437,80,441,87,438,92,433,97,424,98,422,101,416,115,415,122,407,126,399,130,392,140,388,132,384,128,382,117,378,114,376,110,378,108,375,103,377,98,369,91"/>
+								<area id="pcl" alt="pacdal" title="" tooltip="Pacdal" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="379,52,431,59,427,72,428,78,437,80,441,87,438,92,433,97,424,98,422,101,416,115,415,122,407,126,399,130,392,140,388,132,384,128,382,117,378,114,376,110,378,108,375,103,377,98,369,91"/rucar/>
 
-								<area id="llht" alt="lualhati" title="" tooltip="Lualhati" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="433,154,429,160,420,177,412,172,405,172,403,169,392,164,394,160,388,157,392,149,392,143,397,137,408,142,413,137,422,152"/>
+								<area id="llht" alt="lualhati" title="" tooltip="Lualhati" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="433,154,429,160,420,177,412,172,405,172,403,169,392,164,394,160,388,157,392,149,392,143,397,137,408,142,413,137,422,152"/rucar/>
 
-								<area id="ccv" alt="country club village" title="" tooltip="Country Club Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="390,156,386,162,384,176,391,190,400,188,418,196,413,185,415,173,406,176,402,168,393,166"/>
+								<area id="ccv" alt="country club village" title="" tooltip="Country Club Village" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="390,156,386,162,384,176,391,190,400,188,418,196,413,185,415,173,406,176,402,168,393,166"/rucar/>
 
-								<area id="odr" alt="outlook drive" title="" tooltip="Outlook Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="431,155,446,151,448,160,442,171,440,184,432,192,419,196,412,186,413,176,420,177,428,164"/>
+								<area id="odr" alt="outlook drive" title="" tooltip="Outlook Drive" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="431,155,446,151,448,160,442,171,440,184,432,192,419,196,412,186,413,176,420,177,428,164"/rucar/>
 
-								<area id="fdp" alt="fort del pilar" title="" tooltip="Fort Del Pilar" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="448,404,336,431,332,444,333,460,434,476,453,423"/>
+								<area id="fdp" alt="fort del pilar" title="" tooltip="Fort Del Pilar" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="448,404,336,431,332,444,333,460,434,476,453,423"/rucar/>
 
-								<area id="lkp" alt="loakan proper" title="" tooltip="Loakan Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="384,352,375,359,336,393,341,400,338,402,333,393,330,397,334,405,333,413,333,423,337,431,449,404,444,398,439,388,431,380,420,380,416,373,404,372,398,360"/>
+								<area id="lkp" alt="loakan proper" title="" tooltip="Loakan Proper" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="384,352,375,359,336,393,341,400,338,402,333,393,330,397,334,405,333,413,333,423,337,431,449,404,444,398,439,388,431,380,420,380,416,373,404,372,398,360"/rucar/>
 
-								<area id="mco" alt="military cut-off" title="" tooltip="Military Cut-Off" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="306,193,314,202,321,218,317,221,311,220,289,225,276,216,283,200,290,204,299,199"/>
+								<area id="mco" alt="military cut-off" title="" tooltip="Military Cut-Off" onmouseover="cvi_tip._show(event);" onmouseout="cvi_tip._hide(event);"onmousemove="cvi_tip._move(event);" shape="poly" coords="306,193,314,202,321,218,317,221,311,220,289,225,276,216,283,200,290,204,299,199"/rucar/>
 
 							</map>
 					        </div>
@@ -670,7 +670,7 @@
 			      <div class="cell padding10 no-padding-top colspan4" id="stat-navigation">
 			        <script> 
 			          $(function(){
-			            $("#stat-navigation").load("/includes/PM/navigation.html"); 
+			            $("#stat-navigation").load("/rucar/includes/PM/navigation.html"); 
 			          });
 			        </script> 
 			    </div>
@@ -682,7 +682,7 @@
 			<div id="footer">
 				 <script> 
 					$(function(){
-					  $("#footer").load("/includes/footer.html"); 
+					  $("#footer").load("/rucar/includes/footer.html"); 
 					});
 				</script>
 			</div>

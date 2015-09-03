@@ -1,6 +1,0 @@
-last name	first name	middle initial	agw
-garcia	danna	c	1
-benbinen	clifford	s	2
-manaig	alain	l	3
-sison	generoso	e	4
-hello	word	x	4

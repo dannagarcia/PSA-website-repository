@@ -5,12 +5,12 @@
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link href="/css/metro.css" rel="stylesheet">
-    <link href="/css/metro-icons.css" rel="stylesheet">
-    <link href="/css/custom.css" rel="stylesheet">
-    <script src="/js/jquery-2.1.3.min.js"></script>
-    <script src="/js/metro.js"></script>
-    <script src="/js/ga.js"></script>
+	<link href="/rucar/css/metro.css" rel="stylesheet">
+    <link href="/rucar/css/metro-icons.css" rel="stylesheet">
+    <link href="/rucar/css/custom.css" rel="stylesheet">
+    <script src="/rucar/js/jquery-2.1.3.min.js"></script>
+    <script src="/rucar/js/metro.js"></script>
+    <script src="/rucar/js/ga.js"></script>
 </head>
 <body class="text-secondary fg-gray">
 
@@ -21,7 +21,7 @@
 			 <div id="header">
 				 <script> 
 					$(document).ready(function(){
-					  $("#header").load("/includes/header.html"); 
+					  $("#header").load("/rucar/includes/header.html"); 
 					});
 				</script>
 			</div>
@@ -32,9 +32,9 @@
 					</div>
 
 					<ul class="breadcrumbs">
-					    <li><a href="/index.html"><span class="icon mif-home"></span></a></li>
+					    <li><a href="/rucar/index.html"><span class="icon mif-home"></span></a></li>
 					    <li>2015</li>
-					    <li><a href="/news_and_releases/sat_acc/sa_index.html">February 2015 Price Situation in the Cordillera</a></li>
+					    <li><a href="/rucar/news_and_releases/sat_acc/sa_index.html">February 2015 Price Situation in the Cordillera</a></li>
 					</ul>
 					<hr class="thin bg-grayLighter">
 					
@@ -116,7 +116,7 @@
 										<li>The rest of the commodity groups reported a minimal annual increase in their index
 										point change. Transport had a negative percent change.</li>
 									</ul>
-									<p class="align-center"><img src="/images/cpi/2015/feb/Year-on-Year Consumer Price Index by Commodity Group.png"></p>
+									<p class="align-center"><img src="/rucar/images/cpi/2015/feb/Year-on-Year Consumer Price Index by Commodity Group.png"></p>
 
 									<p><strong>Inflation Rate</strong></p>	
 									<ul>
@@ -133,7 +133,7 @@
 										</li>
 										<li></li>
 									</ul>
-									<p class="align-center"><img src="/images/cpi/2015/feb/Year-on-Year inflation Rates by province.png"></p>
+									<p class="align-center"><img src="/rucar/images/cpi/2015/feb/Year-on-Year inflation Rates by province.png"></p>
 									
                                 </div>
 
@@ -208,7 +208,7 @@
 											75 centavos. On the other hand, Benguet, Ifugao and Mt. Province had the lowest
 											peso value, all at 71 centavos.</li>
 									</ul>
-									<p class="align-center"><img src="/images/cpi/2015/feb/Purchasing Power of the Peso by Province.png"></p>
+									<p class="align-center"><img src="/rucar/images/cpi/2015/feb/Purchasing Power of the Peso by Province.png"></p>
                                 </div>
 
                                 <div class="frame bg-white" id="tab6" style="display: none;">
@@ -230,7 +230,7 @@
                         <hr class="thin bg-grayLighter">
 
                         <div class="tile-container align-left">
-							<a href="/pdf/cpi_sr/CPISR_February%202015.pdf">
+							<a href="/rucar/pdf/cpi_sr/CPISR_February%202015.pdf">
 						        <div class="bg-darkTeal tile tile-small" data-role="tile">
 						            <div class="tile-content iconic">
 										<span class="icon mif-file-pdf fg-white mif-4x" data-role="hint"
@@ -251,7 +251,7 @@
 					<div id="archive">
 					 <script> 
 						$(document).ready(function(){
-						  $("#archive").load("/includes/cpi-navigation.html"); 
+						  $("#archive").load("/rucar/includes/cpi-navigation.html"); 
 						});
 					</script>
 				</div>
@@ -263,7 +263,7 @@
 			<div id="footer">
 				 <script> 
 					$(function(){
-					  $("#footer").load("/includes/footer.html"); 
+					  $("#footer").load("/rucar/includes/footer.html"); 
 					});
 				</script>
 			</div>
