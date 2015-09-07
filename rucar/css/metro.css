@@ -17600,8 +17600,8 @@ Another different ids because it only has 1 map per page */
       -ms-user-select: none;
           user-select: none;
   overflow: visible;
-  width: 655px;
-  height: 260px;
+  width: 764.906px;
+  height: 300px;
 }
 .tile-custom:hover {
   outline: #999999 solid 3px;
@@ -17716,18 +17716,316 @@ Another different ids because it only has 1 map per page */
 .tile-custom .tile-label {
   position: absolute;
   bottom: 0;
-  left: .625rem;
+  /*left: .625rem;*/
+  padding: .425rem .25rem;
+  z-index: 999;
+}
+
+.tile-custom-small {
+  max-width: 100%;
+  width: 100%;
+  height: 150px;
+  display: block;
+  float: left;
+  margin: 5px;
+  background-color: #eeeeee;
+  box-shadow: inset 0 0 1px #FFFFCC;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: visible;
+  width: 372px;
+  height: 150px;
+}
+.tile-custom-small:hover {
+  outline: #999999 solid 3px;
+}
+.tile-custom-small:active {
+  outline: 0;
+}
+.tile-custom-small.no-outline {
+  outline-color: transparent;
+}
+.tile-custom-small.small-tile {
+  width: 70px;
+  height: 70px;
+}
+.tile-custom-small.wide-tile {
+  width: 310px;
+  height: 150px;
+}
+.tile-custom-small.wide-tile-v {
+  height: 310px;
+  width: 150px;
+}
+.tile-custom-small.large-tile {
+  width: 310px;
+  height: 310px;
+}
+.tile-custom-small.big-tile {
+  width: 470px;
+  height: 470px;
+}
+.tile-custom-small.-custom-small-tile {
+  width: 630px;
+  height: 630px;
+}
+.tile-custom-small .tile-content.flipVertical {
+  -webkit-transform: perspective(1000px);
+          transform: perspective(1000px);
+  overflow: visible;
+}
+.tile-custom-small:hover .tile-content.flipVertical,
+.tile-custom-small.hover .tile-content.flipVertical,
+.tile-custom-small.flip .tile-content.flipVertical {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.tile-custom-small .tile-content.flipVertical {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  transition: all 0.6s ease;
+}
+.tile-custom-small .tile-content.flipVertical .slide,
+.tile-custom-small .tile-content.flipVertical .slide-over {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.tile-custom-small .tile-content.flipVertical .slide {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+.tile-custom-small .tile-content.flipVertical .slide-over {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.tile-custom-small .tile-content.flipHorizontal {
+  -webkit-transform: perspective(1000px);
+          transform: perspective(1000px);
+  overflow: visible;
+}
+.tile-custom-small:hover .tile-content.flipHorizontal,
+.tile-custom-small.hover .tile-content.flipHorizontal,
+.tile-custom-small.flip .tile-content.flipHorizontal {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+.tile-custom-small .tile-content.flipHorizontal {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  transition: all 0.6s ease;
+}
+.tile-custom-small .tile-content.flipHorizontal .slide,
+.tile-custom-small .tile-content.flipHorizontal .slide-over {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.tile-custom-small .tile-content.flipHorizontal .slide {
+  z-index: 2;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+}
+.tile-custom-small .tile-content.flipHorizontal .slide-over {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+.tile-custom-small .tile-badge {
+  position: absolute;
+  bottom: 0;
+  right: .625rem;
+  padding: .25rem .625rem;
+  z-index: 999;
+}
+.tile-custom-small .tile-label {
+  position: absolute;
+  bottom: 0;
+  /*left: .625rem;*/
+  padding: .425rem .25rem;
+  z-index: 999;
+}
+
+.tile-custom-square {
+  max-width: 100%;
+  width: 100%;
+  height: 150px;
+  display: block;
+  float: left;
+  margin: 5px;
+  background-color: #eeeeee;
+  box-shadow: inset 0 0 1px #FFFFCC;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: visible;
+  width: 180px;
+  height: 150px;
+}
+.tile-custom-square:hover {
+  outline: #999999 solid 3px;
+}
+.tile-custom-square:active {
+  outline: 0;
+}
+.tile-custom-square.no-outline {
+  outline-color: transparent;
+}
+.tile-custom-square.small-tile {
+  width: 70px;
+  height: 70px;
+}
+.tile-custom-square.wide-tile {
+  width: 310px;
+  height: 150px;
+}
+.tile-custom-square.wide-tile-v {
+  height: 310px;
+  width: 150px;
+}
+.tile-custom-square.large-tile {
+  width: 310px;
+  height: 310px;
+}
+.tile-custom-square.big-tile {
+  width: 470px;
+  height: 470px;
+}
+.tile-custom-square.-custom-square-tile {
+  width: 630px;
+  height: 630px;
+}
+.tile-custom-square .tile-content.flipVertical {
+  -webkit-transform: perspective(1000px);
+          transform: perspective(1000px);
+  overflow: visible;
+}
+.tile-custom-square:hover .tile-content.flipVertical,
+.tile-custom-square.hover .tile-content.flipVertical,
+.tile-custom-square.flip .tile-content.flipVertical {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.tile-custom-square .tile-content.flipVertical {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  transition: all 0.6s ease;
+}
+.tile-custom-square .tile-content.flipVertical .slide,
+.tile-custom-square .tile-content.flipVertical .slide-over {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.tile-custom-square .tile-content.flipVertical .slide {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+.tile-custom-square .tile-content.flipVertical .slide-over {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.tile-custom-square .tile-content.flipHorizontal {
+  -webkit-transform: perspective(1000px);
+          transform: perspective(1000px);
+  overflow: visible;
+}
+.tile-custom-square:hover .tile-content.flipHorizontal,
+.tile-custom-square.hover .tile-content.flipHorizontal,
+.tile-custom-square.flip .tile-content.flipHorizontal {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+.tile-custom-square .tile-content.flipHorizontal {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  transition: all 0.6s ease;
+}
+.tile-custom-square .tile-content.flipHorizontal .slide,
+.tile-custom-square .tile-content.flipHorizontal .slide-over {
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.tile-custom-square .tile-content.flipHorizontal .slide {
+  z-index: 2;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+}
+.tile-custom-square .tile-content.flipHorizontal .slide-over {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+.tile-custom-square .tile-badge {
+  position: absolute;
+  bottom: 0;
+  right: .625rem;
+  padding: .25rem .625rem;
+  z-index: 999;
+}
+.tile-custom-square .tile-label {
+  position: absolute;
+  bottom: 0;
+  /*left: .625rem;*/
   padding: .425rem .25rem;
   z-index: 999;
 }
 
 @media screen and (max-width: 674px){
   .tile-custom {width: 100%; max-width: 100%;}
-  /*.tile-wide {width: 100%; max-width: 100%;}*/
-  /*.tile-square {width: 100%; max-width: 100%;}*/
 }
 
 @media screen and (max-width: 343px) {
   .tile-wide {width: 100%; max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1365px){
+  .tile-custom-small {width: 340px}
+}
+@media screen and (max-width: 1252px){
+  .tile-custom-small {width: 340px}
+}
+@media screen and (max-width: 1252px){
+  .tile-custom-small {width: 300px}
+}
+@media screen and (max-width: 1118px){
+  .tile-custom-small {width: 100%}
+}
+
+@media screen and (max-width: 768px){
+  .tile-custom-small {width: 48%}
+}
+@media screen and (max-width: 536px){
+  .tile-custom-small {width: 100%}
+}
+@media screen and (max-width: 415px) {
+  .tile-custom-square {width: 100%; max-width: 100%;
   }
 }
