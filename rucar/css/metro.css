@@ -17357,12 +17357,12 @@ p [data-hint] {
     bottom:-2px;
   }
 }
-@media only screen and (max-width: 666px) {
+@media only screen and (max-width: 654px) {
   .f-menu { /* Fixes the thickness of the navigation bar since the items under the menu are long */
     height: 55px;
   }
 }
-@media only screen and (max-width: 666px) and (min-width: 511px){
+@media only screen and (max-width: 654px) and (min-width: 511px){
   #navList2 > a{ /* Fixes the vertical alignment of 'Statistics' on the screen width indicated above */
     top: 9px;
   }
@@ -18028,4 +18028,8 @@ Another different ids because it only has 1 map per page */
 @media screen and (max-width: 415px) {
   .tile-custom-square {width: 100%; max-width: 100%;
   }
+}
+
+#index .slide-over {
+ z-index: 1000;
 }
